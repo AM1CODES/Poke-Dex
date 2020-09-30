@@ -1,14 +1,69 @@
+html {
+  scroll-behavior: smooth;
+}
 #header {
-    background: url("https://i.pinimg.com/originals/a0/5b/e7/a05be72bed7c744f6d8d5b887b924aa6.jpg")
+  background: url("https://i.pinimg.com/originals/a0/5b/e7/a05be72bed7c744f6d8d5b887b924aa6.jpg");
+  margin-top: 5.7%;
+  padding-top: 12%;
+  padding-bottom: 19.6%;
 }
 
-body{
-    font-family: 'Righteous', cursive;
-    color: black;
-    
+body {
+  font-family: "Righteous", cursive;
+  color: black;
 }
 
-.navbar{
-    background-color: black;
-    color: white;
+.navbar {
+  background-color: black;
+  color: white;
+}
+
+.navTitle {
+  color: #ffffff;
+  padding-left: 50px;
+  size: 50px;
+}
+
+.itemNav {
+  padding: 15px;
+}
+.gallery-head {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 5%;
+  margin-top: 10%;
+  text-transform: uppercase;
+}
+.lead {
+  font-size: 1.5rem;
+}
+.display-3 {
+  font-size: 8rem;
+}
+.gallery-icon {
+  color: #000000;
+  text-align: center;
+}
+.backToTop {
+  margin-left: 49%;
+
+  color: #000000;
+  padding: 0.6%;
+  border-radius: 50%;
+  margin-bottom: 4%;
+}
+
+@media only screen and (max-width: 600px) {
+  .display-3 {
+    font-size: 4rem;
+  }
+  .lead {
+    font-size: 1.6rem;
+  }
+  .gallery-head {
+    font-size: 2rem;
+  }
+  .navTitle {
+    padding-left: 3px;
+  }
 }
