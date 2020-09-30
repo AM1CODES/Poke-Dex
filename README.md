@@ -26,15 +26,7 @@ There is always something to contribute to a project whether you are a novice or
 # How can you contribute
 ![Hacktoberfest2020](https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg)
 
-1. Fork this Repository.
-2. Clone the Repository on your system using the command -  ```git clone [url of the forked repository]```
-3. Create a new branch using the command - ```git checkout -b [branch-name]```
-4. Add a card with the image of your Pokémon, A small description and mention your Github Profile name in the Button.
-5. Add your content using the command - ```git add -A```
-6. Commit the changes using the command - ```git commit -m "your-message"```
-7. Push the changes using the command - ```git push origin [branch-name]```
-8. Creat a Pull request.
-9. Star this Repository.
+Kindly refer to Contributing.md file to learn how to contribute!
 
 And That's It!
 Follow these steps to make your very first Pull request.
