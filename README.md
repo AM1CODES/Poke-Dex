@@ -26,7 +26,7 @@ There is always something to contribute to a project whether you are a novice or
 # How can you contribute
 ![Hacktoberfest2020](https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg)
 
-Kindly refer to Contributing.md file to learn how to contribute!
+Kindly refer to [CONTRIBUTING.md](https://github.com/AM1CODES/Poke-Dex/blob/master/CONTRIBUTING.md) file to learn how to contribute!
 
 And That's It!
 Follow these steps to make your very first Pull request.
