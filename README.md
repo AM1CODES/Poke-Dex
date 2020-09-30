@@ -5,7 +5,7 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/AM1CODES/Poke-Dex.svg)](https://GitHub.com/AM1CODES/Poke-Dex/graphs/contributors/)
 [![GitHub issues](https://img.shields.io/github/issues/AM1CODES/Poke-Dex.svg)](https://GitHub.com/AM1CODES/Poke-Dex/issues/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/AM1CODES/Poke-Dex.svg)](https://GitHub.com/AM1CODES/Poke-Dex/pull/)
-
+![Hacktoberfest2020](https://img.shields.io/github/hacktoberfest/2020/badges/shields?label=hacktoberfest%202020)
 
 # Poké-Dex
 ![Pokémon](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png)
