@@ -1,5 +1,10 @@
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/AM1CODES/badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![GitHub stars](https://img.shields.io/github/stars/AM1CODES/Poke-Dex?style=social)
+![GitHub forks](https://img.shields.io/github/forks/AM1CODES/Poke-Dex?style=social)
+[![GitHub contributors](https://img.shields.io/github/contributors/AM1CODES/Poke-Dex.svg)](https://GitHub.com/AM1CODES/Poke-Dex/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/AM1CODES/Poke-Dex.svg)](https://GitHub.com/AM1CODES/Poke-Dex/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/AM1CODES/Poke-Dex.svg)](https://GitHub.com/AM1CODES/Poke-Dex/pull/)
 
 
 # Poké-Dex
