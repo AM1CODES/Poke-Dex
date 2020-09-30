@@ -12,20 +12,3 @@ body{
     background-color: black;
     color: white;
 }
-
-
-
-.card .card-img-top {
-    grid-area: "picture";
-    height: 300px;
-}
-
-.card .body {
-    grid-area: "body";
-    height: 200px;
-}
-
-.card-text {
-    height: 100px;
-    overflow: auto;
-}
