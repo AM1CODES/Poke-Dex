@@ -12,3 +12,7 @@ body{
     background-color: black;
     color: white;
 }
+
+.card{
+    height:550px;
+}
