@@ -1,31 +1,43 @@
-nav{
-    color: white ;
-    background-color: black;
-  }
+nav {
+  color: white;
+  background-color: black;
+}
 
-#para{
-    text-align: center;
-    color: black;
+#para {
+  text-align: center;
+  color: black;
 }
-body{
-    background-color: white;
-    font-family: 'Righteous', cursive;
+body {
+  background-color: white;
+  font-family: "Righteous", cursive;
 }
-h1{
-    color:  black;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 40px;
+h1 {
+  color: black;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 40px;
 }
-#one{
-    background-color: rgb(40,103,178);
+#one {
+  background-color: rgb(40, 103, 178);
 }
-#two{
-    background-color: rgb(33, 31, 31);
+#two {
+  background-color: rgb(33, 31, 31);
 }
-#three{
-    background-color: rgb(225,48,108);
+#three {
+  background-color: rgb(225, 48, 108);
 }
-#buttons{
-    margin-bottom: 10px;
+#buttons {
+  margin-bottom: 10px;
+}
+.navTitle {
+  color: #ffffff;
+  padding-left: 50px;
+  size: 50px%;
+}
+
+.itemNav {
+  padding: 15px;
+}
+.about-title {
+  padding-top: 6%;
 }
