@@ -1,92 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-        crossorigin="anonymous">
-        <link rel="stylesheet" href="index.css">
-        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
 
     <title>Poké-Dex</title>
 </head>
+
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <h3 class="navbar brand"><i class="fas fa-desktop mr-2"></i>Poké-Dex</h3>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand navTitle" href="index.html"><i class="fas fa-desktop mr-2"></i>Poké-Dex</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item itemNav">
+                    <a class="nav-link" href="#header">Home</a>
+                </li>
+                <li class="nav-item itemNav">
+                    <a class="nav-link" href="#gallery-title">Pokémons</a>
+                </li>
+                <li class="nav-item itemNav">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
         </div>
     </nav>
     <section id="header" class="jumbotron text-center">
-        <h2 class="display-3">Poké-Dex</h2>
-        <p class="lead">We all love Pokémons, don't we? Go ahead and share with us who's your favourite!</p>
-        <a href="about.html" class="btn btn-light">About</a>
+        <div class="header-content">
+            <h2 class="display-3">Poké-Dex</h2>
+            <p class="lead">
+                We all love Pokémons, don't we? Go ahead and share with us who's your favourite!
+            </p>
+
+            <a href="#gallery-title"><i class="fas fa-chevron-down fa-6x gallery-icon"></i></a>
+        </div>
     </section>
+    <div id="gallery-title"></div>
+    <div id="" class="gallery-div">
+        <h1 class="gallery-head">Pokémon - gallery</h1>
+
+    </div>
     <section id="gallery">
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="https://i.pinimg.com/originals/76/47/9d/76479dd91dc55c2768ddccfc30a4fbf5.png" alt="">
+                        <img class="card-img-top" src="https://i.pinimg.com/originals/76/47/9d/76479dd91dc55c2768ddccfc30a4fbf5.png" alt="" />
                         <div class="card-body">
                             <h5 class="card-title">Pikachu</h5>
-                            <p class="card-text">An Electric Type Pokémon who is loved by everyone and is Ash's Best Friend!</p>
-                            <a href="https://github.com/AM1CODES" class="btn btn-outline-danger btn-sm">Contributed by - AM1CODES</a>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-lg-4 mb-4">
-                    <div class="card">
-                        <img class="card-img-top" src="https://vignette.wikia.nocookie.net/pokemon-talk6406/images/4/43/Bulbasaur.png/revision/latest?cb=20170506185349" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Bulbasaur</h5>
-                            <p class="card-text">It is a grass/poison type Pokémon. It's one of the Starter Pokemons!</p>
-                            <a href="https://github.com/AM1CODES" class="btn btn-outline-danger btn-sm">Contributed by - AM1CODES</a>
+                            <p class="card-text">
+                                An Electric Type Pokémon who is loved by everyone and is Ash's Best Friend!
+                            </p>
+                            <a href="https://github.com/AM1CODES" class="btn btn-outline-danger btn-sm">Contributed by - AM1CODES</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="https://vignette.wikia.nocookie.net/pokemon-talk6406/images/4/43/Bulbasaur.png/revision/latest?cb=20170506185349"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bulbasaur</h5>
+                <p class="card-text">
+                  It is a grass/poison type Pokémon. It's one of the Starter
+                  Pokemons!
+                </p>
+                <a
+                  href="https://github.com/AM1CODES"
+                  class="btn btn-outline-danger btn-sm"
+                  >Contributed by - AM1CODES</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="https://i.pinimg.com/originals/1b/47/3a/1b473a97ded04ac7c5b85eaf2baa5441.png"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">Squirtle</h5>
+                <p class="card-text">
+                  It's a Water Type Pokémon. It's one of the starter Pokemons!
+                </p>
+                <a
+                  href="https://github.com/AM1CODES"
+                  class="btn btn-outline-danger btn-sm"
+                  >Contributed by - AM1CODES</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">Charizard</h5>
+                <p class="card-text">
+                  Its's a Fire/Flying type Pokémon. It's the final evolution of
+                  Charmander.
+                </p>
+                <a
+                  href="https://github.com/AM1CODES"
+                  class="btn btn-outline-danger btn-sm"
+                  >Contributed by - AM1CODES</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="https://usercontent2.hubstatic.com/13815739_f520.jpg"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">Blastoise</h5>
+                <p class="card-text">
+                  It's a Water type Pokémon. It's the final evolution of
+                  Squirtle.
+                </p>
+                <a
+                  href="https://github.com/AM1CODES"
+                  class="btn btn-outline-danger btn-sm"
+                  >Contributed by - AM1CODES</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="https://cdn.bulbagarden.net/upload/thumb/b/b1/151Mew.png/1200px-151Mew.png"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mew</h5>
+                <p class="card-text">
+                  Mew is a Psychic-type Mythical Pokémon. It is not known to
+                  evolve into or from any other Pokémon.
+                </p>
+                <a
+                  href="https://github.com/AM1CODES"
+                  class="btn btn-outline-danger btn-sm"
+                  >Contributed by - AM1CODES</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="https://cdn.pastemagazine.com/www/articles/250px-675Pangoro.png"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pangoro</h5>
+                <p class="card-text">
+                  It Is common with an anime
+                  anti-hero than a pocket monster with moves consisting of
+                  punches and taunts.
+                </p>
+                <a
+                  href="https://github.com/Parthasarathi-EXT1NT"
+                  class="btn btn-outline-danger btn-sm"
+                  >Contributed By => Parthasarathi-EXT1NT</a
+                >
+              </div>
+            </div>
+          </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card">
+                <img class="card-img-top" src="https://cdn.pastemagazine.com/www/articles/250px-697Tyrantrum.png" alt="" />
+                <div class="card-body">
+                    <h5 class="card-title">Tyrantrum</h5>
+                    <p class="card-text">
+                    Its ability Strong Jaw powers up any move that uses the
+                    mouth which fits right in with this T-Rex royalty.
+                    </p>
+                    <a href="https://github.com/Parthasarathi-EXT1NT" class="btn btn-outline-danger btn-sm">Contributed By =>
+                        Parthasarathi-EXT1NT</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="https://i.pinimg.com/originals/1b/47/3a/1b473a97ded04ac7c5b85eaf2baa5441.png" alt="">
+                        <img class="card-img-top" src="https://cdn.pastemagazine.com/www/articles/250px-785Tapu_Koko.png" alt="" />
                         <div class="card-body">
-                            <h5 class="card-title">Squirtle</h5>
-                            <p class="card-text">It's a Water Type Pokémon. It's one of the starter Pokemons!</p>
-                            <a href="https://github.com/AM1CODES" class="btn btn-outline-danger btn-sm">Contributed by - AM1CODES</a>
+                            <h5 class="card-title">Tapu Koko</h5>
+                            <p class="card-text">
+                                One of the island guardians in Alola has become a powerful part of the meta-game almost overnight.
+                            </p>
+                            <a href="https://github.com/Parthasarathi-EXT1NT" class="btn btn-outline-danger btn-sm">Contributed By =>
+                        Parthasarathi-EXT1NT</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png" alt="">
+                        <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/1/1f/086Seel.png" alt="" />
                         <div class="card-body">
-                            <h5 class="card-title">Charizard</h5>
-                            <p class="card-text">Its's a Fire/Flying type Pokémon. It's the final evolution of Charmander.</p>
-                            <a href="https://github.com/AM1CODES" class="btn btn-outline-danger btn-sm">Contributed by - AM1CODES</a>
+                            <h5 class="card-title">Seel</h5>
+                            <p class="card-text">
+                                Seel is a Water-type Pokémon introduced in Generation I. It evolves into Dewgong.
+                            </p>
+                            <a href="https://github.com/lakshyasoni" class="btn btn-outline-danger btn-sm">Contributed By =>
+                        lakshyasoni</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="https://usercontent2.hubstatic.com/13815739_f520.jpg" alt="">
+                        <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/3/3e/039Jigglypuff.png" alt="" />
                         <div class="card-body">
-                            <h5 class="card-title">Blastoise</h5>
-                            <p class="card-text">It's a Water type Pokémon. It's the final evolution of Squirtle.</p>
-                            <a href="https://github.com/AM1CODES" class="btn btn-outline-danger btn-sm">Contributed by - AM1CODES</a>
+                            <h5 class="card-title">JigglyPuff</h5>
+                            <p class="card-text">
+                                Jigglypuff has top-notch lung capacity, even by comparison to other Pokémon. It won’t stop singing its lullabies until its foes fall asleep.
+                            </p>
+                            <a href="https://github.com/lakshyasoni" class="btn btn-outline-danger btn-sm">Contributed By =>
+                        lakshyasoni</a>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/b/b1/151Mew.png/1200px-151Mew.png" alt="">
+                        <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/c/c6/094Gengar.png/250px-094Gengar.png" alt="">
                         <div class="card-body">
-                            <h5 class="card-title">Mew</h5>
-                            <p class="card-text">Mew is a Psychic-type Mythical Pokémon. It is not known to evolve into or from any other Pokémon.</p>
-                            <a href="https://github.com/AM1CODES" class="btn btn-outline-danger btn-sm">Contributed by - AM1CODES</a>
+                            <h5 class="card-title">Gengar</h5>
+                            <p class="card-text">
+                                Gengar has the ability to hide perfectly in the shadow of any object, granting it exceptional stealth.
+                            </p>
+                            <a href="https://github.com/chaitanyagandhi" class="btn btn-outline-danger btn-sm">Contributed by - chaitanyagandhi</a>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://cdn.pastemagazine.com/www/articles/250px-697Tyrantrum.png" alt="Tyrantrum">
+                        <div class="card-body">
+                            <h5 class="card-title">Tyrantrum</h5>
+                            <p class="card-text">A strong and awesome pokemon which can attack with its incredible jaw power.</p>
+                            <a href="https://github.com/AnanyaNegi" class="btn btn-outline-danger btn-sm">Contributed by - Ananya Negi</a>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-lg-4 mb-4">
                     <div class="card">
                         <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png" alt="">
@@ -98,8 +279,30 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+                <img class="card-img-top" src="https://cdn.pastemagazine.com/www/articles/250px-229Houndoom.png" alt="" />
+                <div class="card-body">
+                    <h5 class="card-title">Houndoom</h5>
+                    <p class="card-text">
+                      Houndoom so scary.Its Pokédex entries state that “if the flames it shoots from its mouth cause a burn, the pain will hurt forever.” 
+                    </p>
+                    <a href="https://github.com/Rahulraj31" class="btn btn-outline-danger btn-sm">Contributed By =>
+                        Rahul Raj Pandey</a>
+                </div>
+
+        </div>
+          </div>
+            </div>
+    </section>
+    <footer>
+        <h1></h1>
+        <a href="#header" class="back-to-top"><i class="fas fa-angle-up fa-4x backToTop"></i></a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
+
 </html>
