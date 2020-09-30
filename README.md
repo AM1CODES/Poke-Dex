@@ -3,6 +3,8 @@
 ![GitHub stars](https://img.shields.io/github/stars/AM1CODES/Poke-Dex?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/AM1CODES/Poke-Dex?style=social)
 [![GitHub contributors](https://img.shields.io/github/contributors/AM1CODES/Poke-Dex.svg)](https://GitHub.com/AM1CODES/Poke-Dex/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/AM1CODES/Poke-Dex.svg)](https://GitHub.com/AM1CODES/Poke-Dex/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/AM1CODES/Poke-Dex.svg)](https://GitHub.com/AM1CODES/Poke-Dex/pull/)
 
 # Poké-Dex
 ![Pokémon](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png)
