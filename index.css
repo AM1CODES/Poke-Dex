@@ -1,0 +1,14 @@
+#header {
+    background: url("https://i.pinimg.com/originals/a0/5b/e7/a05be72bed7c744f6d8d5b887b924aa6.jpg")
+}
+
+body{
+    font-family: 'Righteous', cursive;
+    color: black;
+    
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+}

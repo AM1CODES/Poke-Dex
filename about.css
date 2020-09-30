@@ -1,0 +1,31 @@
+nav{
+    color: white ;
+    background-color: black;
+  }
+
+#para{
+    text-align: center;
+    color: black;
+}
+body{
+    background-color: white;
+    font-family: 'Righteous', cursive;
+}
+h1{
+    color:  black;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+#one{
+    background-color: rgb(40,103,178);
+}
+#two{
+    background-color: rgb(33, 31, 31);
+}
+#three{
+    background-color: rgb(225,48,108);
+}
+#buttons{
+    margin-bottom: 10px;
+}
