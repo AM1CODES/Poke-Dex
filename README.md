@@ -1,4 +1,6 @@
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/AM1CODES/badges/)
 # Poké-Dex
+![Pokémon](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png)
 
 There's no doubt that most  of our childhood was spent watching Pokémon and playing games like Pokémon Fire-Red, Ruby, Emerald, etc. From Kanto to Hoenn to Sinnoh, we have seen it all and experienced it all. With Hacktoberfest 2020 coming up and being one of the people who would participate for the very first time, i decided to create this repository that's actually a very basic web-page that lets the user view and add their favourite pokemons.
 
@@ -9,21 +11,21 @@ There's no doubt that most  of our childhood was spent watching Pokémon and pla
 3. about.html - Contains a little information about me.
 4. about.css - contains the styling given to the about page.
 
-# What do you contribute?
+# What can you contribute?
 
-There is always something to contribute in a project whether you are a novice or a veteran. In this project, you can add your  favourite Pokémon as a card to the website! Or maybe you didn't like the line that you are reading right now and want to change that.Sure! Why not?
+There is always something to contribute to a project whether you are a novice or a veteran. In this project, you can add your favourite Pokémon as a card to the website! Or maybe you didn't like the line that you are reading right now and want to change that.Sure! Why not?
 
 # How can you contribute
 
 1. Fork this Repository.
-2. Clone the Repository on your system using the command - git clone [url of the forked repository].
-3. Create a new branch using the command - git checkout -b [branch-name].
+2. Clone the Repository on your system using the command -  ```git clone [url of the forked repository]```
+3. Create a new branch using the command - ```git checkout -b [branch-name]```
 4. Add a card with the image of your Pokémon, A small description and mention your Github Profile name in the Button.
-5. Add your content using the command - git add -A
-6. Commit the changes using the command - git commit -m "your-message"
-7. Push the changes using the command - git push origin [branch-name]
-8. Creat a Pull request
-9. Star this Repository
+5. Add your content using the command - ```git add -A```
+6. Commit the changes using the command - ```git commit -m "your-message"```
+7. Push the changes using the command - ```git push origin [branch-name]```
+8. Creat a Pull request.
+9. Star this Repository.
 
 And That's It!
 Follow these steps to make your very first Pull request.
