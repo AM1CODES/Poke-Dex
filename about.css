@@ -41,3 +41,18 @@ h1 {
 .about-title {
   padding-top: 6%;
 }
+
+@media only screen and (max-width: 600px) {
+  .display-3 {
+    font-size: 4rem;
+  }
+  .lead {
+    font-size: 1.6rem;
+  }
+  .gallery-head {
+    font-size: 2rem;
+  }
+  .navTitle {
+    padding-left: 3px;
+  }
+}
