@@ -2,14 +2,17 @@ html {
   scroll-behavior: smooth;
 }
 #header {
-  background: url("https://i.pinimg.com/originals/a0/5b/e7/a05be72bed7c744f6d8d5b887b924aa6.jpg");
-  margin-top: 5.7%;
-  padding-top: 12%;
-  padding-bottom: 19.6%;
+  background: url('https://i.pinimg.com/originals/a0/5b/e7/a05be72bed7c744f6d8d5b887b924aa6.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 20%;
 }
-
+.card-img-top {
+  padding: 2rem;
+}
 body {
-  font-family: "Righteous", cursive;
+  font-family: 'Righteous', cursive;
   color: black;
 }
 
@@ -22,6 +25,9 @@ body {
   color: #ffffff;
   padding-left: 50px;
   size: 50px;
+}
+.card {
+  height: 100%;
 }
 
 .itemNav {
