@@ -17,7 +17,7 @@ There's no doubt that most  of our childhood was spent watching Pokémon and pla
 1. index.html - Contains the content of the main/home page.
 2. index.css -  Contains the styling given to the  home page.
 3. about.html - Contains a little information about me.
-4. about.css - contains the styling given to the about page.
+4. about.css -  Contains the styling given to the about page.
 
 # What can you contribute?
 
