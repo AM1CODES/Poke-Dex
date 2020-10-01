@@ -10,14 +10,14 @@
 # Poké-Dex
 ![Pokémon](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png)
 
-There's no doubt that most  of our childhood was spent watching Pokémon and playing games like Pokémon Fire-Red, Ruby, Emerald, etc. From Kanto to Hoenn to Sinnoh, we have seen it all and experienced it all. With Hacktoberfest 2020 coming up and being one of the people who would participate for the very first time, i decided to create this repository that's actually a very basic web-page that lets the user view and add their favourite pokemons.
+There's no doubt that most  of our childhood was spent watching Pokémon and playing games like Pokémon Fire-Red, Ruby, Emerald, etc. From Kanto to Hoenn to Sinnoh, we have seen it all and experienced it all. With Hacktoberfest 2020 coming up and being one of the people who would participate for the very first time, I decided to create this repository that's actually a very basic web-page that lets the user view and add their favourite pokemons.
 
 # Contents of the Webpage
 
 1. index.html - Contains the content of the main/home page.
 2. index.css -  Contains the styling given to the  home page.
 3. about.html - Contains a little information about me.
-4. about.css - contains the styling given to the about page.
+4. about.css -  Contains the styling given to the about page.
 
 # What can you contribute?
 
