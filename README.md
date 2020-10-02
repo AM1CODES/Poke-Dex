@@ -15,13 +15,13 @@ There's no doubt that most  of our childhood was spent watching Pokémon and pla
 # Contents of the Webpage
 
 1. index.html - Contains the content of the main/home page.
-2. index.css -  Contains the styling given to the  home page.
-3. about.html - Contains a little information about me.
+2. index.css -  Contains the styling given to the home page.
+3. about.html - Contains some information about me.
 4. about.css -  Contains the styling given to the about page.
 
 # What can you contribute?
 
-There is always something to contribute to a project whether you are a novice or a veteran. In this project, you can add your favourite Pokémon as a card to the website! Or maybe you didn't like the line that you are reading right now and want to change that.Sure! Why not?
+There is always something to contribute to a project whether you are a novice or a veteran. In this project, you can add your favourite Pokémon as a card to the website! Or maybe you didn't like the line that you are reading right now and want to change that. Sure! Why not?
 
 # How can you contribute
 ![Hacktoberfest2020](https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg)
@@ -53,5 +53,5 @@ Copy this code and paste it in the index.html file to make your changes. Try and
 
 # Congratulations!
 
-Congratulation! You just made your first pull request and if it gets merged, you can view it using the Link provided above!
+Congratulations! You just made your first pull request and if it gets merged, you can view it using the Link provided above!
 
