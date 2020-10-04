@@ -2,18 +2,34 @@ html {
   scroll-behavior: smooth;
 }
 #header {
-  background: url('https://i.pinimg.com/originals/a0/5b/e7/a05be72bed7c744f6d8d5b887b924aa6.jpg');
+  background: url("https://3.bp.blogspot.com/-kQC61n9y5ZQ/UIY7Ns2pZdI/AAAAAAAAL5U/CQvUDHyX1S0/s1600/Pokemon+Wallpapers+1.jpg");
   background-position: center;
   background-size: cover;
+
   height: 100vh;
   padding: 20%;
 }
+
+.header-content {
+  padding: 1em 2em;
+
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,.2);
+}
+
+.header-content > h2 {
+  color: #dc3545;
+}
+
 .card-img-top {
   padding: 2rem;
 }
 body {
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
   color: black;
+
+  background-color: whitesmoke;
 }
 
 .navbar {
@@ -28,6 +44,27 @@ body {
 }
 .card {
   height: 100%;
+
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 2px 12px rgba(0,0,0,.2);
+
+  border-top: 5px solid #dc3545;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  color: rgba(0,0,0,.6);
 }
 
 .itemNav {
