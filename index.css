@@ -3,7 +3,8 @@ html {
 }
 #header {
   background: url('https://www.wallpaperup.com/uploads/wallpapers/2015/10/27/825565/a8f967ede1e1e41abc91787415e3b9ee.jpg');
-  background-position: center;
+   position: relative;
+  top:  10px;
   background-size: cover;
   height: 100vh;
   padding: 20%;
@@ -50,7 +51,7 @@ h2
   text-transform: uppercase;
 }
 .lead {
-  margin-top: 50px;
+  margin-top: 35px;
   font-size: 1.5rem;
 }
 .display-3 {
