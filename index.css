@@ -5,7 +5,7 @@ html {
   background: url('https://www.wallpaperup.com/uploads/wallpapers/2015/10/27/825565/a8f967ede1e1e41abc91787415e3b9ee.jpg');
   background-position: center;
   background-size: cover;
-  top:  10px;
+  top:  4.45rem;
   height: 100vh;
   padding: 20%;
   position: relative;
@@ -84,5 +84,11 @@ h2
   }
   .navTitle {
     padding-left: 3px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #header {
+    top: calc(4.45rem + 15px);
   }
 }
