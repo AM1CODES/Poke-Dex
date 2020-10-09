@@ -3,18 +3,19 @@ html {
 }
 #header {
   background: url('https://www.wallpaperup.com/uploads/wallpapers/2015/10/27/825565/a8f967ede1e1e41abc91787415e3b9ee.jpg');
-   position: relative;
-  top:  10px;
+  background-position: center;
   background-size: cover;
+  top:  10px;
   height: 100vh;
   padding: 20%;
+  position: relative;
 }
 .card-img-top {
   padding: 2rem;
 }
 body {
-  font-family: 'Righteous', cursive;
   color: black;
+  font-family: 'Righteous', cursive;
 }
 h2
 {
