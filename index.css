@@ -2,8 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 #header {
-  background: url('https://i.pinimg.com/originals/a0/5b/e7/a05be72bed7c744f6d8d5b887b924aa6.jpg');
-  background-position: center;
+  background: url('https://www.wallpaperup.com/uploads/wallpapers/2015/10/27/825565/a8f967ede1e1e41abc91787415e3b9ee.jpg');
+   position: relative;
+  top:  10px;
   background-size: cover;
   height: 100vh;
   padding: 20%;
@@ -15,6 +16,12 @@ body {
   font-family: 'Righteous', cursive;
   color: black;
 }
+h2
+{
+  position: relative;
+  bottom: 200px;
+}
+
 
 .navbar {
   background-color: black;
@@ -29,6 +36,9 @@ body {
 .card {
   height: 100%;
 }
+.fas fa-chevron-down fa-6x gallery-icon{
+  padding-top: 100px;
+}
 
 .itemNav {
   padding: 15px;
@@ -41,6 +51,7 @@ body {
   text-transform: uppercase;
 }
 .lead {
+  margin-top: 20px;
   font-size: 1.5rem;
 }
 .display-3 {
@@ -65,6 +76,7 @@ body {
   }
   .lead {
     font-size: 1.6rem;
+    padding-top: 1500px;
   }
   .gallery-head {
     font-size: 2rem;
