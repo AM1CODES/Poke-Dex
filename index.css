@@ -1,66 +1,21 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  color: black;
+  font-family: 'Righteous', cursive;
+}
+
 #header {
   background: url('https://www.wallpaperup.com/uploads/wallpapers/2015/10/27/825565/a8f967ede1e1e41abc91787415e3b9ee.jpg');
-   position: relative;
-  top:  10px;
+  background-position: center;
   background-size: cover;
-  height: 100vh;
-  padding: 20%;
-}
-.card-img-top {
-  padding: 2rem;
-}
-body {
-  font-family: 'Righteous', cursive;
-  color: black;
-}
-h2
-{
-  position: relative;
-  bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 4.45rem);
 }
 
-
-.navbar {
-  background-color: black;
-  color: white;
-}
-
-.navTitle {
-  color: #ffffff;
-  padding-left: 50px;
-  size: 50px;
-}
-.card {
-  height: 100%;
-}
-.fas fa-chevron-down fa-6x gallery-icon{
-  padding-top: 100px;
-}
-
-.itemNav {
-  padding: 15px;
-}
-.gallery-head {
-  font-size: 3rem;
-  text-align: center;
-  padding-bottom: 5%;
-  margin-top: 10%;
-  text-transform: uppercase;
-}
-.lead {
-  margin-top: 20px;
-  font-size: 1.5rem;
-}
-.display-3 {
-  font-size: 8rem;
-}
-.gallery-icon {
-  color: #000000;
-  text-align: center;
-}
 .backToTop {
   margin-left: 49%;
 
@@ -69,19 +24,77 @@ h2
   border-radius: 50%;
   margin-bottom: 4%;
 }
+.card {
+  height: 100%;
+}
+.card-img-top {
+  padding: 2rem;
+}
+.display-3 {
+  font-size: 8rem;
+}
+.fas fa-chevron-down fa-6x gallery-icon{
+  padding-top: 100px;
+}
+.gallery-head {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 5%;
+  margin-top: 10%;
+  text-transform: uppercase;
+}
+.gallery-icon {
+  color: #000000;
+  text-align: center;
+}
+.itemNav {
+  padding: 15px;
+}
+.jumbotron {
+  border-radius: 0;
+}
+.lead {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+.navbar {
+  background-color: black;
+  color: white;
+}
+.navbar ~ *{
+  position: relative;
+  top: 4.45rem;
+}
+.navTitle {
+  color: #ffffff;
+  padding-left: 50px;
+  size: 50px;
+}
 
 @media only screen and (max-width: 600px) {
   .display-3 {
     font-size: 4rem;
-  }
-  .lead {
-    font-size: 1.6rem;
-    padding-top: 1500px;
   }
   .gallery-head {
     font-size: 2rem;
   }
   .navTitle {
     padding-left: 3px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #header {
+    height: calc(100vh - 4.45rem - 15px);
+  }
+  .navbar ~ *{
+    top: calc(4.45rem + 15px);
+  }
+}
+
+/* Styles for if the screen is taller than it is wide (assumed mobile view) */
+@media screen and (max-aspect-ratio: 8/7){
+  .display-3 {
+    font-size: 6rem;
   }
 }
