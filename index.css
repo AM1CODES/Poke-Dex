@@ -1,75 +1,133 @@
 html {
-  scroll-behavior: smooth;
-}
-#header {
-  background: url('https://i.pinimg.com/originals/a0/5b/e7/a05be72bed7c744f6d8d5b887b924aa6.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  padding: 20%;
-}
-.card-img-top {
-  padding: 2rem;
+	scroll-behavior: smooth;
 }
 body {
-  font-family: 'Righteous', cursive;
-  color: black;
+	color: black;
+	font-family: 'Righteous', cursive;
 }
 
-.navbar {
-  background-color: black;
-  color: white;
+#header {
+	background: url('https://www.wallpaperup.com/uploads/wallpapers/2015/10/27/825565/a8f967ede1e1e41abc91787415e3b9ee.jpg');
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: calc(100vh - 4.45rem);
 }
 
-.navTitle {
-  color: #ffffff;
-  padding-left: 50px;
-  size: 50px;
+.backToTop {
+	margin-left: 49%;
+
+	color: #000000;
+	padding: 0.6%;
+	border-radius: 50%;
+	margin-bottom: 4%;
 }
 .card {
-  height: 100%;
+	height: 100%;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
 }
-
-.itemNav {
-  padding: 15px;
+.card-body.hidden {
+	display: none;
 }
-.gallery-head {
-  font-size: 3rem;
-  text-align: center;
-  padding-bottom: 5%;
-  margin-top: 10%;
-  text-transform: uppercase;
-}
-.lead {
-  font-size: 1.5rem;
+.card-img-top {
+	padding: 2rem;
 }
 .display-3 {
-  font-size: 8rem;
+	font-size: 8rem;
+}
+.fas fa-chevron-down fa-6x gallery-icon {
+	padding-top: 100px;
+}
+.gallery-head {
+	font-size: 3rem;
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: 80px;
+	text-transform: uppercase;
 }
 .gallery-icon {
-  color: #000000;
-  text-align: center;
+	color: #000000;
+	text-align: center;
 }
-.backToTop {
-  margin-left: 49%;
+.itemNav {
+	padding: 15px;
+}
+.jumbotron {
+	border-radius: 0;
+}
+.lead {
+	margin-top: 20px;
+	font-size: 1.5rem;
+}
+.navbar {
+	background-color: black;
+	color: white;
+}
+.navbar ~ * {
+	position: relative;
+	top: 4.45rem;
+}
+.navTitle {
+	color: #ffffff;
+	padding-left: 50px;
+	size: 50px;
+}
+.view-div {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+.view-button {
+	width: 130px;
+	height: 50px;
+	margin: 0 10px;
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+	background: #ffffff;
 
-  color: #000000;
-  padding: 0.6%;
-  border-radius: 50%;
-  margin-bottom: 4%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.view-button > img {
+	width: 24px;
+	height: 24px;
+}
+.view-button:hover {
+	cursor: pointer;
+}
+.view-button.selected {
+	outline: 1px solid black;
 }
 
 @media only screen and (max-width: 600px) {
-  .display-3 {
-    font-size: 4rem;
-  }
-  .lead {
-    font-size: 1.6rem;
-  }
-  .gallery-head {
-    font-size: 2rem;
-  }
-  .navTitle {
-    padding-left: 3px;
-  }
+	.display-3 {
+		font-size: 4rem;
+	}
+	.gallery-head {
+		font-size: 2rem;
+	}
+	.navTitle {
+		padding-left: 3px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	#header {
+		height: calc(100vh - 4.45rem - 15px);
+	}
+	.navbar ~ * {
+		top: calc(4.45rem + 15px);
+	}
+}
+
+/* Styles for if the screen is taller than it is wide (assumed mobile view) */
+@media screen and (max-aspect-ratio: 8/7) {
+	.display-3 {
+		font-size: 6rem;
+	}
 }
