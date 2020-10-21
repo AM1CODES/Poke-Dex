@@ -10,7 +10,7 @@
 # Poké-Dex
 ![Pokémon](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png)
 
-There's no doubt that most  of our childhood was spent watching Pokémon and playing games like Pokémon Fire-Red, Ruby, Emerald, etc. From Kanto to Hoenn to Sinnoh, we have seen it all and experienced it all. With Hacktoberfest 2020 coming up and being one of the people who would participate for the very first time, I decided to create this repository that's actually a very basic web-page that lets the user view and add their favourite pokemons.
+There's no doubt that most  of our childhood was spent watching Pokémon and playing games like Pokémon Fire-Red, Ruby, Emerald, etc. From Kanto to Hoenn to Sinnoh, we have seen it all and experienced it all. With Hacktoberfest 2020 coming up and being one of the people who would participate for the very first time, I decided to create this repository that's actually a very basic web-page that lets the user view and add their favourite pokemons. Check it out here: https://am1codes.github.io/Poke-Dex/!
 
 # Contents of the Webpage
 
@@ -26,7 +26,7 @@ There is always something to contribute to a project whether you are a novice or
 # How can you contribute
 ![Hacktoberfest2020](https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg)
 
-Kindly refer to [CONTRIBUTING.md](https://github.com/AM1CODES/Poke-Dex/blob/master/CONTRIBUTING.md) file to learn how to contribute!
+Kindly refer to [CONTRIBUTING.md](https://github.com/AM1CODES/Poke-Dex/blob/master/CONTRIBUTING.md) file to learn how to contribute! We suggest looking at the website first to give you an idea of pokemon which have already been added, and the format which has been used.
 
 And That's It!
 Follow these steps to make your very first Pull request.
