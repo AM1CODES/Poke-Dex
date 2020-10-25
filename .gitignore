@@ -4,3 +4,6 @@
 
 /.vs
 .idea
+
+####### macOS Generated files #######
+**/.DS_Store
