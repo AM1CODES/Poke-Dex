@@ -1,9 +1,9 @@
-const setNormalView = (isNormalView) => {
+const setNormalView = isNormalView => {
   if (isNormalView) {
     document.querySelector('#normal-view').classList.add('selected');
     document.querySelector('#compact-view').classList.remove('selected');
 
-    document.querySelectorAll('.card-body').forEach((cardBody) => {
+    document.querySelectorAll('.card-body').forEach(cardBody => {
       cardBody.classList.remove('hidden');
     });
 
@@ -14,7 +14,7 @@ const setNormalView = (isNormalView) => {
     document.querySelector('#compact-view').classList.add('selected');
     document.querySelector('#normal-view').classList.remove('selected');
 
-    document.querySelectorAll('.card-body').forEach((cardBody) => {
+    document.querySelectorAll('.card-body').forEach(cardBody => {
       cardBody.classList.add('hidden');
     });
 
