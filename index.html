@@ -2,21 +2,23 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet">
-  <link href="index.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="icons/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" />
+  <link rel="stylesheet" href="index.css" />
   <title>Poké-Dex</title>
-  <link href="images/pokedex-icon-21.jpg" rel="icon" type="image/x-icon">
 </head>
 
 <body>
 <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-  <a class="navbar-brand navTitle" href="index.html"><img height="10%"
-                                                          src="images/Pokedex_icon-icons.com_67530.svg" width="20%">Poké-Dex</a>
+  <a class="navbar-brand navTitle" href="index.html">
+		<img height="10%" width="20%" src="icons/pokedex.svg">
+		Poké-Dex
+	</a>
   <button
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
     class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span
@@ -27,7 +29,7 @@
         <a class="nav-link" href="#header">Home</a>
       </li>
       <li class="nav-item itemNav">
-        <a class="nav-link" href="#gallery-title">Pokémons</a>
+        <a class="nav-link" href="#gallery-title">Pokémon</a>
       </li>
       <li class="nav-item itemNav">
         <a class="nav-link" href="about.html">About</a>
@@ -41,8 +43,7 @@
 
   <h2 class="display-4">Poké-Dex</h2>
   <div>
-    <p class="lead">We all love Pokémons, don't we? Go ahead and share with us who's
-      your favourite!</p>
+    <p class="lead">We all love Pokémon, don't we? Go ahead and share your favourite with us!</p>
     <a href="#gallery-title"><i class="fas fa-chevron-down fa-6x gallery-icon" id="icon1"></i></a>
   </div>
 
@@ -59,18 +60,44 @@
 <section id="gallery">
   <div class="container">
     <div class="row">
-      
+
       <div class="col-lg-4 mb-4">
         <div class="card">
-            <img class="card-img-top" src="/images/abra.jpg" alt="Abra">
+            <img alt="Abra" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/6/62/063Abra.png/250px-063Abra.png">
             <div class="card-body">
                 <h5 class="card-title">Abra</h5>
                 <p class="card-text">Abra uses psychic powers while it sleeps. Its dreams affect the powers that the Pokemon wields.</p>
-                <a href="[Add the link to your Github Profile]" class="btn btn-outline-danger btn-sm">Contributed by - felipprodrigues</a>
+                <a href="[Add the link to your GitHub Profile]" class="btn btn-outline-danger btn-sm">Contributed by - felipprodrigues</a>
             </div>
         </div>
       </div>
-      
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/4/41/056Mankey.png" alt="Mankey" />
+          <div class="card-body">
+            <h5 class="card-title">Mankey</h5>
+            <p class="card-text">Mankey is a simian Pokémon, similar to a New World monkey. It is bipedal and has
+              a round body covered in whitish, shaggy fur. Its nose is similar to a pig's snout, and it has narrow,
+              red eyes and triangular ears with brown insides. Mankey's three-fingered hands, two-toed feet,
+              and the tip of its curved, prehensile tail are brown. Along with Stufful, it is the smallest
+              known Fighting-type Pokémon.  </p>
+            <a href="https://github.com/gitgibber" class="btn btn-outline-danger btn-sm">Contributed by - gitgibber</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/9/9a/057Primeape.png" alt="Primeape">
+                    <div class="card-body">
+                        <h5 class="card-title">Primeape</h5>
+                        <p class="card-text">Primeape is a Fighting-type Pokémon introduced in Generation I. It evolves from Mankey starting at level 28.</p>
+                        <a href="https://github.com/pbharathreddy" class="btn btn-outline-danger btn-sm">Contributed by - Bharath Reddy</a>
+                    </div>
+                </div>
+            </div>
+	    
+
+
       <div class="col-lg-4 mb-4 ">
         <div class="card">
           <img alt="Pikachu" class="card-img-top"
@@ -84,8 +111,18 @@
         </div>
       </div>
       <div class="col-lg-4 mb-4">
+         <div class="card">
+             <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/e/e8/142Aerodactyl.png" alt="Aerodactyl">
+             <div class="card-body">
+                 <h5 class="card-title">Aerodactyl</h5>
+                 <p class="card-text">Aerodactyl is a dual-type Rock/Flying Fossil Pokémon introduced in Generation I. It is resurrected from an Old Amber, and while it is not known to evolve into or from any other Pokémon, Aerodactyl can Mega Evolve into Mega Aerodactyl using the Aerodactylite.</p>
+                 <a href="https://github.com/narenbakshi97" class="btn btn-outline-danger btn-sm">Contributed by - Naren Bakshi</a>
+             </div>
+         </div>
+     </div>
+      <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Haunter-image" class="card-img-top"
+          <img alt="Haunter" class="card-img-top"
                src="https://cdn.bulbagarden.net/upload/6/62/093Haunter.png">
           <div class="card-body">
             <h5 class="card-title">Haunter</h5>
@@ -100,7 +137,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img class="card-img-top" src="https://img.pokemondb.net/artwork/large/horsea.jpg">
+          <img alt="Horsea" class="card-img-top" src="https://img.pokemondb.net/artwork/large/horsea.jpg">
           <div class="card-body">
             <h5 class="card-title">Horsea</h5>
             <p class="card-text">Horsea is a water-type dragon pokemon.It evolves into Seadra and then
@@ -114,7 +151,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img class="card-img-top" src="images/bellosom.png">
+          <img alt="Bellosom" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/c/cd/182Bellossom.png/250px-182Bellossom.png">
           <div class="card-body">
             <h5 class="card-title">Bellosom</h5>
             <p class="card-text">Plentiful in the tropics. When it dances, its petals rub together and make a pleasant
@@ -127,7 +164,7 @@
       <div class="col-lg-4 mb-4">
         <div class="card">
           <img alt="Bellsprout" class="card-img-top"
-               src="https://img.pokemondb.net/artwork/bellsprout.jpg" alt="">
+               src="https://img.pokemondb.net/artwork/bellsprout.jpg">
           <div class="card-body">
             <h5 class="card-title">Bellsprout</h5>
             <p class="card-text">Bellsprout is a Grass/Poison type Pokémon introduced in Generation 1.
@@ -155,7 +192,7 @@
           <img
             class="card-img-top"
             src="https://static.pokemonpets.com/images/monsters-images-800-800/2474-Shiny-PorygonZ.png"
-            alt="Porygon">
+            alt="Porygon-Z">
           <div class="card-body">
             <h5 class="card-title">Porygon-Z</h5>
             <p class="card-text">Porygon-Z's appearance is similar to that of Porygon and Porygon2, though darker in
@@ -179,7 +216,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Vileplume Pokemon" class="card-img-top"
+          <img alt="Vileplume" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png">
           <div class="card-body">
             <h5 class="card-title">Vileplume</h5>
@@ -192,7 +229,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Vaporeon" class="card-img-top"
                src="https://cdn.bulbagarden.net/upload/thumb/f/fd/134Vaporeon.png/250px-134Vaporeon.png">
           <div class="card-body">
             <h5 class="card-title">Vaporeon</h5>
@@ -232,7 +269,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://img.pokemondb.net/artwork/large/golisopod.jpg">
+          <img alt="Wimpod" class="card-img-top" src="https://img.pokemondb.net/artwork/large/golisopod.jpg">
           <div class="card-body">
             <h5 class="card-title">Wimpod</h5>
             <p class="card-text">This Pokémon is cowardly by nature and wary of both noise and sudden
@@ -257,7 +294,7 @@
                src="https://i.pinimg.com/originals/1b/47/3a/1b473a97ded04ac7c5b85eaf2baa5441.png">
           <div class="card-body">
             <h5 class="card-title">Squirtle</h5>
-            <p class="card-text">It's a Water Type Pokémon. It's one of the starter Pokemons!</p><a
+            <p class="card-text">It's a Water Type Pokémon. It's one of the starter Pokemon!</p><a
             class="btn btn-outline-danger btn-sm" href="https://github.com/AM1CODES">Contributed by
             - AM1CODES</a>
           </div>
@@ -287,6 +324,16 @@
           </div>
         </div>
       </div>
+    <div class="col-lg-4 mb-4">
+	<div class="card">
+	    <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/2/2a/044Gloom.png" alt="Gloom">
+	    <div class="card-body">
+		<h5 class="card-title">Gloom</h5>
+		<p class="card-text">Gloom is a dual-type Grass/Poison Pokémon introduced in Generation I. It evolves from Oddish at level 21 and evolves into either Vileplume when exposed to a Leaf Stone or Bellossom when exposed to a Sun Stone.</p>
+		<a href="https://github.com/pbharathreddy" class="btn btn-outline-danger btn-sm">Contributed by - Bharath Reddy</a>
+	    </div>
+	</div>
+    </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
           <img alt="Swanna" class="card-img-top" src="https://img.pokemondb.net/artwork/large/swanna.jpg">
@@ -368,7 +415,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://img.pokemondb.net/artwork/large/growlithe.jpg">
+          <img alt="Growlithe" class="card-img-top" src="https://img.pokemondb.net/artwork/large/growlithe.jpg">
           <div class="card-body">
             <h5 class="card-title">Growlithe</h5>
             <p class="card-text">Growlithe has a superb sense of smell. Once it smells anything, this
@@ -381,7 +428,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://img.pokemondb.net/artwork/large/arcanine.jpg">
+          <img alt="Arcanine" class="card-img-top" src="https://img.pokemondb.net/artwork/large/arcanine.jpg">
           <div class="card-body">
             <h5 class="card-title">Arcanine</h5>
             <p class="card-text">Arcanine is a Fire type Pokémon introduced in Generation 1. It is known
@@ -392,7 +439,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://img.pokemondb.net/artwork/large/machoke.jpg">
+          <img alt="Machoke" class="card-img-top" src="https://img.pokemondb.net/artwork/large/machoke.jpg">
           <div class="card-body">
             <h5 class="card-title">Machoke</h5>
             <p class="card-text">Machoke is a Fighting type Pokémon introduced in Generation 1. It is
@@ -471,7 +518,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://img.pokemondb.net/artwork/croconaw.jpg">
+          <img alt="Croconaw" class="card-img-top" src="https://img.pokemondb.net/artwork/croconaw.jpg">
           <div class="card-body">
             <h5 class="card-title">Croconaw</h5>
             <p class="card-text">Croconaw is a Water type Pokémon introduced in Generation 2. It is
@@ -512,7 +559,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Pikachu" class="card-img-top"
                src="https://compote.slate.com/images/18ba92e4-e39b-44a3-af3b-88f735703fa7.png?width=780&height=520&rect=1560x1040&offset=0x0">
           <div class="card-body">
             <h5 class="card-title">Pikachu</h5>
@@ -524,7 +571,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="images/miltank.png">
+          <img alt="Miltank" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/1/13/241Miltank.png/250px-241Miltank.png">
           <div class="card-body">
             <h5 class="card-title">Miltank</h5>
             <p class="card-text">Miltank is a bovine Pokémon, not known to evolve into or from other
@@ -550,7 +597,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://img.pokemondb.net/artwork/fletchinder.jpg">
+          <img alt="Fletchinder" class="card-img-top" src="https://img.pokemondb.net/artwork/fletchinder.jpg">
           <div class="card-body">
             <h5 class="card-title">Fletchinder</h5>
             <p class="card-text">Fletchinder is a Fire/Flying type Pokémon introduced in Generation 6.
@@ -562,7 +609,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://cdn.bulbagarden.net/upload/4/41/130Gyarados.png">
+          <img alt="Gyarados" class="card-img-top" src="https://cdn.bulbagarden.net/upload/4/41/130Gyarados.png">
           <div class="card-body">
             <h5 class="card-title">Gyarados</h5>
             <p class="card-text">Gyarados has an extremely aggressive nature. The Hyper Beam it shoots
@@ -574,7 +621,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Lapras" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png">
           <div class="card-body">
             <h5 class="card-title">Lapras</h5>
@@ -664,7 +711,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Zoroark" class="card-img-top"
                src="https://cdn.pastemagazine.com/www/articles/250px-571Zoroark.png">
           <div class="card-body">
             <h5 class="card-title">Zoroark</h5>
@@ -677,7 +724,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Castform" class="card-img-top" src="images/castform.jpg">
+          <img alt="Castform" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/f/f3/351Castform.png/250px-351Castform.png">
           <div class="card-body">
             <h5 class="card-title">Castform</h5>
             <p class="card-text">Castform is an artificial Pokémon that changes appearance and attitude
@@ -804,7 +851,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Caterpie" class="card-img-top" src="https://pokemon.gishan.cc/static/i/p/gastly.jpg">
+          <img alt="Gasly" class="card-img-top" src="https://pokemon.gishan.cc/static/i/p/gastly.jpg">
           <div class="card-body">
             <h5 class="card-title">Gasly</h5>
             <p class="card-text">This is a ghost type pokemon, which is cute, yet scary.</p><a
@@ -842,7 +889,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Emolga" class="card-img-top"
                src="https://cdn.bulbagarden.net/upload/thumb/b/b4/587Emolga.png/1200px-587Emolga.png">
           <div class="card-body">
             <h5 class="card-title">Emolga</h5>
@@ -918,7 +965,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Eevee" class="card-img-top"
                src="https://img.pokemondb.net/artwork/large/eevee-lets-go.jpg">
           <div class="card-body">
             <h5 class="card-title">Eevee</h5>
@@ -931,7 +978,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="images/pachirisu.png">
+          <img alt="Pachirisu" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/f/f4/417Pachirisu.png/250px-417Pachirisu.png">
           <div class="card-body">
             <h5 class="card-title">Pachirisu</h5>
             <p class="card-text">Pachirisu, the EleSquirrel Pokémon. It gathers static electricity and
@@ -943,7 +990,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Caterpie" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png">
           <div class="card-body">
             <h5 class="card-title">Caterpie</h5>
@@ -956,7 +1003,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Solgaleo" class="card-img-top" src="images/Solgaleo.jpg">
+          <img alt="Solgaleo" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/5/57/791Solgaleo.png/250px-791Solgaleo.png">
           <div class="card-body">
             <h5 class="card-title">Solgaleo</h5>
             <p class="card-text">Solgaleo is a large, white Pokémon resembling a lion and capable of
@@ -968,7 +1015,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Diglett" class="card-img-top"
                src="https://cdn.bulbagarden.net/upload/thumb/3/31/050Diglett.png/250px-050Diglett.png">
           <div class="card-body">
             <h5 class="card-title">Diglett</h5>
@@ -1018,7 +1065,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Beedrill" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png">
           <div class="card-body">
             <h5 class="card-title">Beedrill</h5>
@@ -1044,7 +1091,7 @@
       </div>
 				<div class="col-lg-4 mb-4">
 					<div class="card">
-						<img alt="Snorlax" class="card-img-top" src="https://toppng.com/uploads/preview/okemon-snorlax-is-a-fictional-character-of-humans-pokemon-snorlax-115629979230py0tjs0hc.png">
+						<img alt="Snorlax" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/f/fb/143Snorlax.png/250px-143Snorlax.png">
 						<div class="card-body">
 							<h5 class="card-title">Snorlax</h5>
 							<p class="card-text">Snorlax is a great defender who can't be moved by attacks and can Body Slam for 100 or put opponents to sleep.</p>
@@ -1054,7 +1101,7 @@
 				</div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Jolteon" class="card-img-top"
                src="https://cdn.pastemagazine.com/www/articles/250px-135Jolteon.png">
           <div class="card-body">
             <h5 class="card-title">Jolteon</h5>
@@ -1091,7 +1138,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Azumarill" class="card-img-top" src="images/poliwag.jpg">
+          <img alt="Azumarill" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/4/49/060Poliwag.png/250px-060Poliwag.png">
           <div class="card-body">
             <h5 class="card-title">Poliwag</h5>
             <p class="card-text">Poliwag is a Pokémon resembling a blue, spherical tadpole. It has large
@@ -1103,7 +1150,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Tyrantrum" border="0" class="card-img-top"
+          <img alt="Tyrantrum" class="card-img-top"
                src="https://i.ibb.co/cQtYTcQ/462-Magnezone.png">
           <div class="card-body">
             <h5 class="card-title">Magnezone</h5>
@@ -1115,7 +1162,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Tyrantrum" border="0" class="card-img-top" src="images/abra.jpg">
+          <img alt="Abra" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/6/62/063Abra.png/250px-063Abra.png">
           <div class="card-body">
             <h5 class="card-title">Abra</h5>
             <p class="card-text">Abra is a bipedal Pokémon that is primarily yellow. Its face is
@@ -1128,7 +1175,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Ditto" class="card-img-top"
                src="https://cdn.bulbagarden.net/upload/thumb/3/36/132Ditto.png/250px-132Ditto.png">
           <div class="card-body">
             <h5 class="card-title">Ditto</h5>
@@ -1142,7 +1189,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Cyndaquill" class="card-img-top"
                src="https://cdn.bulbagarden.net/upload/thumb/9/9b/155Cyndaquil.png/375px-155Cyndaquil.png">
           <div class="card-body">
             <h5 class="card-title">Cyndaquill</h5>
@@ -1155,7 +1202,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://cdn.bulbagarden.net/upload/f/fa/453Croagunk.png">
+          <img alt="Croagunk" class="card-img-top" src="https://cdn.bulbagarden.net/upload/f/fa/453Croagunk.png">
           <div class="card-body">
             <h5 class="card-title">Croagunk</h5>
             <p class="card-text">The Toxic Mouth Pokémon. Has poison in its cheeks and sprays poison
@@ -1181,7 +1228,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Articuno" class="card-img-top"
                src="https://vignette.wikia.nocookie.net/pokemon/images/4/4e/144Articuno.png/revision/latest?cb=20140328211202">
           <div class="card-body">
             <h5 class="card-title">Articuno</h5>
@@ -1193,7 +1240,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Eevee" class="card-img-top"
                src="https://cdn.bulbagarden.net/upload/thumb/e/e2/133Eevee.png/250px-133Eevee.png">
           <div class="card-body">
             <h5 class="card-title">Eevee</h5>
@@ -1206,7 +1253,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Magikarp" class="card-img-top"
                src="https://cdn.bulbagarden.net/upload/thumb/0/02/129Magikarp.png/250px-129Magikarp.png">
           <div class="card-body">
             <h5 class="card-title">Magikarp</h5>
@@ -1285,8 +1332,8 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
-               src="data:image/jpeg;base64,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">
+          <img alt="Snorlax" class="card-img-top"
+               src="https://cdn.bulbagarden.net/upload/thumb/f/fb/143Snorlax.png/250px-143Snorlax.png">
           <div class="card-body">
             <h5 class="card-title">Snorlax</h5>
             <p class="card-text">Strongest,Cutest and My favourite normal type pokemon.Always sleeping
@@ -1322,7 +1369,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Onix" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png">
           <div class="card-body">
             <h5 class="card-title">Onix</h5>
@@ -1347,7 +1394,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Eevee" class="card-img-top"
                src="https://cdn.pastemagazine.com/www/articles/assets_c/2017/02/eevee%20pokemon-thumb-250x250-575771.png">
           <div class="card-body">
             <h5 class="card-title">Eevee</h5>
@@ -1362,7 +1409,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Jolteon" class="card-img-top"
                src="https://cdn.pastemagazine.com/www/articles/250px-135Jolteon.png">
           <div class="card-body">
             <h5 class="card-title">Jolteon</h5>
@@ -1374,7 +1421,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Psyduck" class="card-img-top"
                src="https://vignette.wikia.nocookie.net/sonicpokemon/images/b/b2/Psyduck_AG_anime.png/revision/latest/scale-to-width-down/340?cb=20130626041931">
           <div class="card-body">
             <h5 class="card-title">Psyduck</h5>
@@ -1387,7 +1434,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Lucario" class="card-img-top"
                src="http://cdn.pastemagazine.com/www/articles/250px-448Lucario.png">
           <div class="card-body">
             <h5 class="card-title">Lucario</h5>
@@ -1400,7 +1447,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Infernape" class="card-img-top"
                src="https://cdn.bulbagarden.net/upload/thumb/f/fb/392Infernape.png/600px-392Infernape.png">
           <div class="card-body">
             <h5 class="card-title">Infernape</h5>
@@ -1426,7 +1473,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Mudkip" class="card-img-top"
                src="https://cdn.pastemagazine.com/www/articles/250px-258Mudkip.png">
           <div class="card-body">
             <h5 class="card-title">Mudkip</h5>
@@ -1439,7 +1486,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://t3.rbxcdn.com/954c74e22ebc4cf379aa6ff160d92d9b">
+          <img alt="Torchic" class="card-img-top" src="https://t3.rbxcdn.com/954c74e22ebc4cf379aa6ff160d92d9b">
           <div class="card-body">
             <h5 class="card-title">Torchic</h5>
             <p class="card-text">Torchic is a small, chick Pokémon with stubby, downy, yellow wings.
@@ -1451,7 +1498,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png">
+          <img alt="Machamp" class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png">
           <div class="card-body">
             <h5 class="card-title">Machamp</h5>
             <p class="card-text">Its four muscled arms slam foes with powerful punches and chops at blinding speed.</p>
@@ -1462,7 +1509,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://img.pokemondb.net/artwork/seaking.jpg">
+          <img alt="Seaking" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/6/6a/119Seaking.png/250px-119Seaking.png">
           <div class="card-body">
             <h5 class="card-title">Seaking</h5>
             <p class="card-text">Has a red sking with black dots.</p><a
@@ -1473,7 +1520,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Kyurem" class="card-img-top"
                src="data:image/jpeg;base64,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">
           <div class="card-body">
             <h5 class="card-title">Kyurem</h5>
@@ -1486,7 +1533,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Tauros" class="card-img-top"
                src="https://cdn.pastemagazine.com/www/articles/250px-128Tauros.png">
           <div class="card-body">
             <h5 class="card-title">Tauros</h5>
@@ -1499,7 +1546,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Venusaur" class="card-img-top"
                src="https://cdn.pastemagazine.com/www/articles/assets_c/2017/02/Venusaur-thumb-250x250-574429.png">
           <div class="card-body">
             <h5 class="card-title">Venusaur</h5>
@@ -1525,7 +1572,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Zubat" class="card-img-top"
                src="https://cdn.bulbagarden.net/upload/thumb/d/da/041Zubat.png/375px-041Zubat.png">
           <div class="card-body">
             <h5 class="card-title">Zubat</h5>
@@ -1538,7 +1585,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="images/giratina.png">
+          <img alt="Giratina" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/c/c5/487Giratina-Altered.png/250px-487Giratina-Altered.png">
           <div class="card-body">
             <h5 class="card-title">Giratina</h5>
             <p class="card-text">Among the most complex Pokémon to understand, Giratina is both
@@ -1552,7 +1599,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://cdn.bulbagarden.net/upload/5/59/292Shedinja.png">
+          <img alt="Shedinja" class="card-img-top" src="https://cdn.bulbagarden.net/upload/5/59/292Shedinja.png">
           <div class="card-body">
             <h5 class="card-title">Shedinja</h5>
             <p class="card-text">Shedinja is a Pokémon based on a cicada's shed exoskeleton. Most of its
@@ -1622,7 +1669,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="images/meowth.png">
+          <img alt="Meowth" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/d/d6/052Meowth.png/250px-052Meowth.png">
           <div class="card-body">
             <h5 class="card-title">Meowth</h5>
             <p class="card-text">It doesn't get along with Galarian Meowth. It loves to collect shiny
@@ -1634,7 +1681,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://cdn.bulbagarden.net/upload/d/dd/357Tropius.png">
+          <img alt="Tropius" class="card-img-top" src="https://cdn.bulbagarden.net/upload/d/dd/357Tropius.png">
           <div class="card-body">
             <h5 class="card-title">Tropius</h5>
             <p class="card-text">Tropius (トロピウス) is the 150th Pokémon in the Hoenn Pokédex. It is a
@@ -1660,7 +1707,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Hawlucha" class="card-img-top" src="images/Hawlucha.png">
+          <img alt="Hawlucha" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/4/44/701Hawlucha.png/250px-701Hawlucha.png">
           <div class="card-body">
             <h5 class="card-title">Hawlucha</h5>
             <p class="card-text">Hawlucha is the only known Pokemon to naturally learn Flying Press, a
@@ -1672,7 +1719,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Lugia" class="card-img-top" src="images/Lugia.png">
+          <img alt="Lugia" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/4/44/249Lugia.png/250px-249Lugia.png">
           <div class="card-body">
             <h5 class="card-title">Lugia</h5>
             <p class="card-text">Lugia is a large Pokémon that resembles a dragon, a plesiosaur, and a
@@ -1686,7 +1733,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Porygon" class="card-img-top" src="images/porygon.jpg">
+          <img alt="Porygon" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/6/6b/137Porygon.png/250px-137Porygon.png">
           <div class="card-body">
             <h5 class="card-title">Porygon</h5>
             <p class="card-text">Porygon is a Pokémon made completely out of programming code. It has a
@@ -1699,7 +1746,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Zapdos" class="card-img-top" src="images/zapdos.png">
+          <img alt="Zapdos" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/e/e3/145Zapdos.png/250px-145Zapdos.png">
           <div class="card-body">
             <h5 class="card-title">Zapdos</h5>
             <p class="card-text">Zapdos is a large, avian Pokémon with predominantly yellow plumage. It
@@ -1752,7 +1799,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Squirtle" class="card-img-top"
                src="https://aguycalledkane.files.wordpress.com/2017/04/squirtle.png?w=840">
           <div class="card-body">
             <h5 class="card-title">Squirtle</h5>
@@ -1780,7 +1827,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Bidoof" class="card-img-top"
                src="https://cdn.pastemagazine.com/www/articles/250px-399Bidoof.png">
           <div class="card-body">
             <h5 class="card-title">Bidoof</h5>
@@ -1833,7 +1880,7 @@
                src="http://pngimg.com/uploads/pokemon/pokemon_PNG52.png">
           <div class="card-body">
             <h5 class="card-title">Bulbasaur</h5>
-            <p class="card-text">It is a grass/poison type Pokémon. It's one of the Starter Pokemons!
+            <p class="card-text">It is a grass/poison type Pokémon. It's one of the starter Pokémon!
             </p><a class="btn btn-outline-danger btn-sm"
                    href="https://github.com/adeelsgithub">Contributed by - Muhammad Adeel</a>
           </div>
@@ -1841,7 +1888,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Litwick" class="card-img-top"
                src="https://cdn.bulbagarden.net/upload/thumb/8/8e/607Litwick.png/250px-607Litwick.png">
           <div class="card-body">
             <h5 class="card-title">Litwick</h5>
@@ -1854,13 +1901,27 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://img.pokemondb.net/artwork/large/arbok.jpg">
+          <img alt="Arbok" class="card-img-top" src="https://img.pokemondb.net/artwork/large/arbok.jpg">
           <div class="card-body">
             <h5 class="card-title">Arbok</h5>
             <p class="card-text">A cobra snake Pokemon. Owned by Team Rocket's Jesse in the anime. Uses
               poison moves like poison sting and wrap. It evolves from Ekans.</p><a
             class="btn btn-outline-danger btn-sm" href="https://github.com/pbisen">Contributed by -
             pbisen</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/f/fa/023Ekans.png" alt="Ekans" />
+          <div class="card-body">
+            <h5 class="card-title">Ekans</h5>
+            <p class="card-text">Ekans is a purple, serpentine Pokémon. Its eyes, underbelly, the thick stripe around
+                its neck, and rattle are yellow. Ekans has three pairs of black lines encircling its body, as well as
+                another line that connects to each slit-pupiled eye and curves toward its nose. Its large mouth has a
+                round, pink tongue and no visible teeth. While painful, a newborn Ekans's bite is not venomous.
+                This Pokémon grows longer with age. </p>
+            <a href="https://github.com/gitgibber" class="btn btn-outline-danger btn-sm">Contributed by - gitgibber</a>
           </div>
         </div>
       </div>
@@ -1893,7 +1954,7 @@
       </div>
 				<div class="col-lg-4 mb-4">
 					<div class="card">
-						<img alt="Shuckle" class="card-img-top" src="images/shuckle.webp">
+						<img alt="Shuckle" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/c/c7/213Shuckle.png/250px-213Shuckle.png">
 						<div class="card-body">
 							<h5 class="card-title">Shuckle</h5>
 							<p class="card-text">A hidden gem, Shuckle's unique fighting style is something that many players will never even know to fear. This unassuming turtle-like creature boasts the highest base Special Defense and Defense stats in the game, tying for the latter with Mega Aggron and Mega Steelix.</p>
@@ -1913,7 +1974,7 @@
 				</div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://img.pokemondb.net/artwork/ninetales.jpg">
+          <img alt="Ninetales" class="card-img-top" src="https://img.pokemondb.net/artwork/ninetales.jpg">
           <div class="card-body">
             <h5 class="card-title">Ninetales</h5>
             <p class="card-text">Ninetales is a Fire type Pokémon introduced in Generation 1. It is
@@ -1924,7 +1985,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://cdn.bulbagarden.net/upload/3/36/350Milotic.png">
+          <img alt="Milotic" class="card-img-top" src="https://cdn.bulbagarden.net/upload/3/36/350Milotic.png">
           <div class="card-body">
             <h5 class="card-title">Milotic</h5>
             <p class="card-text">Milotic is an aquatic, serpentine Pokémon with cream-colored body, red
@@ -1948,7 +2009,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Snorlax" class="card-img-top" src="images/1200px-243Raikou.webp">
+          <img alt="Raikou" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/c/c1/243Raikou.png/250px-243Raikou.png">
           <div class="card-body">
             <h5 class="card-title">Raikou</h5>
             <p class="card-text">It is a electric type legendary pokemon.It has the Pressure ability
@@ -1961,7 +2022,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Ninetales" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png">
           <div class="card-body">
             <h5 class="card-title">Ninetales</h5>
@@ -1976,7 +2037,7 @@
       <div class="col-lg-4 mb-4">
         <div class="card">
           <img alt="Snorlax" class="card-img-top"
-               src="https://i.pinimg.com/originals/12/8d/e8/128de8ce51ee0c498a4dfa67610f5843.jpg">
+               src="https://cdn.bulbagarden.net/upload/thumb/f/fb/143Snorlax.png/250px-143Snorlax.png">
           <div class="card-body">
             <h5 class="card-title">Snorlax</h5>
             <p class="card-text">The laziest pokemon. However, is the most powerful as well.</p><a
@@ -1987,7 +2048,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Butterfree" class="card-img-top" src="images/butterfree.png">
+          <img alt="Butterfree" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/d/d1/012Butterfree.png/250px-012Butterfree.png">
           <div class="card-body">
             <h5 class="card-title">Butterfree</h5>
             <p class="card-text">Butterfree is a dual-type Bug/Flying Pokémon introduced in Generation
@@ -2084,7 +2145,7 @@
       <div class="col-lg-4 mb-4">
         <div class="card">
           <img alt="Sudowoodo" class="card-img-top"
-               src="https://img.pokemondb.net/sprites/sun-moon/normal/sudowoodo-f.png">
+               src="https://cdn.bulbagarden.net/upload/thumb/1/1e/185Sudowoodo.png/250px-185Sudowoodo.png">
           <div class="card-body">
             <h5 class="card-title">Sudowoodo</h5>
             <p class="card-text">Sudowoodo is a Rock-type Pokémon</p><a
@@ -2121,8 +2182,8 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Wailord" class="card-img-top"
-               src="https://e7.pngegg.com/pngimages/69/54/png-clipart-plusle-minun-ash-ketchum-pokemon-pok-eacute-mon-go-cartoon-fictional-character-thumbnail.png">
+          <img alt="Plusle" class="card-img-top"
+               src="https://cdn.bulbagarden.net/upload/thumb/a/a3/311Plusle.png/250px-311Plusle.png">
           <div class="card-body">
             <h5 class="card-title">Plusle</h5>
             <p class="card-text"><strong>Plusle (Posipi)</strong> is a small mouse-like Pokémon, Plusle
@@ -2287,7 +2348,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Aegislash" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/681.png">
           <div class="card-body">
             <h5 class="card-title">Aegislash</h5>
@@ -2330,7 +2391,7 @@
       <div class="col-lg-4 mb-4">
         <div class="card">
           <img alt="Larvitar" class="card-img-top"
-               src="https://img.pokemondb.net/artwork/large/larvitar.jpg">
+               src="https://cdn.bulbagarden.net/upload/thumb/7/70/246Larvitar.png/250px-246Larvitar.png">
           <div class="card-body">
             <h5 class="card-title">Larvitar</h5>
             <p class="card-text">Small green reptalian with a rocky skin, blunt spike on top of its head
@@ -2397,7 +2458,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Pikachu" class="card-img-top"
                src="http://vignette2.wikia.nocookie.net/pokemon/images/b/b1/025Pikachu_XY_anime_3.png">
           <div class="card-body">
             <h5 class="card-title">Pikachu</h5>
@@ -2426,7 +2487,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Aurorus" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/699.png">
           <div class="card-body">
             <h5 class="card-title">Aurorus</h5>
@@ -2569,7 +2630,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Garchomp" class="card-img-top"
                src="https://cdn.bulbagarden.net/upload/thumb/f/fa/445Garchomp.png/375px-445Garchomp.png">
           <div class="card-body">
             <h5 class="card-title">Garchomp</h5>
@@ -2581,21 +2642,21 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Jirachi" class="card-img-top"
                src="https://qphs.fs.quoracdn.net/main-qimg-dc94172f98090d0606a15ef00a20e1f5">
           <div class="card-body">
             <h5 class="card-title">Jirachi</h5>
             <p class="card-text">It used to be Mew because Mew is a pink psychic kitty with a cute
               voice. I think it’s among the cutest of the mythical, but most of them are already cute
               as it is.</p><a class="btn btn-outline-danger btn-sm"
-                              href="[Add%20the%20link%20to%20your%20Github%20Profile]">Contributed by -
+                              href="[Add%20the%20link%20to%20your%20GitHub%20Profile]">Contributed by -
             KritiGandotra</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://img.pokemondb.net/artwork/large/alakazam.jpg">
+          <img alt="Alakazam" class="card-img-top" src="https://img.pokemondb.net/artwork/large/alakazam.jpg">
           <div class="card-body">
             <h5 class="card-title">Alakazam</h5>
             <p class="card-text">Alakazam is a Pokémon characterized by its humanoid structure and large
@@ -2608,7 +2669,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="https://img.pokemondb.net/artwork/large/marshadow.jpg">
+          <img alt="Marshadow" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/8/89/802Marshadow.png/250px-802Marshadow.png">
           <div class="card-body">
             <h5 class="card-title">Marshadow</h5>
             <p class="card-text">Marshadow is a Fighting/Ghost type Pokémon introduced in Generation 7.
@@ -2620,7 +2681,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Togekiss" class="card-img-top"
                src="https://static.pokemonpets.com/images/monsters-images-300-300/8468-Mega-Togekiss.png">
           <div class="card-body">
             <h5 class="card-title">Togekiss</h5>
@@ -2633,20 +2694,20 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Exploud" class="card-img-top"
                src="https://cdn.bulbagarden.net/upload/thumb/1/12/295Exploud.png/250px-295Exploud.png">
           <div class="card-body">
             <h5 class="card-title">Exploud</h5>
             <p class="card-text">Exploud is a Normal-type Pokémon introduced in Generation III.Exploud
               is a Normal Pokémon which evolves from Loudred.</p><a
             class="btn btn-outline-danger btn-sm" href="https://github.com/MansiMeena">Contributed
-            by - [Add your Github Username/profile name]</a>
+            by - [Add your GitHub Username/profile name]</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Buneary" class="card-img-top"
                src="https://cdn.bulbagarden.net/upload/thumb/a/a7/427Buneary.png/1200px-427Buneary.png">
           <div class="card-body">
             <h5 class="card-title">Buneary</h5>
@@ -2658,7 +2719,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Hypno" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/097.png">
           <div class="card-body">
             <h5 class="card-title">Hypno</h5>
@@ -2670,7 +2731,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Kadabra" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/064.png">
           <div class="card-body">
             <h5 class="card-title">Kadabra</h5>
@@ -2682,7 +2743,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Electabuzz" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/125.png">
           <div class="card-body">
             <h5 class="card-title">Electabuzz</h5>
@@ -2694,7 +2755,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Magmar" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/126.png">
           <div class="card-body">
             <h5 class="card-title">Magmar</h5>
@@ -2706,7 +2767,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Jynx" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/124.png">
           <div class="card-body">
             <h5 class="card-title">Jynx</h5>
@@ -2719,7 +2780,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Mr. Mime" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/122.png">
           <div class="card-body">
             <h5 class="card-title">Mr. Mime</h5>
@@ -2732,7 +2793,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Staryu" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/120.png">
           <div class="card-body">
             <h5 class="card-title">Staryu</h5>
@@ -2745,7 +2806,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Tangela" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/114.png">
           <div class="card-body">
             <h5 class="card-title">Tangela</h5>
@@ -2757,7 +2818,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Aipom" class="card-img-top"
                src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/190.png">
           <div class="card-body">
             <h5 class="card-title">Aipom</h5>
@@ -3011,7 +3072,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top" src="images/cubone.jpg">
+          <img alt="Cubone" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/2/2a/104Cubone.png/250px-104Cubone.png">
           <div class="card-body">
             <h5 class="card-title">Cubone</h5>
             <p class="card-text">Cubone is a Ground type Pokémon introduced in Generation 1. It is known
@@ -3095,7 +3156,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="leafeon" class="card-img-top"
+          <img alt="Leafeon" class="card-img-top"
                src="https://pokestop.io/img/pokemon/leafeon-256x256.png">
           <div class="card-body">
             <h5 class="card-title">Leafeon</h5>
@@ -3108,7 +3169,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="crabrawler" class="card-img-top"
+          <img alt="Crabrawler" class="card-img-top"
                src="https://img.pokemondb.net/artwork/large/crabrawler.jpg">
           <div class="card-body">
             <h5 class="card-title">Crabrawler</h5>
@@ -3231,7 +3292,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Unown" class="card-img-top" src="/images/Unown.webp">
+          <img alt="Unown" class="card-img-top" src="https://cdn.bulbagarden.net/upload/7/77/201Unown.png">
           <div class="card-body">
             <h5 class="card-title">Unown</h5>
             <p class="card-text">Unown is a psychic-type Pokemon, It is shaped like an eye with
@@ -3400,7 +3461,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="" class="card-img-top"
+          <img alt="Cherrim" class="card-img-top"
                src="https://static.pokemonpets.com/images/monsters-images-800-800/421-Cherrim.png">
           <div class="card-body">
             <h5 class="card-title">Cherrim</h5>
@@ -3455,7 +3516,7 @@
 				</div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/9/96/507Herdier.png" alt="">
+          <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/9/96/507Herdier.png" alt="Herdier">
           <div class="card-body">
             <h5 class="card-title">Herdier</h5>
             <p class="card-text">Herdier, the Loyal Dog Pokémon, and the evolved form of Lillipup.
@@ -3511,7 +3572,7 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Machop" class="card-img-top" src="images/machop.jpg">
+          <img alt="Machop" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/8/85/066Machop.png/250px-066Machop.png">
           <div class="card-body">
             <h5 class="card-title">Machop</h5>
             <p class="card-text">Machop is the cutest Fighting type Pokémon introduced in Gen 1. It is
@@ -3609,7 +3670,21 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img class="card-img-top" src="images/accelgor.jpg" alt="">
+          <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/0/00/108Lickitung.png" alt="Lickitung" />
+          <div class="card-body">
+            <h5 class="card-title">Lickitung</h5>
+            <p class="card-text">Lickitung is a bipedal Pokémon with a round body and a thick, powerful tail.
+              It has soft, pink skin with curved yellow lines on its belly and a yellow ring marking on each knee.
+              It has a thumb-like claw on each hand and a single large nail on each foot. There is a yellow spot on
+              its palms and the soles of its feet. It has beady eyes and a long, prehensile tongue.
+              The tongue is likely connected to its tail, which twitches when the tongue is pulled. </p>
+            <a href="https://github.com/gitgibber" class="btn btn-outline-danger btn-sm">Contributed by - gitgibber</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img alt="Accelgor" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/3/34/617Accelgor.png/250px-617Accelgor.png">
           <div class="card-body">
             <h5 class="card-title">Accelgor</h5>
             <p class="card-text">Accelgor has a large pink head with two green stripes and a hole which
@@ -3627,7 +3702,7 @@
         <div class="card">
           <img class="card-img-top"
                src="https://cdn.bulbagarden.net/upload/thumb/a/ad/048Venonat.png/250px-048Venonat.png"
-               alt="">
+               alt="Venonat">
           <div class="card-body">
             <h5 class="card-title">Venonat</h5>
             <p class="card-text">Its large eyes act as radar. In a bright place, you can see that they
@@ -3659,17 +3734,6 @@
 				</div>
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img alt="Exeggutor" class="card-img-top" src="https://cdn.bulbagarden.net/upload/2/24/103Exeggutor.png">
-          <div class="card-body">
-            <h5 class="card-title">Exeggutor</h5>
-            <p class="card-text">Exeggutor is a tall, bipedal Pokémon that resembles a palm tree. Its body and legs are
-              light brown with thin black rings and its legs are thick with two-toed feet.</p>
-            <a class="btn btn-outline-danger btn-sm" href="https://github.com/kananekM">Contributed by - TopToppy</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card">
           <img class="card-img-top"
                src="https://cdn.bulbagarden.net/upload/thumb/f/f4/035Clefairy.png/500px-035Clefairy.png" alt="clefairy">
           <div class="card-body">
@@ -3682,7 +3746,7 @@
 
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img class="card-img-top" src="images/ghastly.jpg" alt="Ghastly">
+          <img alt="Ghastly" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/c/ca/092Gastly.png/250px-092Gastly.png">
           <div class="card-body">
             <h5 class="card-title">Ghastly</h5>
             <p class="card-text">It evolves into Haunter starting at level 25, which evolves into Gengar when
@@ -3695,7 +3759,7 @@
 
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img class="card-img-top" src="images/Rapidash.png" alt="Rapidash">
+          <img alt="Rapidash" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/3/3f/078Rapidash.png/250px-078Rapidash.png">
           <div class="card-body">
             <h5 class="card-title">Rapidash</h5>
             <p class="card-text">This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind</p>
@@ -3703,10 +3767,10 @@
           </div>
         </div>
       </div>
-		
+
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img class="card-img-top" src="images/flareon.jpg" alt="Flareon">
+          <img alt="Flareon" class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/d/dd/136Flareon.png/250px-136Flareon.png">
           <div class="card-body">
             <h5 class="card-title">Flareon</h5>
             <p class="card-text">It evolves from Eevee when exposed to a Fire Stone. It is one of Eevee's final forms,
@@ -3786,7 +3850,7 @@
 						</div>
 					</div>
         </div>
-        
+
         <div class="col-lg-4 mb-4">
 					<div class="card">
               <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/c/ca/888Zacian.png" alt="Zacian">
@@ -3809,8 +3873,155 @@
           </div>
         </div>
 
+        <div class="col-lg-4 mb-4">
+					<div class="card">
+              <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/thumb/7/72/889Zamazenta.png/1200px-889Zamazenta.png" alt="Zamazenta">
+						<div class="card-body">
+							<h5 class="card-title">Zamazenta</h5>
+							<p class="card-text">While it is not known to evolve into or from any other Pokémon, Zamazenta has a second form activated by giving it a Rusted Shield to hold. Its original form, Hero of Many Battles, will then become the Fighting/Steel-type Crowned Shield.</p>
+							<a href="https://github.com/AValdez3" class="btn btn-outline-danger btn-sm">Contributed by - AValdez3</a>
+						</div>
+					</div>
+				</div>
 
+        <div class="col-lg-4 mb-4">
+            <div class="card">
+                <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/355.png" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Duskull</h5>
+                    <p class="card-text">If Duskull finds bad children who won’t listen to their parents, it will spirit them away—or so it’s said.</p>
+                    <a href="https://github.com/emmermarcell" class="btn btn-outline-danger btn-sm">Contributed by - emmermarcell</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+              <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/9/92/077Ponyta-Galar.png" alt="Galarian Form Ponyta">
+              <div class="card-body">
+                  <h5 class="card-title">Ponyta</h5>
+                  <p class="card-text">Unique Horn Pokémon. Galarian Form. In the Galar region, Ponyta has adapted to forests by being exposed to the life energy from it. It has chalk-white fur; long, purple-and-blue, cloudy fur that is also on top of its dark-purple hooves; purple eyes with light-blue irises; and a purple-and-white horn on top of its forehead.</p>
+                  <a href="https://github.com/jlmack13" class="btn btn-outline-danger btn-sm">Contributed by - jlmack13</a>
+              </div>
+          </div>
+        </div>
+        
+
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img alt="Duskull" class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/355.png">
+            <div class="card-body">
+              <h5 class="card-title">Duskull</h5>
+              <p class="card-text">If Duskull finds bad children who won’t listen to their parents, it will spirit them away—or so it’s said.</p>
+              <a href="https://github.com/emmermarcell" class="btn btn-outline-danger btn-sm">Contributed by - emmermarcell</a>
+            </div>
+					</div>
+				</div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/355.png" alt="Duskull">
+                    <div class="card-body">
+                        <h5 class="card-title">Duskull</h5>
+                        <p class="card-text">If Duskull finds bad children who won’t listen to their parents, it will spirit them away—or so it’s said.</p>
+                        <a href="https://github.com/emmermarcell" class="btn btn-outline-danger btn-sm">Contributed by - emmermarcell</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://static.pokemonpets.com/images/monsters-images-300-300/546-Cottonee.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Cottonee</h5>
+                        <p class="card-text">ottonee doubles as both the Pokémon’s name, and a valid description of what it looks like. Probably what it feels like, too</p>
+                        <a href="[Add the link to your Github Profile]" class="btn btn-outline-danger btn-sm">Contributed by - Mendelevium28</a>
+                    </div>
+                </div>
+            </div>
+
+
+			
+			<div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://i.pinimg.com/originals/df/82/10/df821040de1af376f1529ea766cefe03.jpg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Squirtle</h5>
+                        <p class="card-text">Squirtle the only pokemon that can truly rock shades.</p>
+                        <a href="https://github.com/Charles-Hernandez" class="btn btn-outline-danger btn-sm">Contributed by - Charles-Hernandez</a>
+                    </div>
+                </div>
+            </div>
+
+
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+              <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/603.png" alt="Eelektrik">
+              <div class="card-body">
+                  <h5 class="card-title">Eelektrik</h5>
+                  <p class="card-text">It wraps itself around its prey and paralyzes it with electricity from the round spots on its sides. Then it chomps.</p>
+                  <a href="https://github.com/tsck" class="btn btn-outline-danger btn-sm">Contributed by - tsck</a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+              <img class="card-img-top" src="images/magicarp.jpg" alt="Magicarp">
+              <div class="card-body">
+                  <h5 class="card-title">Magicarp</h5>
+                  <p class="card-text">It swims really fast but its just lazy to do so.</p>
+                  <a href="https://github.com/Faaatman" class="btn btn-outline-danger btn-sm">Contributed by - Faaatman</a>
+              </div>
+          </div>
+      </div>
+  
+
+    <div class="col-lg-4 mb-4">
+        <div class="card">
+            <img class="card-img-top" src="images/gengar.png" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Gengar</h5>
+                <p class="card-text">Under a full moon, this Pokémon likes to mimic the shadows of people and laugh at their fright.</p>
+                <a href="https://github.com/Saurontm" class="btn btn-outline-danger btn-sm">Contributed by - Saurontm</a>
+            </div>
+        </div>
     </div>
+
+  <div class="col-lg-4 mb-4">
+    <div class="card">
+        <img class="card-img-top" src="images/pichu.png" alt="">
+        <div class="card-body">
+            <h5 class="card-title">Pichu</h5>
+            <p class="card-text">Pichu, the Tiny Mouse Pokémon. The electric sacs on Pichu's cheeks are small. If it tries to store more electricity than they can hold, Pichu will shock itself.</p>
+            <a href="https://github.com/Saurontm" class="btn btn-outline-danger btn-sm">Contributed by - Saurontm</a>
+        </div>
+    </div>
+</div>
+
+
+        <div class="col-lg-4 mb-4">
+					<div class="card">
+              <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/2/2f/583Vanillish.png" alt="Vanillish">
+						<div class="card-body">
+							<h5 class="card-title">Vanillish</h5>
+							<p class="card-text">Vanillish is an Ice-type Pokémon introduced in Generation V. It evolves from Vanillite starting at level 35 and evolves into Vanilluxe starting at level 47.</p>
+              <a href="https://github.com/AValdez3" class="btn btn-outline-danger btn-sm">Contributed by - AValdez3</a>
+						</div>
+					</div>
+				</div>
+  
+         <div class="col-lg-4 mb-4">
+					<div class="card">
+              <img class="card-img-top" src="https://static.wikia.nocookie.net/pokemon/images/3/3f/582Vanillite.png/revision/latest/scale-to-width-down/700?cb=20140329050954" alt="Vanillite">
+						<div class="card-body">
+							<h5 class="card-title">Vanillite</h5>
+							<p class="card-text">Vanillite is an Ice-type Pokémon introduced in Generation V.</p>
+							<a href="https://github.com/AValdez3" class="btn btn-outline-danger btn-sm">Contributed by - AValdez3</a>
+						</div>
+					</div>
+				</div>
+
   </div>
 </section>
 <!-- Footer Section -->
@@ -3832,7 +4043,7 @@
         $('.navbar-collapse').collapse('hide');
     });
 </script>
-<script src="main.js">
+<script src="index.js">
 </script>
 
 </body>
