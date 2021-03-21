@@ -18,6 +18,14 @@ body {
   height: calc(100vh - 4.45rem);
 }
 
+/* scale-animation-by-sudo-nick16 */
+.card{
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05)
+}
+
 .backToTop {
   margin-left: 49%;
 
