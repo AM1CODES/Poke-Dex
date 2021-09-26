@@ -25,9 +25,6 @@ There's no doubt that most of our childhood was spent watching Pokémon and play
 There is always something to contribute to a project whether you are a novice or a veteran. In this project, you can add your favourite Pokémon as a card to the website! Or maybe you didn't like the line that you are reading right now and want to change that. Sure! Why not?
 
 # How can I contribute?
-
-![Hacktoberfest2020](https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg)
-
 Kindly refer to [CONTRIBUTING.md](https://github.com/AM1CODES/Poke-Dex/blob/master/CONTRIBUTING.md) file to learn how to contribute!
 
 And that's it!
