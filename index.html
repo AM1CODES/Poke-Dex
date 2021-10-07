@@ -51,6 +51,16 @@
   <div id="gallery-title"></div>
   <div class="gallery-div" id="">
     <h1 class="gallery-head" id="gallery1">Pokémon gallery</h1>
+
+    <div class="input-group search-bar">
+      <div class="form-outline">
+        <input type="search" id="search-bar" class="form-control" />
+        <label class="form-label" for="search-bar">Search</label>
+      </div>
+      <button type="button" class="btn btn-primary search-button" id="search-button">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
     <div class="view-div">
       <button class="view-button" id="normal-view"><img src="icons/grid-small.png"> Normal</button>
       <button class="view-button" id="compact-view"><img src="icons/grid-large.png"> Compact</button>
@@ -4659,6 +4669,7 @@
   </script>
   <script src="index.js">
   </script>
+  <script src="https://unpkg.com/lunr/lunr.js"></script>
 
 </body>
 
