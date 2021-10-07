@@ -14,7 +14,7 @@ body {
 
   display: flex;
   flex-direction: column;
-  width: auto;
+  width: 100%;
   height: calc(100vh - 4.45rem);
 }
 
@@ -46,6 +46,11 @@ body {
 .card-img-top {
   padding: 2rem;
 }
+
+ .btn-sm {
+  width: 100%;
+  font-size: 15px;
+}
 .display-3 {
   font-size: 8rem;
 }
@@ -70,8 +75,14 @@ body {
 .jumbotron {
   border-radius: 0;
 }
+.info{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
 .lead {
-  margin-top: 30%;
   font-size: 1.5rem;
 }
 .search-bar {
@@ -122,54 +133,43 @@ body {
 .view-button.selected {
   outline: 1px solid black;
 }
-@media (max-width: 320px) {
-  .lead {
-    margin-top: 60%;
-  }
+@media (max-width: 900px) {
+  
   #header {
-    width: 510px;
+    width: 100%;
+  }
+  .info{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: -200px;
   }
   #icon1 {
     margin-top: -6%;
   }
   #gallery1 {
     font-size: 1.5rem;
-
-    margin-top: 5%;
-    margin-left: 50%;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
     text-transform: uppercase;
   }
-  #normal-view {
+  /* #normal-view {
     margin-left: 50%;
-  }
-}
-@media (min-width: 321px) and (max-width: 449px) {
-  .lead {
-    margin-top: 50%;
-  }
-  #header {
-    width: 500px;
-  }
-  #gallery1,
-  #normal-view {
-    margin-left: 20%;
-  }
-}
-@media (min-width: 449px) and (max-width: 750px) {
-  #header {
+  } */
+  .view-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
   }
 }
-@media (min-width: 760px) {
-  #header {
-    width: 100%;
-  }
-}
-@media (min-width: 800px) and (max-width: 1440px) {
-  #header {
-    width: 100%;
-  }
-}
+
+
+
 
 @media only screen and (max-width: 600px) {
   .display-3 {
