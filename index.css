@@ -74,6 +74,14 @@ body {
   margin-top: 30%;
   font-size: 1.5rem;
 }
+.search-bar {
+  justify-content: center;
+}
+
+.search-button {
+  max-height: 38px;
+}
+
 .navbar {
   background-color: black;
   color: white;
