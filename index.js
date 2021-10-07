@@ -41,7 +41,7 @@ document.querySelectorAll('h5.card-title').forEach(e => {
   pokemons.push({name: e.innerHTML})
 })
 
-document.querySelector('#search-button').addEventListener('mousedown', () => {
+document.querySelector('#search-button').addEventListener('click', () => {
   const index = lunr(function () {
     this.ref('name')
     this.field('name')
@@ -77,3 +77,11 @@ const fixBrokenImages = () => {
 };
 
 window.onload = fixBrokenImages;
+
+// START OF "TRIGGERING SEARCH BUTTON WHEN ENTER KEY IS CLICKED"
+$("#search-bar").keypress(function(event) {
+  if (event.keyCode === 13) {
+      $("#search-button").click();
+  }
+});
+// END OF "TRIGGERING SEARCH BUTTON WHEN ENTER KEY IS CLICKED"
