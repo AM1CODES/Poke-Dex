@@ -1,3 +1,11 @@
+:root {
+  --bg-color: black;
+  --font-color: white;
+}
+.lightMode {
+  --bg-color: white;
+  --font-color: black;
+}
 nav {
   color: white;
   background-color: black;
@@ -5,14 +13,14 @@ nav {
 
 #para {
   text-align: center;
-  color: black;
+  color: var(--font-color);
 }
 body {
-  background-color: white;
+  background-color: var(--bg-color);
   font-family: "Righteous", cursive;
 }
 h1 {
-  color: black;
+  color: var(--font-color);
   text-align: center;
   margin-top: 90px;
   margin-bottom: 40px;
@@ -38,6 +46,7 @@ h1 {
 
 .itemNav {
   padding: 15px;
+  cursor: pointer;
 }
 .about-title {
   padding-top: 6%;

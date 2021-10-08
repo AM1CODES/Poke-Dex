@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" />
   <link rel="stylesheet" href="index.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <title>Poké-Dex</title>
 </head>
 
@@ -33,24 +34,40 @@
         <li class="nav-item itemNav">
           <a class="nav-link" href="about.html">About</a>
         </li>
+        <li class="nav-item itemNav">
+         <p class="nav-link" id="toggle">🌞</p>
+        </li>
       </ul>
     </div>
-  </nav><!-- Header Section -->
+  </nav>
+  <!-- Header Section -->
 
   <div class="jumbotron text-center " id="header">
 
 
     <h2 class="display-4">Poké-Dex</h2>
-    <div>
-      <p class="lead">We all love Pokémon, don't we? Go ahead and share your favourite with us!</p>
-      <a href="#gallery-title"><i class="fas fa-chevron-down fa-6x gallery-icon" id="icon1"></i></a>
-    </div>
 
+
+  </div>
+  <!-- Share pokemon info -->
+  <div class="info">
+    <p class="lead">We all love Pokémon, don't we? Go ahead and share your favourite with us!</p>
+    <a href="#gallery-title"><i class="fas fa-chevron-down fa-6x gallery-icon" id="icon1"></i></a>
   </div>
   </div><!-- Gallery  -->
   <div id="gallery-title"></div>
   <div class="gallery-div" id="">
     <h1 class="gallery-head" id="gallery1">Pokémon gallery</h1>
+
+    <div class="input-group search-bar">
+      <div class="form-outline">
+        <input type="search" id="search-bar" class="form-control" />
+        <label class="form-label" for="search-bar">Search</label>
+      </div>
+      <button type="button" class="btn btn-primary search-button" id="search-button">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
     <div class="view-div">
       <button class="view-button" id="normal-view"><img src="icons/grid-small.png"> Normal</button>
       <button class="view-button" id="compact-view"><img src="icons/grid-large.png"> Compact</button>
@@ -69,6 +86,41 @@
   <section id="gallery">
     <div class="container">
       <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img alt="Bayleef" class="card-img-top" src="./images/bayleef.png">
+            <br><br><br>
+            <div class="card-body">
+              <h5 class="card-title">Bayleef<h5>
+                  <p class="card-text">
+                 Bayleef is a quadrupedal, pale-yellow Pokémon that resembles a sauropod dinosaur. It has a long neck,
+                 red eyes, a short, rounded snout, and a stubby tail. Each foot has a single, light gray nail. Sprouting
+                 from its forehead is a green leaf that curves back over its head and around its neck are a series of
+                 tightly curled leaves. Inside the leaves are small tree shoots.
+                  </p>
+                  <a href="https://github.com/alfredoptarigan" class="btn btn-outline-danger btn-sm">Contributed by -
+                    alfredoptarigan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img alt="Gible" class="card-img-top" src="./images/gible.png">
+            <br><br><br>
+            <div class="card-body">
+              <h5 class="card-title">Gible</h5>
+              <p class="card-text">
+                Gible is a small, blue, bipedal dragon-like Pokémon. It lacks a neck but has a large mouth, filled with
+                sharp teeth. It has two horns on its head striped blue in the middle, and a large dorsal fin.
+                Gible loves to bite anything, and that can be a pain for its Trainer if the Trainer gets bitten
+                themselves. This habit of biting anything is probably instinctive, and it is very hard to train them to
+                control their urges.
+              </p>
+              <a href="https://github.com/ashvathnarayanan" class="btn btn-outline-danger btn-sm">Contributed by -
+                ashvathnarayanan</a>
+            </div>
+          </div>
+        </div>
 
         <div class="col-lg-4 mb-4">
           <div class="card">
@@ -179,6 +231,18 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
+            <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/082.png"
+              alt="Magneton">
+            <div class="card-body">
+              <h5 class="card-title">Magneton</h5>
+              <p class="card-text">This Pokémon is three Magnemite that have linked together. Magneton sends out
+                powerful radio waves to study its surroundings.</p>
+              <a href="https://github.com/shyam640" class="btn btn-outline-danger btn-sm">Contributed by - shyam640</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
             <img alt="Haunter" class="card-img-top"
               src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png">
             <div class="card-body">
@@ -189,6 +253,22 @@
                 you must never approach it. This Pokémon will try to lick you with its tongue and steal your life
                 away.</p>
               <a class="btn btn-outline-danger btn-sm" href="https://github.com/auxfuse">Contributed by - Auxfuse</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="images/gliscor.png" alt="Gliscor" />
+            <div class="card-body">
+              <h5 class="card-title">Gliscor</h5>
+              <p class="card-text">Gliscor is a large, mainly blue-purple vampire bat-like Pokémon. Its legs have two
+                toes and a slightly darker circular coloration on the underside, and its tail has two barbs, giving its
+                tail the resemblance of a vampire's fangs. Its arms are red with thin striations and are completely
+                detached from its black wings, and each is ended with large pincers. Its ears have discernible, red,
+                chambered ear insides, and its eyes are yellow.</p>
+              <a href="https://github.com/AniketNayek3101" class="btn btn-outline-danger btn-sm">Contributed by -
+                AniketNayek3101</a>
             </div>
           </div>
         </div>
@@ -241,6 +321,20 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
+            <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/689.png"
+              alt="Barbaracle">
+            <div class="card-body">
+              <h5 class="card-title">Barbaracle</h5>
+              <p class="card-text">Barbaracle is a Rock/Water type Pokémon introduced in Generation 6. It is known as
+                the Collective Pokémon.</p>
+              <a href="https://github.com/the-artemis" class="btn btn-outline-danger btn-sm">Contributed by -
+                The_Artemis</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="card">
             <img alt="Bellsprout" class="card-img-top" src="https://img.pokemondb.net/artwork/bellsprout.jpg">
             <div class="card-body">
               <h5 class="card-title">Bellsprout</h5>
@@ -264,6 +358,20 @@
                 evolutions. Celebi is the gaurdian of the Ilex forest"</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/Shreya-L">Contributed by
                 Shreya-L</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/689.png"
+              alt="Barbaracle">
+            <div class="card-body">
+              <h5 class="card-title">Barbaracle</h5>
+              <p class="card-text">Barbaracle is a Rock/Water type Pokémon introduced in Generation 6. It is known as
+                the Collective Pokémon.</p>
+              <a href="https://github.com/the-artemis" class="btn btn-outline-danger btn-sm">Contributed by -
+                The_Artemis</a>
             </div>
           </div>
         </div>
@@ -522,14 +630,15 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Mew" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/b/b1/151Mew.png/1200px-151Mew.png">
+            <img alt="Mew" class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png">
             <div class="card-body">
               <h5 class="card-title">Mew</h5>
               <h6 class="card-subtitle">#151</h6>
               <p class="card-text">Mew is a Psychic-type Mythical Pokémon. It is not known to evolve into
                 or from any other Pokémon.</p><a class="btn btn-outline-danger btn-sm"
-                href="https://github.com/AM1CODES">Contributed by - AM1CODES</a>
+                href="https://github.com/AM1CODES">Contributed by - AM1CODES</a> <a style="margin-top: 20px"
+                class="btn btn-outline-danger btn-sm" href="https://github.com/Prashoon123">Improved by -
+                Prashoon123</a>
             </div>
           </div>
         </div>
@@ -609,7 +718,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Rayquaza" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/e/e4/384Rayquaza.png/1200px-384Rayquaza.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/e/e4/384Rayquaza.png/1200px-384Rayquaza.png">
             <div class="card-body">
               <h5 class="card-title">Rayquaza</h5>
               <h6 class="card-subtitle">#384</h6>
@@ -617,7 +726,8 @@
                 It is known as the Sky High Pokémon . Rayquaza has a Mega Evolution, available from
                 Omega Ruby &amp; Alpha Sapphire onwards.</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/divyanshasharma">Contributed by -
-                Divyansha Sharma</a>
+                Divyansha Sharma</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -715,21 +825,22 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Miltank" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/1/13/241Miltank.png/250px-241Miltank.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/1/13/241Miltank.png/250px-241Miltank.png">
             <div class="card-body">
               <h5 class="card-title">Miltank</h5>
               <h6 class="card-subtitle">#241</h6>
               <p class="card-text">Miltank is a bovine Pokémon, not known to evolve into or from other
                 Pokémon. The milk that Miltank produces can be used to heal Pokémon and ill or weary
                 humans.</p><a class="btn btn-outline-danger btn-sm" href="https://github.com/small-ac">Contributed by -
-                small-ac</a>
+                small-ac</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Jigglypuff" class="card-img-top" src="https://cdn.bulbagarden.net/upload/3/3e/039Jigglypuff.png">
+            <img alt="Jigglypuff" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/3/3e/039Jigglypuff.png">
             <div class="card-body">
               <h5 class="card-title">Jigglypuff</h5>
               <h6 class="card-subtitle">#039</h6>
@@ -737,7 +848,8 @@
                 with pink skin, large blue or green eyes, animal ears, and a tuft of fur on its
                 forehead. Its skin is rubbery and stretchy.</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/sanidhya31">Contributed by -
-                sanidhya31</a>
+                sanidhya31</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -758,14 +870,15 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Gyarados" class="card-img-top" src="https://cdn.bulbagarden.net/upload/4/41/130Gyarados.png">
+            <img alt="Gyarados" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/4/41/130Gyarados.png">
             <div class="card-body">
               <h5 class="card-title">Gyarados</h5>
               <h6 class="card-subtitle">#130</h6>
               <p class="card-text">Gyarados has an extremely aggressive nature. The Hyper Beam it shoots
                 from its mouth totally incinerates all targets.</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/jay-deep">Contributed by
-                - Jaydeep</a>
+                - Jaydeep</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -833,7 +946,7 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Seel" class="card-img-top" src="https://cdn.bulbagarden.net/upload/1/1f/086Seel.png">
+            <img alt="Seel" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/1/1f/086Seel.png">
             <div class="card-body">
               <h5 class="card-title">Seel</h5>
               <h6 class="card-subtitle">#086</h6>
@@ -847,14 +960,15 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Jigglypuff" class="card-img-top" src="https://cdn.bulbagarden.net/upload/3/3e/039Jigglypuff.png">
+            <img alt="Jigglypuff" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/3/3e/039Jigglypuff.png">
             <div class="card-body">
               <h5 class="card-title">Jigglypuff</h5>
               <h6 class="card-subtitle">#039</h6>
               <p class="card-text">Jigglypuff has top-notch lung capacity, even by comparison to other
                 Pokémon. It won’t stop singing its lullabies until its foes fall asleep.</p><a
                 class="btn btn-outline-danger btn-sm" href="https://github.com/lakshyasoni">Contributed
-                By =&gt; lakshyasoni</a>
+                By =&gt; lakshyasoni</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -893,14 +1007,16 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Castform" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/f/f3/351Castform.png/250px-351Castform.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/f/f3/351Castform.png/250px-351Castform.png">
             <div class="card-body">
               <h5 class="card-title">Castform</h5>
               <h6 class="card-subtitle">#351</h6>
               <p class="card-text">Castform is an artificial Pokémon that changes appearance and attitude
                 based on the weather. Castform is an artificial Pokémon that changes appearance and
                 attitude based on the weather.</p><a class="btn btn-outline-danger btn-sm"
-                href="https://github.com/Akecel">Contributed By =&gt; Akecel</a>
+                href="https://github.com/Akecel">Contributed By =&gt; Akecel</a> <a style="margin-top: 20px"
+                class="btn btn-outline-danger btn-sm" href="https://github.com/Prashoon123">Improved by -
+                Prashoon123</a>
             </div>
           </div>
         </div>
@@ -908,14 +1024,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Gengar" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/c/c6/094Gengar.png/250px-094Gengar.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/c/c6/094Gengar.png/250px-094Gengar.png">
             <div class="card-body">
               <h5 class="card-title">Gengar</h5>
               <h6 class="card-subtitle">#094</h6>
               <p class="card-text">Gengar has the ability to hide perfectly in the shadow of any object,
                 granting it exceptional stealth.</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/chaitanyagandhi">Contributed by -
-                chaitanyagandhi</a>
+                chaitanyagandhi</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -966,27 +1083,30 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Chikorita" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/b/bf/152Chikorita.png/250px-152Chikorita.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/b/bf/152Chikorita.png/250px-152Chikorita.png">
             <div class="card-body">
               <h5 class="card-title">Chikorita</h5>
               <h6 class="card-subtitle">#152</h6>
               <p class="card-text">Chikorita is a Grass-type Pokémon introduced in Generation II. It
                 evolves into Bayleef starting at level 16, which evolves into Meganium starting at level
                 32.</p><a class="btn btn-outline-danger btn-sm" href="https://github.com/vanisingh-24">Contributed by -
-                vanisingh-24</a>
+                vanisingh-24</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Lopunny" class="card-img-top" src="https://cdn.bulbagarden.net/upload/c/c9/428Lopunny.png">
+            <img alt="Lopunny" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/c/c9/428Lopunny.png">
             <div class="card-body">
               <h5 class="card-title">Lopunny</h5>
               <h6 class="card-subtitle">#428</h6>
               <p class="card-text">Lopunny is a Normal-type Pokémon introduced in Generation IV. Lopunny
                 can Mega Evolve into Mega Lopunny using the Lopunnite</p><a class="btn btn-outline-danger btn-sm"
-                href="https://github.com/anuraagbarde/">Contributed By =&gt; anuraagbarde</a>
+                href="https://github.com/anuraagbarde/">Contributed By =&gt; anuraagbarde</a> <a
+                style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -994,13 +1114,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Mewtwo" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/7/78/150Mewtwo.png/1200px-150Mewtwo.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/7/78/150Mewtwo.png/1200px-150Mewtwo.png">
             <div class="card-body">
               <h5 class="card-title">Mewtwo</h5>
               <h6 class="card-subtitle">#150</h6>
               <p class="card-text">Its DNA is almost the same as Mew’s. However, its size and disposition
                 are vastly different.</p><a class="btn btn-outline-danger btn-sm"
-                href="https://github.com/SaiAshish2906">Contributed by - Sai Ashish</a>
+                href="https://github.com/SaiAshish2906">Contributed by - Sai Ashish</a> <a style="margin-top: 20px"
+                class="btn btn-outline-danger btn-sm" href="https://github.com/Prashoon123">Improved by -
+                Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1044,7 +1166,8 @@
               <h6 class="card-subtitle">#092</h6>
               <p class="card-text">This is a ghost type pokemon, which is cute, yet scary.</p><a
                 class="btn btn-outline-danger btn-sm" href="https://github.com/Rashita123">Contributed
-                by - Rashita</a>
+                by - Rashita</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1067,14 +1190,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Munchlax" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/b/b2/446Munchlax.png/250px-446Munchlax.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/b/b2/446Munchlax.png/250px-446Munchlax.png">
             <div class="card-body">
               <h5 class="card-title">Munchlax</h5>
               <h6 class="card-subtitle">#446</h6>
               <p class="card-text">Munchlax, the Big Eater Pokémon. It gobbles up its own body weight in
                 food each day, and it swallows its food without almost any chewing.</p><a
                 class="btn btn-outline-danger btn-sm" href="https://github.com/rachelktyjohnson">Contributed By =&gt;
-                Rachel Johnson</a>
+                Rachel Johnson</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1082,13 +1206,14 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Emolga" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/b/b4/587Emolga.png/1200px-587Emolga.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/b/b4/587Emolga.png/1200px-587Emolga.png">
             <div class="card-body">
               <h5 class="card-title">Emolga</h5>
               <h6 class="card-subtitle">#587</h6>
               <p class="card-text">Emolga is a flying type Pokemon, introduced in Generation V.</p><a
                 class="btn btn-outline-danger btn-sm" href="https://github.com/Rashita123">Contributed
-                by - Rashita123</a>
+                by - Rashita123</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1096,14 +1221,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Tyranitar" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/8/82/248Tyranitar.png/1200px-248Tyranitar.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/8/82/248Tyranitar.png/1200px-248Tyranitar.png">
             <div class="card-body">
               <h5 class="card-title">Tyranitar</h5>
               <h6 class="card-subtitle">#248</h6>
               <p class="card-text">Tyranitar is a large, bipedal, dinosaurian Pokémon with a green,
                 armor-like hide covering its body.</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/Chawklate">Contributed by -
-                Chawklate</a>
+                Chawklate</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1111,28 +1237,30 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Psyduck" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/5/53/054Psyduck.png/250px-054Psyduck.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/5/53/054Psyduck.png/250px-054Psyduck.png">
             <div class="card-body">
               <h5 class="card-title">Psyduck</h5>
               <h6 class="card-subtitle">#054</h6>
               <p class="card-text">A duck pokemon constantly stunned by its headache, and usually just
                 stands vacantly, trying to calm itself.</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/astitva3377">Contributed by -
-                Astitva Prakash</a>
+                Astitva Prakash</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Dragonite" class="card-img-top" src="https://cdn.bulbagarden.net/upload/8/8b/149Dragonite.png">
+            <img alt="Dragonite" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/8/8b/149Dragonite.png">
             <div class="card-body">
               <h5 class="card-title">Dragonite</h5>
               <h6 class="card-subtitle">#149</h6>
               <p class="card-text">Dragonite is a Dragon and Flying Pokémon which evolves from Dragonair.
                 It is vulnerable to Ice, Fairy, Dragon and Rock moves.</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/chetas411">Contributed by
-                - Chetas Sharma</a>
+                - Chetas Sharma</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1147,6 +1275,20 @@
               <p class="card-text">This is a ghost type pokemon, which is cute, yet scary.</p><a
                 class="btn btn-outline-danger btn-sm" href="https://github.com/Rashita123">Contributed
                 by - Rashita</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="https://th.bing.com/th/id/OIP.TQeCOdITUPB3w7z9_JT43gHaIG?pid=ImgDet&rs=1"
+              alt="Wynaut image" />
+            <div class="card-body">
+              <h5 class="card-title">Wynaut</h5>
+              <p class="card-text">Wynaut is a Psychic-type baby Pokémon introduced in Generation III. Wynaut evolves
+                into Wobbuffet once it reaches level 15.</p>
+              <a href="https://github.com/AritriBasu" class="btn btn-outline-danger btn-sm">Contributed by -
+                AritriBasu</a>
             </div>
           </div>
         </div>
@@ -1183,14 +1325,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Pachirisu" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/f/f4/417Pachirisu.png/250px-417Pachirisu.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/f/f4/417Pachirisu.png/250px-417Pachirisu.png">
             <div class="card-body">
               <h5 class="card-title">Pachirisu</h5>
               <h6 class="card-subtitle">#417</h6>
               <p class="card-text">Pachirisu, the EleSquirrel Pokémon. It gathers static electricity and
                 hides fur balls along with its favorite fruit under the eaves of houses.</p><a
                 class="btn btn-outline-danger btn-sm" href="https://github.com/UshasriMavuri1999">Contributed by -
-                UshasriMavuri</a>
+                UshasriMavuri</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1214,14 +1357,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Solgaleo" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/5/57/791Solgaleo.png/250px-791Solgaleo.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/5/57/791Solgaleo.png/250px-791Solgaleo.png">
             <div class="card-body">
               <h5 class="card-title">Solgaleo</h5>
               <h6 class="card-subtitle">#791</h6>
               <p class="card-text">Solgaleo is a large, white Pokémon resembling a lion and capable of
                 learning the move Sunsteel Strike and exclusive Z-Move Searing Sunraze Smash.</p><a
                 class="btn btn-outline-danger btn-sm" href="https://github.com/UshasriMavuri1999">Contributed by -
-                UshasriMavuri</a>
+                UshasriMavuri</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1229,13 +1373,14 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Diglett" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/3/31/050Diglett.png/250px-050Diglett.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/3/31/050Diglett.png/250px-050Diglett.png">
             <div class="card-body">
               <h5 class="card-title">Diglett</h5>
               <h6 class="card-subtitle">#050</h6>
               <p class="card-text">Strongest and super-effective against Earthquakes</p><a
                 class="btn btn-outline-danger btn-sm" href="https://github.com/Rashita123">Contributed
-                by - Rashita Mehta</a>
+                by - Rashita Mehta</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1316,14 +1461,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Snorlax" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/f/fb/143Snorlax.png/250px-143Snorlax.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/f/fb/143Snorlax.png/250px-143Snorlax.png">
             <div class="card-body">
               <h5 class="card-title">Snorlax</h5>
               <h6 class="card-subtitle">#143</h6>
               <p class="card-text">Snorlax is a great defender who can't be moved by attacks and can Body Slam for 100
                 or put opponents to sleep.</p>
               <a class="btn btn-outline-danger btn-sm" href="https://github.com/ficopang">Contributed by - Fico
-                Pangestu</a>
+                Pangestu</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1374,14 +1520,16 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Azumarill" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/4/49/060Poliwag.png/250px-060Poliwag.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/4/49/060Poliwag.png/250px-060Poliwag.png">
             <div class="card-body">
               <h5 class="card-title">Poliwag</h5>
               <h6 class="card-subtitle">#060</h6>
               <p class="card-text">Poliwag is a Pokémon resembling a blue, spherical tadpole. It has large
                 eyes and pink lips that can also act as suction cups for rocks. Its skin is very thin,
                 but flexible and difficult to puncture.</p><a class="btn btn-outline-danger btn-sm"
-                href="https://github.com/Akecel">Contributed by - Akecel</a>
+                href="https://github.com/Akecel">Contributed by - Akecel</a> <a style="margin-top: 20px"
+                class="btn btn-outline-danger btn-sm" href="https://github.com/Prashoon123">Improved by -
+                Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1402,7 +1550,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Abra" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/6/62/063Abra.png/250px-063Abra.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/6/62/063Abra.png/250px-063Abra.png">
             <div class="card-body">
               <h5 class="card-title">Abra</h5>
               <h6 class="card-subtitle">#063</h6>
@@ -1410,7 +1558,8 @@
                 kite-shaped with a small, pale yellow snout and two short, pointed ears with pale yellow
                 interiors. Its wide eyes are normally closed.</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/Akecel">Contributed by -
-                Akecel</a>
+                Akecel</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1418,7 +1567,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Ditto" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/3/36/132Ditto.png/250px-132Ditto.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/3/36/132Ditto.png/250px-132Ditto.png">
             <div class="card-body">
               <h5 class="card-title">Ditto</h5>
               <h6 class="card-subtitle">#132</h6>
@@ -1442,21 +1591,24 @@
               <p class="card-text">Cyndaquil is one of the three starter Pokémon of Johto available at the
                 beginning of Pokémon Gold, Silver, Crystal, HeartGold, and SoulSilver along with
                 Chikorita and Totodile</p><a class="btn btn-outline-danger btn-sm"
-                href="https://github.com/mr-talukdar">Contributed by - Rahul Talukdar</a>
+                href="https://github.com/mr-talukdar">Contributed by - Rahul Talukdar</a> <a style="margin-top: 20px"
+                class="btn btn-outline-danger btn-sm" href="https://github.com/Prashoon123">Improved by -
+                Prashoon123</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Croagunk" class="card-img-top" src="https://cdn.bulbagarden.net/upload/f/fa/453Croagunk.png">
+            <img alt="Croagunk" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/f/fa/453Croagunk.png">
             <div class="card-body">
               <h5 class="card-title">Croagunk</h5>
               <h6 class="card-subtitle">#453</h6>
               <p class="card-text">The Toxic Mouth Pokémon. Has poison in its cheeks and sprays poison
                 from its fingertips. Lives in swamps and forests where there is very little light.</p><a
                 class="btn btn-outline-danger btn-sm" href="https://github.com/taroken6">Contributed by
-                - AudieTaro</a>
+                - AudieTaro</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1494,14 +1646,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Eevee" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/e/e2/133Eevee.png/250px-133Eevee.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/e/e2/133Eevee.png/250px-133Eevee.png">
             <div class="card-body">
               <h5 class="card-title">Eevee</h5>
               <h6 class="card-subtitle">#133</h6>
               <p class="card-text">It's well-known for being the Pokémon with the highest number of
                 evolution possibilities , due to its unstable genetic makeup.</p><a
                 class="btn btn-outline-danger btn-sm" href="https://github.com/chaitanyagandhi">Contributed by -
-                chaitanyagandhi</a>
+                chaitanyagandhi</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1509,7 +1662,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Magikarp" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/0/02/129Magikarp.png/250px-129Magikarp.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/0/02/129Magikarp.png/250px-129Magikarp.png">
             <div class="card-body">
               <h5 class="card-title">Magikarp</h5>
               <h6 class="card-subtitle">#129</h6>
@@ -1518,7 +1671,8 @@
                 On its back is stiff, three-peaked yellow fin; there is an identical fin on its
                 underside. It also has long barbels.</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/CodeSarthak">Contributed by -
-                CodeSarthak</a>
+                CodeSarthak</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1570,7 +1724,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Dialga" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/8/8a/483Dialga.png/250px-483Dialga.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/8/8a/483Dialga.png/250px-483Dialga.png">
             <div class="card-body">
               <h5 class="card-title">Dialga</h5>
               <h6 class="card-subtitle">#483</h6>
@@ -1578,7 +1732,8 @@
                 the master of time and metal, as it is a steel-type pokémon. It is said that time flows
                 whenever Dialga's heartbeat pulsates.</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/Aditya-1500">Contributed by -
-                Aditya-1500</a>
+                Aditya-1500</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1601,14 +1756,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Snorlax" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/f/fb/143Snorlax.png/250px-143Snorlax.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/f/fb/143Snorlax.png/250px-143Snorlax.png">
             <div class="card-body">
               <h5 class="card-title">Snorlax</h5>
               <h6 class="card-subtitle">#143</h6>
               <p class="card-text">Strongest,Cutest and My favourite normal type pokemon.Always sleeping
                 and being lazy are all time favourites of Snorlax</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/Suvoo">Contributed by -
-                Suvoo</a>
+                Suvoo</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1628,13 +1784,14 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Slaking" class="card-img-top" src="https://cdn.bulbagarden.net/upload/7/71/289Slaking.png">
+            <img alt="Slaking" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/7/71/289Slaking.png">
             <div class="card-body">
               <h5 class="card-title">Slaking</h5>
               <h6 class="card-subtitle">#289</h6>
               <p class="card-text">A normal type pokemon that loves lounging around and sleeping.</p><a
                 class="btn btn-outline-danger btn-sm" href="https://github.com/ahtae/Poke-Dex">Contributed by -
-                ahtae</a>
+                ahtae</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1731,14 +1888,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Infernape" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/f/fb/392Infernape.png/600px-392Infernape.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/f/fb/392Infernape.png/600px-392Infernape.png">
             <div class="card-body">
               <h5 class="card-title">Infernape</h5>
               <h6 class="card-subtitle">#392</h6>
               <p class="card-text">Infernape has an un extinghuisable flame on his head.Its fighting style
                 includes fiery martial arts</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/ayushjaipuriyar">Contributed by =&gt; Ayush
-                Jaipuriyar</a>
+                Jaipuriyar</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1773,14 +1931,17 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Torchic" class="card-img-top" src="https://t3.rbxcdn.com/954c74e22ebc4cf379aa6ff160d92d9b">
+            <img alt="Torchic" class="card-img-top"
+              src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/255.png">
             <div class="card-body">
               <h5 class="card-title">Torchic</h5>
               <h6 class="card-subtitle">#255</h6>
               <p class="card-text">Torchic is a small, chick Pokémon with stubby, downy, yellow wings.
                 Torchic has a place inside its body where it keeps its flame. Give it a hug—it will be
                 glowing with warmth.</p><a class="btn btn-outline-danger btn-sm"
-                href="https://github.com/jenniegunawan">Contributed by - Jennie</a>
+                href="https://github.com/jenniegunawan">Contributed by - Jennie</a> <a style="margin-top: 20px"
+                class="btn btn-outline-danger btn-sm" href="https://github.com/Prashoon123">Improved by -
+                Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1803,12 +1964,14 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Seaking" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/6/6a/119Seaking.png/250px-119Seaking.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/6/6a/119Seaking.png/250px-119Seaking.png">
             <div class="card-body">
               <h5 class="card-title">Seaking</h5>
               <h6 class="card-subtitle">#119</h6>
               <p class="card-text">Has a red sking with black dots.</p><a class="btn btn-outline-danger btn-sm"
-                href="https://github.com/mayursamnani36">Contributed by - mayursamnani36</a>
+                href="https://github.com/mayursamnani36">Contributed by - mayursamnani36</a> <a style="margin-top: 20px"
+                class="btn btn-outline-danger btn-sm" href="https://github.com/Prashoon123">Improved by -
+                Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1874,14 +2037,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Zubat" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/d/da/041Zubat.png/375px-041Zubat.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/d/da/041Zubat.png/375px-041Zubat.png">
             <div class="card-body">
               <h5 class="card-title">Zubat</h5>
               <h6 class="card-subtitle">#041</h6>
               <p class="card-text">Zubat is a blue, bat-like Pokémon. While it lacks eyes, it has pointed
                 ears with purple insides and a mouth with two sharp teeth on each jaw.</p><a
                 class="btn btn-outline-danger btn-sm" href="https://github.com/swapniltri">Contributed
-                by - swapniltri</a>
+                by - swapniltri</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1889,7 +2053,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Giratina" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/c/c5/487Giratina-Altered.png/250px-487Giratina-Altered.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/c/c5/487Giratina-Altered.png/250px-487Giratina-Altered.png">
             <div class="card-body">
               <h5 class="card-title">Giratina</h5>
               <h6 class="card-subtitle">#487</h6>
@@ -1898,21 +2062,24 @@
                 Giratina can be merciful to less evil creatures. A decent example of its merciful side
                 is that it will freely allow the player to enter and leave the distortion world, even in
                 defeat and despite Team Galactic's previous meddling.</p><a class="btn btn-outline-danger btn-sm"
-                href="github.com/jcads">Contributed by - jcads</a>
+                href="github.com/jcads">Contributed by - jcads</a> <a style="margin-top: 20px"
+                class="btn btn-outline-danger btn-sm" href="https://github.com/Prashoon123">Improved by -
+                Prashoon123</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Shedinja" class="card-img-top" src="https://cdn.bulbagarden.net/upload/5/59/292Shedinja.png">
+            <img alt="Shedinja" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/5/59/292Shedinja.png">
             <div class="card-body">
               <h5 class="card-title">Shedinja</h5>
               <h6 class="card-subtitle">#292</h6>
               <p class="card-text">Shedinja is a Pokémon based on a cicada's shed exoskeleton. Most of its
                 body is light brown, but the abdomen is gray.</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/haidarrifki">Contributed
-                by - Haidar Rifki</a>
+                by - Haidar Rifki</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1935,7 +2102,7 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Unown" class="card-img-top" src="https://cdn.bulbagarden.net/upload/7/77/201Unown.png">
+            <img alt="Unown" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/7/77/201Unown.png">
             <div class="card-body">
               <h5 class="card-title">Unown</h5>
               <h6 class="card-subtitle">#201</h6>
@@ -1946,7 +2113,8 @@
                 letters forming a sentence can communicate a hypothetically infinite number of
                 interpretations and ideas.</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/vaibhavrajsingh2001">Contributed by -
-                vaibhavrajsingh2001</a>
+                vaibhavrajsingh2001</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -1984,7 +2152,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Meowth" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/d/d6/052Meowth.png/250px-052Meowth.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/d/d6/052Meowth.png/250px-052Meowth.png">
             <div class="card-body">
               <h5 class="card-title">Meowth</h5>
               <h6 class="card-subtitle">#052</h6>
@@ -1999,7 +2167,7 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Tropius" class="card-img-top" src="https://cdn.bulbagarden.net/upload/d/dd/357Tropius.png">
+            <img alt="Tropius" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/d/dd/357Tropius.png">
             <div class="card-body">
               <h5 class="card-title">Tropius</h5>
               <h6 class="card-subtitle">#357</h6>
@@ -2007,7 +2175,8 @@
                 Grass/Flying type, and is known as the Fruit Pokémon. ... A third Ability is available
                 to Tropius from the Dream World, the Harvest Ability.</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/aryansingho7">Contributed
-                by - aryansingho7</a>
+                by - aryansingho7</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -2030,14 +2199,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Hawlucha" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/4/44/701Hawlucha.png/250px-701Hawlucha.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/4/44/701Hawlucha.png/250px-701Hawlucha.png">
             <div class="card-body">
               <h5 class="card-title">Hawlucha</h5>
               <h6 class="card-subtitle">#701</h6>
               <p class="card-text">Hawlucha is the only known Pokemon to naturally learn Flying Press, a
                 move that does both Fighting-type and Flying-type damage.</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/NishithP2004">Contributed
-                by - NishithP2004</a>
+                by - NishithP2004</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -2045,7 +2215,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Lugia" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/4/44/249Lugia.png/250px-249Lugia.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/4/44/249Lugia.png/250px-249Lugia.png">
             <div class="card-body">
               <h5 class="card-title">Lugia</h5>
               <h6 class="card-subtitle">#249</h6>
@@ -2054,7 +2224,9 @@
                 varying tones. It has a ridged mouth similar to a beak, although it has pointed teeth on
                 its lower jaw. Its head has a point to the back, and Lugia's eyes have pointed blue or
                 black spikes on them.</p><a class="btn btn-outline-danger btn-sm"
-                href="https://github.com/NishithP2004">Contributed by - NishithP2004</a>
+                href="https://github.com/NishithP2004">Contributed by - NishithP2004</a> <a style="margin-top: 20px"
+                class="btn btn-outline-danger btn-sm" href="https://github.com/Prashoon123">Improved by -
+                Prashoon123</a>
             </div>
           </div>
         </div>
@@ -2062,7 +2234,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Porygon" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/6/6b/137Porygon.png/250px-137Porygon.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/6/6b/137Porygon.png/250px-137Porygon.png">
             <div class="card-body">
               <h5 class="card-title">Porygon</h5>
               <h6 class="card-subtitle">#137</h6>
@@ -2079,7 +2251,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Zapdos" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/e/e3/145Zapdos.png/250px-145Zapdos.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/e/e3/145Zapdos.png/250px-145Zapdos.png">
             <div class="card-body">
               <h5 class="card-title">Zapdos</h5>
               <h6 class="card-subtitle">#145</h6>
@@ -2240,7 +2412,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Litwick" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/8/8e/607Litwick.png/250px-607Litwick.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/8/8e/607Litwick.png/250px-607Litwick.png">
             <div class="card-body">
               <h5 class="card-title">Litwick</h5>
               <h6 class="card-subtitle">#607</h6>
@@ -2285,7 +2457,7 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Golbat" class="card-img-top" src="https://cdn.bulbagarden.net/upload/0/0c/042Golbat.png">
+            <img alt="Golbat" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/0/0c/042Golbat.png">
             <div class="card-body">
               <h5 class="card-title">Golbat</h5>
               <h6 class="card-subtitle">#042</h6>
@@ -2316,7 +2488,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Shuckle" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/c/c7/213Shuckle.png/250px-213Shuckle.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/c/c7/213Shuckle.png/250px-213Shuckle.png">
             <div class="card-body">
               <h5 class="card-title">Shuckle</h5>
               <h6 class="card-subtitle">#213</h6>
@@ -2359,7 +2531,7 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Milotic" class="card-img-top" src="https://cdn.bulbagarden.net/upload/3/36/350Milotic.png">
+            <img alt="Milotic" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/3/36/350Milotic.png">
             <div class="card-body">
               <h5 class="card-title">Milotic</h5>
               <h6 class="card-subtitle">#350</h6>
@@ -2389,7 +2561,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Raikou" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/c/c1/243Raikou.png/250px-243Raikou.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/c/c1/243Raikou.png/250px-243Raikou.png">
             <div class="card-body">
               <h5 class="card-title">Raikou</h5>
               <h6 class="card-subtitle">#243</h6>
@@ -2421,7 +2593,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Snorlax" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/f/fb/143Snorlax.png/250px-143Snorlax.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/f/fb/143Snorlax.png/250px-143Snorlax.png">
             <div class="card-body">
               <h5 class="card-title">Snorlax</h5>
               <h6 class="card-subtitle">#143</h6>
@@ -2435,7 +2607,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Butterfree" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/d/d1/012Butterfree.png/250px-012Butterfree.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/d/d1/012Butterfree.png/250px-012Butterfree.png">
             <div class="card-body">
               <h5 class="card-title">Butterfree</h5>
               <h6 class="card-subtitle">#012</h6>
@@ -2451,7 +2623,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Arcanine-image" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/b/b8/059Arcanine.png">
+              src="https://cdn2.bulbagarden.net/upload/b/b8/059Arcanine.png">
             <div class="card-body">
               <h5 class="card-title">Arcanine</h5>
               <h6 class="card-subtitle">#059</h6>
@@ -2541,7 +2713,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Sudowoodo" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/1/1e/185Sudowoodo.png/250px-185Sudowoodo.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/1/1e/185Sudowoodo.png/250px-185Sudowoodo.png">
             <div class="card-body">
               <h5 class="card-title">Sudowoodo</h5>
               <h6 class="card-subtitle">#185</h6>
@@ -2555,7 +2727,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Lunala" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/9/9d/792Lunala.png/1200px-792Lunala.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/9/9d/792Lunala.png/1200px-792Lunala.png">
             <div class="card-body">
               <h5 class="card-title">Lunala</h5>
               <h6 class="card-subtitle">#792</h6>
@@ -2585,7 +2757,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Plusle" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/a/a3/311Plusle.png/250px-311Plusle.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/a/a3/311Plusle.png/250px-311Plusle.png">
             <div class="card-body">
               <h5 class="card-title">Plusle</h5>
               <h6 class="card-subtitle">#311</h6>
@@ -2820,7 +2992,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Larvitar" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/7/70/246Larvitar.png/250px-246Larvitar.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/7/70/246Larvitar.png/250px-246Larvitar.png">
             <div class="card-body">
               <h5 class="card-title">Larvitar</h5>
               <h6 class="card-subtitle">#246</h6>
@@ -2866,7 +3038,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Feraligatr" class="card-img-top"
-              src="https://media.pokemoncentral.it/wiki/thumb/2/27/Artwork160.png/200px-Artwork160.png">
+              src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/160.png">
             <div class="card-body">
               <h5 class="card-title">Feraligatr</h5>
               <h6 class="card-subtitle">#160</h6>
@@ -2875,7 +3047,8 @@
                 visible when its jaws are closed: two in its lower jaw and one in its upper. Its eyes
                 are red with black markings around them and ridges above them and its lower jaw is
                 yellow."</p><a class="btn btn-outline-danger btn-sm" href="https://github.com/twopill/">Contributed by -
-                twopill</a>
+                twopill</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -2915,7 +3088,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Seadra" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/2/26/117Seadra.png/250px-117Seadra.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/2/26/117Seadra.png/250px-117Seadra.png">
             <div class="card-body">
               <h5 class="card-title">Seadra</h5>
               <h6 class="card-subtitle">#117</h6>
@@ -2961,7 +3134,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Zekrom" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/8/81/644Zekrom.png/1200px-644Zekrom.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/8/81/644Zekrom.png/1200px-644Zekrom.png">
             <div class="card-body">
               <h5 class="card-title">Zekrom</h5>
               <h6 class="card-subtitle">#644</h6>
@@ -2991,7 +3164,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="darmanitan" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/4/40/555Darmanitan.png/600px-555Darmanitan.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/4/40/555Darmanitan.png/600px-555Darmanitan.png">
             <div class="card-body">
               <h5 class="card-title">Darmanitan</h5>
               <h6 class="card-subtitle">#555</h6>
@@ -3005,7 +3178,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Virizion" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/7/79/640Virizion.png/250px-640Virizion.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/7/79/640Virizion.png/250px-640Virizion.png">
             <div class="card-body">
               <h5 class="card-title">Virizion</h5>
               <h6 class="card-subtitle">#640</h6>
@@ -3020,7 +3193,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Suicune" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/d/da/245Suicune.png/250px-245Suicune.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/d/da/245Suicune.png/250px-245Suicune.png">
             <div class="card-body">
               <h5 class="card-title">Suicune</h5>
               <h6 class="card-subtitle">#245</h6>
@@ -3035,7 +3208,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Entei" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/f/f9/244Entei.png/250px-244Entei.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/f/f9/244Entei.png/250px-244Entei.png">
             <div class="card-body">
               <h5 class="card-title">Entei</h5>
               <h6 class="card-subtitle">#244</h6>
@@ -3050,7 +3223,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Yveltal" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/5/54/717Yveltal.png/250px-717Yveltal.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/5/54/717Yveltal.png/250px-717Yveltal.png">
             <div class="card-body">
               <h5 class="card-title">Yveltal</h5>
               <h6 class="card-subtitle">#717</h6>
@@ -3065,7 +3238,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Xerneas" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/1/13/716Xerneas.png/250px-716Xerneas.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/1/13/716Xerneas.png/250px-716Xerneas.png">
             <div class="card-body">
               <h5 class="card-title">Xerneas</h5>
               <h6 class="card-subtitle">#716</h6>
@@ -3080,7 +3253,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Tirtouga" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/1/1a/564Tirtouga.png/1200px-564Tirtouga.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/1/1a/564Tirtouga.png/1200px-564Tirtouga.png">
             <div class="card-body">
               <h5 class="card-title">Tirtouga</h5>
               <h6 class="card-subtitle">#564</h6>
@@ -3095,7 +3268,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Garchomp" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/f/fa/445Garchomp.png/375px-445Garchomp.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/f/fa/445Garchomp.png/375px-445Garchomp.png">
             <div class="card-body">
               <h5 class="card-title">Garchomp</h5>
               <h6 class="card-subtitle">#445</h6>
@@ -3140,7 +3313,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Marshadow" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/8/89/802Marshadow.png/250px-802Marshadow.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/8/89/802Marshadow.png/250px-802Marshadow.png">
             <div class="card-body">
               <h5 class="card-title">Marshadow</h5>
               <h6 class="card-subtitle">#802</h6>
@@ -3170,14 +3343,14 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Exploud" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/1/12/295Exploud.png/250px-295Exploud.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/1/12/295Exploud.png/250px-295Exploud.png">
             <div class="card-body">
               <h5 class="card-title">Exploud</h5>
               <h6 class="card-subtitle">#295</h6>
               <p class="card-text">Exploud is a Normal-type Pokémon introduced in Generation III.Exploud
                 is a Normal Pokémon which evolves from Loudred.</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/MansiMeena">Contributed
-                by - [Add your GitHub Username/profile name]</a>
+                by - <br>[Add your GitHub Username/profile name]</a>
             </div>
           </div>
         </div>
@@ -3185,7 +3358,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Buneary" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/a/a7/427Buneary.png/1200px-427Buneary.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/a/a7/427Buneary.png/1200px-427Buneary.png">
             <div class="card-body">
               <h5 class="card-title">Buneary</h5>
               <h6 class="card-subtitle">#427</h6>
@@ -3433,7 +3606,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Totodile" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/d/df/158Totodile.png/250px-158Totodile.png">
+              src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/158.png">
             <div class="card-body">
               <h5 class="card-title">Totodile</h5>
               <h6 class="card-subtitle">#158</h6>
@@ -3566,14 +3739,15 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Azelf" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/d/d0/482Azelf.png/250px-482Azelf.png">
+            <img alt="Azelf" class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/482.png">
             <div class="card-body">
               <h5 class="card-title">Azelf</h5>
               <h6 class="card-subtitle">#482</h6>
               <p class="card-text">Known as “The Being of Willpower.” It sleeps at the bottom of a lake to
                 keep the world in balance.</p><a class="btn btn-outline-danger btn-sm"
-                href="https://github.com/AM1CODES">Contributed by - AM1CODES</a>
+                href="https://github.com/AM1CODES">Contributed by - AM1CODES</a> <a style="margin-top: 20px"
+                class="btn btn-outline-danger btn-sm" href="https://github.com/Prashoon123">Improved by -
+                Prashoon123</a>
             </div>
           </div>
         </div>
@@ -3581,13 +3755,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Mesprit" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/4/40/481Mesprit.png/250px-481Mesprit.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/4/40/481Mesprit.png/250px-481Mesprit.png">
             <div class="card-body">
               <h5 class="card-title">Mesprit</h5>
               <h6 class="card-subtitle">#481</h6>
               <p class="card-text">Known as “The Being of Emotion.” It taught humans the nobility of
                 sorrow, pain, and joy.</p><a class="btn btn-outline-danger btn-sm"
-                href="https://github.com/AM1CODES">Contributed by - AM1CODES</a>
+                href="https://github.com/AM1CODES">Contributed by - AM1CODES</a> <a style="margin-top: 20px"
+                class="btn btn-outline-danger btn-sm" href="https://github.com/Prashoon123">Improved by -
+                Prashoon123</a>
             </div>
           </div>
         </div>
@@ -3595,13 +3771,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Uxie" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/e/ef/480Uxie.png/250px-480Uxie.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/e/ef/480Uxie.png/250px-480Uxie.png">
             <div class="card-body">
               <h5 class="card-title">Uxie</h5>
               <h6 class="card-subtitle">#480</h6>
               <p class="card-text">Known as “The Being of Knowledge.” It is said that it can wipe out the
                 memory of those who see its eyes.</p><a class="btn btn-outline-danger btn-sm"
-                href="https://github.com/AM1CODES">Contributed by - AM1CODES</a>
+                href="https://github.com/AM1CODES">Contributed by - AM1CODES</a> <a style="margin-top: 20px"
+                class="btn btn-outline-danger btn-sm" href="https://github.com/Prashoon123">Improved by -
+                Prashoon123</a>
             </div>
           </div>
         </div>
@@ -3609,27 +3787,30 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Cubone" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/2/2a/104Cubone.png/250px-104Cubone.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/2/2a/104Cubone.png/250px-104Cubone.png">
             <div class="card-body">
               <h5 class="card-title">Cubone</h5>
               <h6 class="card-subtitle">#104</h6>
               <p class="card-text">Cubone is a Ground type Pokémon introduced in Generation 1. It is known
                 as the Lonely Pokémon.</p><a class="btn btn-outline-danger btn-sm"
-                href="https://github.com/fernandadagostin">Contributed by - Fernanda</a>
+                href="https://github.com/fernandadagostin">Contributed by - Fernanda</a> <a style="margin-top: 20px"
+                class="btn btn-outline-danger btn-sm" href="https://github.com/Prashoon123">Improved by -
+                Prashoon123</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Wooloo" class="card-img-top" src="https://cdn.bulbagarden.net/upload/1/1f/831Wooloo.png">
+            <img alt="Wooloo" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/1/1f/831Wooloo.png">
             <div class="card-body">
               <h5 class="card-title">Wooloo</h5>
               <h6 class="card-subtitle">#830</h6>
               <p class="card-text">Wooloo (Japanese: ウールー Wooluu) is a Normal-type Pokémon introduced in
                 Generation VIII. It evolves into Dubwool starting at level 24.</p><a
                 class="btn btn-outline-danger btn-sm" href="https://github.com/Jaammeesss">Contributed
-                by - Jaammeesss</a>
+                by - Jaammeesss</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -3751,7 +3932,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="espeon" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/a/a7/196Espeon.png/375px-196Espeon.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/a/a7/196Espeon.png/375px-196Espeon.png">
             <div class="card-body">
               <h5 class="card-title">Espeon</h5>
               <h6 class="card-subtitle">#196</h6>
@@ -3759,7 +3940,8 @@
                 or morning (in the main series games), or when leveled up with high friendship with a
                 Sun Shard in the Bag (in Pokémon XD: Gale of Darkness).</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/lizylaze">Contributed by
-                - lizylaze</a>
+                - lizylaze</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -3831,7 +4013,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="deoxys" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/e/e7/386Deoxys.png/250px-386Deoxys.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/e/e7/386Deoxys.png/250px-386Deoxys.png">
             <div class="card-body">
               <h5 class="card-title">Deoxys</h5>
               <h6 class="card-subtitle">#386</h6>
@@ -3860,14 +4042,15 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Unown" class="card-img-top" src="https://cdn.bulbagarden.net/upload/7/77/201Unown.png">
+            <img alt="Unown" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/7/77/201Unown.png">
             <div class="card-body">
               <h5 class="card-title">Unown</h5>
               <h6 class="card-subtitle">#201</h6>
               <p class="card-text">Unown is a psychic-type Pokemon, It is shaped like an eye with
                 appendates that make it resemble a letter of the latin alphabet or a punctuation mark.
               </p><a class="btn btn-outline-danger btn-sm" href="https://github.com/b5710546232">Contributed by -
-                b5710546232</a>
+                b5710546232</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -3891,13 +4074,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Crobat" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/1/17/169Crobat.png/250px-169Crobat.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/1/17/169Crobat.png/250px-169Crobat.png">
             <div class="card-body">
               <h5 class="card-title">Crobat</h5>
               <h6 class="card-subtitle">#169</h6>
               <p class="card-text">Crobat is a dual-type Poison/Flying Pokémon introduced in Generation II. It evolves
                 from Golbat when leveled up with high friendship. It is the final form of Zubat.</p><a
-                class="btn btn-outline-danger btn-sm" href="https://github.com/luuse">Contributed by - luuse</a>
+                class="btn btn-outline-danger btn-sm" href="https://github.com/luuse">Contributed by - luuse</a> <a
+                style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -3905,7 +4090,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Treecko" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/2/2c/252Treecko.png/250px-252Treecko.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/2/2c/252Treecko.png/250px-252Treecko.png">
             <div class="card-body">
               <h5 class="card-title">Treecko</h5>
               <h6 class="card-subtitle">#252</h6>
@@ -3913,7 +4098,9 @@
                 It evolves into Grovyle starting at level 16, which evolves into Sceptile starting at level 36. Along
                 with Torchic and Mudkip, Treecko is one of three starter Pokémon of Hoenn available at the beginning of
                 Pokémon Ruby, Sapphire, Emerald, Omega Ruby, and Alpha Sapphire.</p>
-              <a class="btn btn-outline-danger btn-sm" href="https://github.com/luuse">Contributed by - luuse</a>
+              <a class="btn btn-outline-danger btn-sm" href="https://github.com/luuse">Contributed by - luuse</a> <a
+                style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -3921,7 +4108,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Roserade" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/0/05/407Roserade.png/250px-407Roserade.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/0/05/407Roserade.png/250px-407Roserade.png">
             <div class="card-body">
               <h5 class="card-title">Roserade</h5>
               <h6 class="card-subtitle">#407</h6>
@@ -3932,21 +4119,24 @@
                 mask over its red, yellow-lidded eyes. The lower portion of its face is light green, and it holds a
                 bouquet in each hand, with a red in its right hand and blue in its left. Its limbs and underside are
                 light green. Its feet end with yellow tips.</p>
-              <a class="btn btn-outline-danger btn-sm" href="https://github.com/luuse">Contributed by - luuse</a>
+              <a class="btn btn-outline-danger btn-sm" href="https://github.com/luuse">Contributed by - luuse</a> <a
+                style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Diggersby" class="card-img-top" src="https://cdn.bulbagarden.net/upload/3/34/660Diggersby.png">
+            <img alt="Diggersby" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/3/34/660Diggersby.png">
             <div class="card-body">
               <h5 class="card-title">Diggersby</h5>
               <h6 class="card-subtitle">#660</h6>
               <p class="card-text">Diggersby is a bipedal Pokémon that resembles a large, portly gray rabbit. Its most
                 notable feature is its two ears, which resemble muscular forearms, complete with three-fingered paws</p>
               <a class="btn btn-outline-danger btn-sm" href="https://github.com/ilkerunal">Contributed by -
-                ilkerunal</a>
+                ilkerunal</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -3954,7 +4144,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Rampardos" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/8/8a/409Rampardos.png/250px-409Rampardos.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/8/8a/409Rampardos.png/250px-409Rampardos.png">
             <div class="card-body">
               <h5 class="card-title">Rampardos</h5>
               <h6 class="card-subtitle">#409</h6>
@@ -3963,7 +4153,9 @@
                 tail, and one on each of its knees and wrists. It has various spikes: one on each knee, two on its blue
                 collar on its neck, two short ones on its nose, and four on its head. Two of these head spikes are
                 bigger than the other two.</p>
-              <a class="btn btn-outline-danger btn-sm" href="https://github.com/luuse">Contributed by - luuse</a>
+              <a class="btn btn-outline-danger btn-sm" href="https://github.com/luuse">Contributed by - luuse</a> <a
+                style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -3971,7 +4163,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Chesnaught" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/1/18/652Chesnaught.png/500px-652Chesnaught.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/1/18/652Chesnaught.png/500px-652Chesnaught.png">
             <div class="card-body">
               <h5 class="card-title">Chesnaught</h5>
               <h6 class="card-subtitle">#652</h6>
@@ -3979,7 +4171,9 @@
                 truck. Once it gets into its defensive stance with its hands covering its face, it can stand up to a
                 bomb's explosion. It will not hesitate to use its sturdy body to shield its allies from danger. In the
                 past, Spiky Shield was its signature move.</p>
-              <a class="btn btn-outline-danger btn-sm" href="https://github.com/Rea1103">Contributed by - Rea1103</a>
+              <a class="btn btn-outline-danger btn-sm" href="https://github.com/Rea1103">Contributed by - Rea1103</a> <a
+                style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -3987,13 +4181,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Marowak" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/9/98/105Marowak.png/375px-105Marowak.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/9/98/105Marowak.png/375px-105Marowak.png">
             <div class="card-body">
               <h5 class="card-title">Marowak</h5>
               <h6 class="card-subtitle">#105</h6>
               <p class="card-text">Marowak is well known for ferocity with its bone club, which it is said to collect
                 from a hidden graveyard.</p>
-              <a class="btn btn-outline-danger btn-sm" href="https://github.com/wyv777">Contributed by - Wyv777</a>
+              <a class="btn btn-outline-danger btn-sm" href="https://github.com/wyv777">Contributed by - Wyv777</a> <a
+                style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4001,14 +4197,16 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Komala" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/7/7d/775Komala.png/500px-775Komala.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/7/7d/775Komala.png/500px-775Komala.png">
             <div class="card-body">
               <h5 class="card-title">Komala</h5>
               <h6 class="card-subtitle">#775</h6>
               <p class="card-text">Komala, the Drowsing Pokémon. A Normal type. Since its Ability is Comatose, Komala is
                 always asleep. The log it clings to is a gift from its earliest days. It is said that Komala's behavior
                 comes from a dream that it's having.</p>
-              <a class="btn btn-outline-danger btn-sm" href="https://github.com/Rea1103">Contributed by - Rea1103</a>
+              <a class="btn btn-outline-danger btn-sm" href="https://github.com/Rea1103">Contributed by - Rea1103</a> <a
+                style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4016,14 +4214,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Sunflora" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/9/98/192Sunflora.png/500px-192Sunflora.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/9/98/192Sunflora.png/500px-192Sunflora.png">
             <div class="card-body">
               <h5 class="card-title">Sunflora</h5>
               <h6 class="card-subtitle">#192</h6>
               <p class="card-text">Sunflora is a Grass-type Pokémon introduced in Generation II. It evolves from Sunkern
                 when exposed to a Sun Stone.</p>
               <a class="btn btn-outline-danger btn-sm" href="https://github.com/jiaxiang2003">Contributed by -
-                jiaxiang2003</a>
+                jiaxiang2003</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4045,7 +4244,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Maractus" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/3/35/556Maractus.png/600px-556Maractus.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/3/35/556Maractus.png/600px-556Maractus.png">
             <div class="card-body">
               <h5 class="card-title">Maractus</h5>
               <h6 class="card-subtitle">#556</h6>
@@ -4053,7 +4252,8 @@
                 feature dark green spiky arrangements at the base, yellow spikes further up, and flowers, with pink
                 petals and yellow centers, at the top.</p>
               <a class="btn btn-outline-danger btn-sm" href="https://github.com/DuyguKeskek">Contributed by -
-                DuyguKeskek</a>
+                DuyguKeskek</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4061,7 +4261,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Drampa" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/d/dc/780Drampa.png/600px-780Drampa.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/d/dc/780Drampa.png/600px-780Drampa.png">
             <div class="card-body">
               <h5 class="card-title">Drampa</h5>
               <h6 class="card-subtitle">#780</h6>
@@ -4121,26 +4321,29 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Chimecho" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/e/e5/358Chimecho.png/600px-358Chimecho.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/e/e5/358Chimecho.png/600px-358Chimecho.png">
             <div class="card-body">
               <h5 class="card-title">Chimecho</h5>
               <h6 class="card-subtitle">#358</h6>
               <p class="card-text">Chimecho is a small, round Pokémon with a mainly bluish-white body shaped like a
                 fūrin wind chime.</p>
               <a class="btn btn-outline-danger btn-sm" href="https://github.com/DuyguKeskek">Contributed by -
-                DuyguKeskek</a>
+                DuyguKeskek</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Leavanny" class="card-img-top" src="https://cdn.bulbagarden.net/upload/8/8e/542Leavanny.png">
+            <img alt="Leavanny" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/8/8e/542Leavanny.png">
             <div class="card-body">
               <h5 class="card-title">Leavanny</h5>
               <h6 class="card-subtitle">#542</h6>
               <p class="card-text">Leavanny is one that is always full of joy, requiring high friendship to evolve.</p>
               <a class="btn btn-outline-danger btn-sm" href="https://github.com/ykayacan">Contributed by - ykayacan</a>
+              <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4162,7 +4365,7 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Tsareena" class="card-img-top" src="https://cdn.bulbagarden.net/upload/2/23/763Tsareena.png">
+            <img alt="Tsareena" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/2/23/763Tsareena.png">
             <div class="card-body">
               <h5 class="card-title">Tsareena</h5>
               <h6 class="card-subtitle">#763</h6>
@@ -4170,20 +4373,23 @@
                 truly what more could you ever want out of a Pokémon? That’s right, named after Russian queens, Tsareena
                 is wholly based around kicking.</p>
               <a class="btn btn-outline-danger btn-sm" href="https://github.com/ykayacan">Contributed by - ykayacan</a>
+              <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/9/96/507Herdier.png" alt="Herdier">
+            <img class="card-img-top" src="https://cdn2.bulbagarden.net/upload/9/96/507Herdier.png" alt="Herdier">
             <div class="card-body">
               <h5 class="card-title">Herdier</h5>
               <h6 class="card-subtitle">#507</h6>
               <p class="card-text">Herdier, the Loyal Dog Pokémon, and the evolved form of Lillipup.
                 Herdier's hard black fur softens its opponent's attacks like armor.</p>
               <a href="https://github.com/jlelliott94" class="btn btn-outline-danger btn-sm">Contributed
-                by - jlelliott94</a>
+                by - jlelliott94</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4204,26 +4410,29 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Eiscue" class="card-img-top" src="https://cdn.bulbagarden.net/upload/9/9b/875Eiscue-Ice.png">
+            <img alt="Eiscue" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/9/9b/875Eiscue-Ice.png">
             <div class="card-body">
               <h5 class="card-title">Eiscue</h5>
               <h6 class="card-subtitle">#879</h6>
               <p class="card-text">Eiscue is a small penguin-like Pokémon with a large ice cube on its head.</p>
               <a class="btn btn-outline-danger btn-sm" href="https://github.com/igorrozani">Contributed by -
-                IgorRozani</a>
+                IgorRozani</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Swoobat" class="card-img-top" src="https://cdn.bulbagarden.net/upload/9/9d/528Swoobat.png">
+            <img alt="Swoobat" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/9/9d/528Swoobat.png">
             <div class="card-body">
               <h5 class="card-title">Swoobat</h5>
               <h6 class="card-subtitle">#528</h6>
               <p class="card-text">Swoobat is a blue, bat-like Pokémon. It has fused, pointed ears with striated,
                 lighter colored insides and a pink, heart-shaped snout with a single nostril.</p>
               <a class="btn btn-outline-danger btn-sm" href="https://github.com/ykayacan">Contributed by - ykayacan</a>
+              <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4247,28 +4456,30 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Machop" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/8/85/066Machop.png/250px-066Machop.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/8/85/066Machop.png/250px-066Machop.png">
             <div class="card-body">
               <h5 class="card-title">Machop</h5>
               <h6 class="card-subtitle">#066</h6>
               <p class="card-text">Machop is the cutest Fighting type Pokémon introduced in Gen 1. It is
                 known as the Superpower Pokémon.</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/EkaanshArora">Contributed by -
-                EkaanshArora</a>
+                EkaanshArora</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Noivern" class="card-img-top" src="https://cdn.bulbagarden.net/upload/1/15/715Noivern.png">
+            <img alt="Noivern" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/1/15/715Noivern.png">
             <div class="card-body">
               <h5 class="card-title">Noivern</h5>
               <h6 class="card-subtitle">#715</h6>
               <p class="card-text">Noivern is a large, draconic Pokémon that resembles a bat. It is
                 primarily black with a purple underbelly and greenish turquoise wing membranes.</p><a
                 class="btn btn-outline-danger btn-sm" href="https://github.com/ykayacan">Contributed by
-                - ykayacan</a>
+                - ykayacan</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4292,13 +4503,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Wartortle" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/0/0c/008Wartortle.png/250px-008Wartortle.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/0/0c/008Wartortle.png/250px-008Wartortle.png">
             <div class="card-body">
               <h5 class="card-title">Wartortle</h5>
               <h6 class="card-subtitle">#008</h6>
               <p class="card-text">Often hides in water to stalk unwary prey. For swimming fast, it moves
                 its ears to maintain balance.</p><a class="btn btn-outline-danger btn-sm"
-                href="https://github.com/adam-weiler">Contributed by - Adam Weiler</a>
+                href="https://github.com/adam-weiler">Contributed by - Adam Weiler</a> <a style="margin-top: 20px"
+                class="btn btn-outline-danger btn-sm" href="https://github.com/Prashoon123">Improved by -
+                Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4306,14 +4519,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Charmeleon" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/4/4a/005Charmeleon.png/250px-005Charmeleon.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/4/4a/005Charmeleon.png/250px-005Charmeleon.png">
             <div class="card-body">
               <h5 class="card-title">Charmeleon</h5>
               <h6 class="card-subtitle">#005</h6>
               <p class="card-text">When it swings its burning tail, it elevates the temperature to unbearably high
                 levels.</p>
               <a class="btn btn-outline-danger btn-sm" href="https://github.com/adam-weiler">Contributed by - Adam
-                Weiler</a>
+                Weiler</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4321,14 +4535,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Metapod" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/c/cd/011Metapod.png/250px-011Metapod.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/c/cd/011Metapod.png/250px-011Metapod.png">
             <div class="card-body">
               <h5 class="card-title">Metapod</h5>
               <h6 class="card-subtitle">#011</h6>
               <p class="card-text">This Pokémon is vulnerable to attack while its shell is soft, exposing its weak and
                 tender body.</p>
               <a class="btn btn-outline-danger btn-sm" href="https://github.com/adam-weiler">Contributed by - Adam
-                Weiler</a>
+                Weiler</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4336,14 +4551,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Cloyster" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/1/1d/091Cloyster.png/250px-091Cloyster.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/1/1d/091Cloyster.png/250px-091Cloyster.png">
             <div class="card-body">
               <h5 class="card-title">Cloyster</h5>
               <h6 class="card-subtitle">#091</h6>
               <p class="card-text">Cloyster is a dual-type Water/Ice-type Bivalve Pokémon that is the
                 evolved form of Shellder when exposed to a Water Stone</p><a class="btn btn-outline-danger btn-sm"
                 href="https://github.com/Ranagl11">Contributed By
-                =&gt; Ranagal11</a>
+                =&gt; Ranagal11</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4351,7 +4567,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/8/8e/463Lickilicky.png/600px-463Lickilicky.png"
+              src="https://cdn2.bulbagarden.net/upload/thumb/8/8e/463Lickilicky.png/600px-463Lickilicky.png"
               alt="Lickilicky">
             <div class="card-body">
               <h5 class="card-title">Lickilicky</h5>
@@ -4360,7 +4576,8 @@
                 tongue. It has a yellow line pattern on its belly and a white bib-like pattern, making
                 it almost resemble a round baby boy.</p>
               <a href="https://github.com/DuyguKeskek" class="btn btn-outline-danger btn-sm">Contributed
-                by - DuyguKeskek</a>
+                by - DuyguKeskek</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4377,7 +4594,8 @@
                 its palms and the soles of its feet. It has beady eyes and a long, prehensile tongue.
                 The tongue is likely connected to its tail, which twitches when the tongue is pulled. </p>
               <a href="https://github.com/gitgibber" class="btn btn-outline-danger btn-sm">Contributed by -
-                gitgibber</a>
+                gitgibber</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4385,7 +4603,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Accelgor" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/3/34/617Accelgor.png/250px-617Accelgor.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/3/34/617Accelgor.png/250px-617Accelgor.png">
             <div class="card-body">
               <h5 class="card-title">Accelgor</h5>
               <h6 class="card-subtitle">#617</h6>
@@ -4395,7 +4613,8 @@
                 are connected to the shoulders. Most of the time the arms are crossed. After coming out
                 of its shell Accelgor is light and quick moving with the speed of a ninja.</p>
               <a href="https://github.com/vitvara" class="btn btn-outline-danger btn-sm">Contributed by -
-                vitvara</a>
+                vitvara</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4403,41 +4622,45 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/a/ad/048Venonat.png/250px-048Venonat.png" alt="Venonat">
+              src="https://cdn2.bulbagarden.net/upload/thumb/a/ad/048Venonat.png/250px-048Venonat.png" alt="Venonat">
             <div class="card-body">
               <h5 class="card-title">Venonat</h5>
               <h6 class="card-subtitle">#048</h6>
               <p class="card-text">Its large eyes act as radar. In a bright place, you can see that they
                 are clusters of many tiny eyes.</p>
               <a href="https://github.com/manymoji" class="btn btn-outline-danger btn-sm">Contributed by -
-                Manymoji</a>
+                Manymoji</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Chimchar" class="card-img-top" src="https://cdn.bulbagarden.net/upload/7/76/390Chimchar.png">
+            <img alt="Chimchar" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/7/76/390Chimchar.png">
             <div class="card-body">
               <h5 class="card-title">Chimchar</h5>
               <h6 class="card-subtitle">#390</h6>
               <p class="card-text">Chimchar is a Fire-type Pokémon introduced in Generation IV. It evolves into Monferno
                 starting at level 14, which evolves into Infernape starting at level 36.</p>
               <a class="btn btn-outline-danger btn-sm" href="https://github.com/pervysage">Contributed by -
-                PervySage</a>
+                PervySage</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Exeggutor" class="card-img-top" src="https://cdn.bulbagarden.net/upload/2/24/103Exeggutor.png">
+            <img alt="Exeggutor" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/2/24/103Exeggutor.png">
             <div class="card-body">
               <h5 class="card-title">Exeggutor</h5>
               <h6 class="card-subtitle">#103</h6>
               <p class="card-text">Exeggutor is a tall, bipedal Pokémon that resembles a palm tree. Its body and legs
                 are light brown with thin black rings and its legs are thick with two-toed feet.</p>
               <a class="btn btn-outline-danger btn-sm" href="https://github.com/kananekM">Contributed by - TopToppy</a>
+              <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4445,12 +4668,14 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/f/f4/035Clefairy.png/500px-035Clefairy.png" alt="clefairy">
+              src="https://cdn2.bulbagarden.net/upload/thumb/f/f4/035Clefairy.png/500px-035Clefairy.png" alt="clefairy">
             <div class="card-body">
               <h5 class="card-title">Clefairy</h5>
               <h6 class="card-subtitle">#035</h6>
               <p class="card-text">Clefairy dancing under a full moon</p>
-              <a href="https://github.com/golfiti" class="btn btn-outline-danger btn-sm">Contributed by - golfiti</a>
+              <a href="https://github.com/golfiti" class="btn btn-outline-danger btn-sm">Contributed by - golfiti</a> <a
+                style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4464,7 +4689,9 @@
               <h6 class="card-subtitle">#092</h6>
               <p class="card-text">It evolves into Haunter starting at level 25, which evolves into Gengar when
                 traded. </p>
-              <a href="https://github.com/baz1414" class="btn btn-outline-danger btn-sm">Contributed by - baz1414</a>
+              <a href="https://github.com/baz1414" class="btn btn-outline-danger btn-sm">Contributed by - baz1414</a> <a
+                style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4472,14 +4699,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Rapidash" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/3/3f/078Rapidash.png/250px-078Rapidash.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/3/3f/078Rapidash.png/250px-078Rapidash.png">
             <div class="card-body">
               <h5 class="card-title">Rapidash</h5>
               <h6 class="card-subtitle">#078</h6>
               <p class="card-text">This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its
                 fiery mane fluttering in the wind</p>
               <a href="https://github.com/baz1414" class="btn btn-outline-danger btn-sm">Contributed by -
-                hidalgo2005</a>
+                hidalgo2005</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4487,13 +4715,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Flareon" class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/d/dd/136Flareon.png/250px-136Flareon.png">
+              src="https://cdn2.bulbagarden.net/upload/thumb/d/dd/136Flareon.png/250px-136Flareon.png">
             <div class="card-body">
               <h5 class="card-title">Flareon</h5>
               <h6 class="card-subtitle">#136</h6>
               <p class="card-text">It evolves from Eevee when exposed to a Fire Stone. It is one of Eevee's final forms,
                 the others being Vaporeon, Jolteon, Espeon, Umbreon, Leafeon, Glaceon, and Sylveon.</p>
-              <a href="https://github.com/baz1414" class="btn btn-outline-danger btn-sm">Contributed by - baz1414</a>
+              <a href="https://github.com/baz1414" class="btn btn-outline-danger btn-sm">Contributed by - baz1414</a> <a
+                style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4501,7 +4731,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/f/fc/261Poochyena.png/375px-261Poochyena.png"
+              src="https://cdn2.bulbagarden.net/upload/thumb/f/fc/261Poochyena.png/375px-261Poochyena.png"
               alt="Poochyena">
             <div class="card-body">
               <h5 class="card-title">Poochyena</h5>
@@ -4509,7 +4739,8 @@
               <p class="card-text">At first sight, Poochyena takes a bite at anything that moves. This Pokémon chases
                 after prey until the victim becomes exhausted. However, it may turn tail if the prey strikes back. </p>
               <a href="https://github.com/racing5372/" class="btn btn-outline-danger btn-sm">Contributed by -
-                Racing5372</a>
+                Racing5372</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4546,14 +4777,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/b/b6/156Quilava.png/250px-156Quilava.png" alt="Quilava">
+              src="https://cdn2.bulbagarden.net/upload/thumb/b/b6/156Quilava.png/250px-156Quilava.png" alt="Quilava">
             <div class="card-body">
               <h5 class="card-title">Quilava</h5>
               <h6 class="card-subtitle">#156</h6>
               <p class="card-text">This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire
                 attack.</p>
               <a href="https://github.com/LuigiLegion" class="btn btn-outline-danger btn-sm">Contributed by -
-                LuigiLegion</a>
+                LuigiLegion</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4561,7 +4793,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/4/47/157Typhlosion.png/250px-157Typhlosion.png"
+              src="https://cdn2.bulbagarden.net/upload/thumb/4/47/157Typhlosion.png/250px-157Typhlosion.png"
               alt="Typhlosion">
             <div class="card-body">
               <h5 class="card-title">Typhlosion</h5>
@@ -4569,7 +4801,8 @@
               <p class="card-text">If its rage peaks, it becomes so hot that anything that touches it will instantly go
                 up in flames.</p>
               <a href="https://github.com/LuigiLegion" class="btn btn-outline-danger btn-sm">Contributed by -
-                LuigiLegion</a>
+                LuigiLegion</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4577,7 +4810,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/2/29/256Combusken.png/250px-256Combusken.png"
+              src="https://cdn2.bulbagarden.net/upload/thumb/2/29/256Combusken.png/250px-256Combusken.png"
               alt="Combusken">
             <div class="card-body">
               <h5 class="card-title">Combusken</h5>
@@ -4585,7 +4818,8 @@
               <p class="card-text">Combusken battles with the intensely hot flames it spews from its beak and with
                 outstandingly destructive kicks. This Pokémon's cry is very loud and distracting.</p>
               <a href="https://github.com/LuigiLegion" class="btn btn-outline-danger btn-sm">Contributed by -
-                LuigiLegion</a>
+                LuigiLegion</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4593,21 +4827,22 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/2/2e/391Monferno.png/250px-391Monferno.png" alt="Monferno">
+              src="https://cdn2.bulbagarden.net/upload/thumb/2/2e/391Monferno.png/250px-391Monferno.png" alt="Monferno">
             <div class="card-body">
               <h5 class="card-title">Monferno</h5>
               <h6 class="card-subtitle">#391</h6>
               <p class="card-text">It skillfully controls the intensity of the fire on its tail to keep its foes at an
                 ideal distance.</p>
               <a href="https://github.com/LuigiLegion" class="btn btn-outline-danger btn-sm">Contributed by -
-                LuigiLegion</a>
+                LuigiLegion</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/c/ca/888Zacian.png" alt="Zacian">
+            <img class="card-img-top" src="https://cdn2.bulbagarden.net/upload/c/ca/888Zacian.png" alt="Zacian">
             <div class="card-body">
               <h5 class="card-title">Zacian</h5>
               <h6 class="card-subtitle">#888</h6>
@@ -4615,6 +4850,8 @@
                 form activated by giving it a Rusted Sword to hold. Its original form, Hero of Many Battles, will then
                 become the Fairy/Steel-type Crowned Sword.</p>
               <a href="https://github.com/AValdez3" class="btn btn-outline-danger btn-sm">Contributed by - AValdez3</a>
+              <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4622,14 +4859,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/d/d1/154Meganium.png/500px-154Meganium.png" alt="Meganium">
+              src="https://cdn2.bulbagarden.net/upload/thumb/d/d1/154Meganium.png/500px-154Meganium.png" alt="Meganium">
             <div class="card-body">
               <h5 class="card-title">Meganium</h5>
               <h6 class="card-subtitle">#154</h6>
               <p class="card-text">Meganium, the Herb Pokémon. Meganium's breath has the power to revive dead grass and
                 plants, and the fragrance emanating from its flower petals can soothe any angry, hostile emotions.</p>
               <a href="https://github.com/KwameTaylor" class="btn btn-outline-danger btn-sm">Contributed by -
-                KwameTaylor</a>
+                KwameTaylor</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4637,7 +4875,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/7/72/889Zamazenta.png/1200px-889Zamazenta.png"
+              src="https://cdn2.bulbagarden.net/upload/thumb/7/72/889Zamazenta.png/1200px-889Zamazenta.png"
               alt="Zamazenta">
             <div class="card-body">
               <h5 class="card-title">Zamazenta</h5>
@@ -4646,6 +4884,8 @@
                 second form activated by giving it a Rusted Shield to hold. Its original form, Hero of Many Battles,
                 will then become the Fighting/Steel-type Crowned Shield.</p>
               <a href="https://github.com/AValdez3" class="btn btn-outline-danger btn-sm">Contributed by - AValdez3</a>
+              <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4666,7 +4906,7 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/9/92/077Ponyta-Galar.png"
+            <img class="card-img-top" src="https://cdn2.bulbagarden.net/upload/9/92/077Ponyta-Galar.png"
               alt="Galarian Form Ponyta">
             <div class="card-body">
               <h5 class="card-title">Ponyta</h5>
@@ -4676,6 +4916,8 @@
                 cloudy fur that is also on top of its dark-purple hooves; purple eyes with light-blue irises; and a
                 purple-and-white horn on top of its forehead.</p>
               <a href="https://github.com/jlmack13" class="btn btn-outline-danger btn-sm">Contributed by - jlmack13</a>
+              <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4744,7 +4986,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/f/fc/261Poochyena.png/375px-261Poochyena.png"
+              src="https://cdn2.bulbagarden.net/upload/thumb/f/fc/261Poochyena.png/375px-261Poochyena.png"
               alt="Poochyena">
             <div class="card-body">
               <h5 class="card-title">Poochyena</h5>
@@ -4752,7 +4994,8 @@
               <p class="card-text">At first sight, Poochyena takes a bite at anything that moves. This Pokémon chases
                 after prey until the victim becomes exhausted. However, it may turn tail if the prey strikes back. </p>
               <a href="https://github.com/racing5372/" class="btn btn-outline-danger btn-sm">Contributed by -
-                Racing5372</a>
+                Racing5372</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4760,7 +5003,7 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/0/0a/097Hypno.png/250px-097Hypno.png" alt="">
+              src="https://cdn2.bulbagarden.net/upload/thumb/0/0a/097Hypno.png/250px-097Hypno.png" alt="">
             <div class="card-body">
               <h5 class="card-title">Hypno</h5>
               <h6 class="card-subtitle">#097</h6>
@@ -4768,21 +5011,23 @@
                 with brown interiors, sleepy-looking eyes, and a large nose. On its neck, it has a ruff of white fur,
                 which is longer on the female.</p>
               <a href="https://github.com/gabrielgomeso" class="btn btn-outline-danger btn-sm">Contributed by -
-                @gabrielgomeso</a>
+                @gabrielgomeso</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img class="Psychic" src="https://cdn.bulbagarden.net/upload/0/09/677Espurr.png" alt="">
+            <img class="Psychic" src="https://cdn2.bulbagarden.net/upload/0/09/677Espurr.png" alt="">
             <div class="card-body">
               <h5 class="card-title">Espurr</h5>
               <h6 class="card-subtitle">#677</h6>
               <p class="card-text">Espurr is a Psychic-type Pokémon introduced in Generation VI. It evolves into
                 Meowstic starting at level 25.</p>
               <a href="[Add the link to your Github Profile]" class="btn btn-outline-danger btn-sm">Contributed by -
-                zeroouz</a>
+                zeroouz</a> <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4868,13 +5113,30 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/2/2f/583Vanillish.png" alt="Vanillish">
+            <img class="card-img-top" src="https://cdn2.bulbagarden.net/upload/2/2f/583Vanillish.png" alt="Vanillish">
             <div class="card-body">
               <h5 class="card-title">Vanillish</h5>
               <h6 class="card-subtitle">#583</h6>
               <p class="card-text">Vanillish is an Ice-type Pokémon introduced in Generation V. It evolves from
                 Vanillite starting at level 35 and evolves into Vanilluxe starting at level 47.</p>
               <a href="https://github.com/AValdez3" class="btn btn-outline-danger btn-sm">Contributed by - AValdez3</a>
+              <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/584.png"
+              alt="Vanilluxe">
+            <div class="card-body">
+              <h5 class="card-title">Vanilluxe</h5>
+              <p class="card-text">When two vanillish stuck together after daylight melting and nighttime freezing
+                process they form Vanilluxe.</p>
+              <a href="https://github.com/tejaswamishra22" class="btn btn-outline-danger btn-sm">Contributed by -
+                tejaswamishra22</a>
             </div>
           </div>
         </div>
@@ -4882,13 +5144,15 @@
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img class="card-img-top"
-              src="https://cdn.bulbagarden.net/upload/thumb/3/3f/582Vanillite.png/250px-582Vanillite.png"
+              src="https://cdn2.bulbagarden.net/upload/thumb/3/3f/582Vanillite.png/250px-582Vanillite.png"
               alt="Vanillite">
             <div class="card-body">
               <h5 class="card-title">Vanillite</h5>
               <h6 class="card-subtitle">#582</h6>
               <p class="card-text">Vanillite is an Ice-type Pokémon introduced in Generation V.</p>
               <a href="https://github.com/AValdez3" class="btn btn-outline-danger btn-sm">Contributed by - AValdez3</a>
+              <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                href="https://github.com/Prashoon123">Improved by - Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4905,7 +5169,9 @@
                 Charizard has two Mega Evolutions, available from X &amp; Y onwards.
               </p>
               <a href="[Add the link to your GitHub Profile]" class="btn btn-outline-danger btn-sm">Contributed by -
-                [Add your GitHub Username/profile name]</a>
+                <br>[Add your GitHub Username/profile name]</a> <a style="margin-top: 20px"
+                class="btn btn-outline-danger btn-sm" href="https://github.com/Prashoon123">Improved by -
+                Prashoon123</a>
             </div>
           </div>
         </div>
@@ -4999,7 +5265,211 @@
           </div>
         </div>
       </div>
+            <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/376.png" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Metagross</h5>
+              <p class="card-text">Metagross has four brains that are joined by a complex neural network. As a result of
+                integration, this Pokémon is smarter than a supercomputer.</p>
+              <a href="https://github.com/Thanatisia" class="btn btn-outline-danger btn-sm">Contributed by -
+                Thanatisia</a>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img alt="Drapion" class="card-img-top"
+              src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/452.png">
+              <div class="card-body">
+            <h5 class="card-title">Drapion</h5>
+            <p class="card-text">Drapion is a large, purple, scorpion-like Pokémon. Its eyes are a pointed shape, with
+              blue-colored upper portions.</p>
+            <a href="https://github.com/Karthik1717" class="btn btn-outline-danger btn-sm">Contributed by -
+              Karthik1717</a>
+            <a style="margin-top: 20px"
+                class="btn btn-outline-danger btn-sm" href="https://github.com/aaakashkumar">Improved by -
+                aaakashkumar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img alt="Samurott" class="card-img-top"
+            src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/503.png">
+          <div class="card-body">
+            <h5 class="card-title">Samurott</h5>
+            <p class="card-text">Samurott is a quadrupedal, blue, sea lion-like Pokémon.In the time it takes a foe to
+              blink, it can draw and sheathe the seamitars attached to its front legs.</p>
+            <a href="https://github.com/prathameshkurunkar7" class="btn btn-outline-danger btn-sm">Contributed by -
+              prathameshkurunkar7</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/147.png" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Dratini</h5>
+            <p class="card-text">Dratini dwells near bodies of rapidly flowing water, such as the plunge pools of
+              waterfalls. As it grows, Dratini will shed its skin many times.</p>
+            <a href="https://github.com/JaredsCode" class="btn btn-outline-danger btn-sm">Contributed by -
+              JaredsCode</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://cdn2.bulbagarden.net/upload/thumb/e/e8/700Sylveon.png/600px-700Sylveon.png" alt="Sylveon" />
+          <div class="card-body">
+            <h5 class="card-title">Sylveon</h5>
+            <p class="card-text">Sylveon is a fairy type pokémon that is known as the 'intertwining Pokémon'. Sylveon is
+              a kind and gentle Pokémon; it uses its charm to hunt in the wild. It uses its ribbon-like feelers to hold
+              hands with its trainer and walk alongside them, enabling it to sense their feelings.</p>
+            <a href="https://github.com/HaylzRandom" class="btn btn-outline-danger btn-sm">Contributed by -
+              HaylzRandom</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/447.png" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Riolu</h5>
+            <p class="card-text">It’s exceedingly energetic, with enough stamina to keep running all through the night.
+              Taking it for walks can be a challenging experience.</p>
+            <a href="https://github.com/marlonchalegre" class="btn btn-outline-danger btn-sm">Contributed by -
+              marlonchalegre</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-sun-pokemon-moon/c/c4/Altaria.jpg?width=325"
+            alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Altaria</h5>
+            <p class="card-text">Altaria is a blue, avian Pokémon. Its body and cloud-like wings are covered in fluffy,
+              white feathers. It often folds its wings behind it, obscuring its back.
+              Altaria can be very affectionate, enveloping people it has bonded with in its cotton-like wings. While
+              normally kind, Altaria can attack foes with shrill cries without mercy if provoked. Altaria is often found
+              living in forests, though it also inhabits mountain ranges.
+
+            </p>
+            <a href="https://github.com/pccoder-2000" class="btn btn-outline-danger btn-sm">Contributed by -
+              pccoder-2000</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="images/Drifloon.png" alt="Drifloon" />
+          <div class="card-body">
+            <h5 class="card-title">Drifloon</h5>
+            <p class="card-text">Drifloon is a Ghost/Flying type Pokémon introduced in Generation 4. It is known as the
+              Balloon Pokémon.This Pokémon is known as a "Signpost for Wandering Spirits" due to its aimless drifting.
+              Drifloon seeks out children due to it desiring company and it has been known to steal those that mistake
+              it for a regular balloon. However, it dislikes stealing heavy children. They are created from many souls
+              gathering together and it's round body continues to expand as it collects more. When the body explodes,
+              the soul unleashes a screeching sound. However, due to its light weight, it can be resisted easily and is
+              often pulled around. This results in Drifloon running away from any children that are rough with it.
+              Although created by the lost spirits of Pokémon and people, as seen in the anime, it can be friendly and
+              helpful. It prefers to reside in damp, humid locations and can expand or shrink to express its feelings.
+            </p>
+            <a href="https://github.com/mnaiwrit52" class="btn btn-outline-danger btn-sm">Contributed by -
+              mnaiwrit52</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="images/volbeat.png" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Volbeat</h5>
+            <p class="card-text">Volbeat is a firefly-based bug-type Pokemon introduced during the "resetting" of the
+              Pokemon series in Pokemon Ruby, Sapphire, and Emerald</p>
+            <a href="https://github.com/ManthanShettigar" class="btn btn-outline-danger btn-sm">Contributed by -
+              ManthanShettigar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/488.png"
+            alt="Cresselia" />
+          <div class="card-body">
+            <h5 class="card-title">Cresselia</h5>
+            <p class="card-text">Cresselia is a Psychic-Type Legendary Pokémon introduced in Generation IV. Cresselia is
+              Darkrai's rival.</p>
+            <a href="https://github.com/vishaaal" class="btn btn-outline-danger btn-sm">Contributed by - vishaaal</a>
+          </div>
+        </div>
+      </div>
+          
+  <div class="col-lg-4 mb-4">
+  <div class="card">
+    <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/359.png" alt="Absol" />
+    <div class="card-body">
+      <h5 class="card-title">Absol</h5>
+      <p class="card-text">Swift as the wind, Absol races through fields and mountains. Its curved, bow-like horn is acutely sensitive to the warning signs of natural disasters.</p>
+      <a href="https://github.com/user23ayush" class="btn btn-outline-danger btn-sm">Contributed by - Ayush Mishra</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://static.wikia.nocookie.net/sonicpokemon/images/f/f5/Dusknoir_DP_anime.png/revision/latest?cb=20130702133525"
+            alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Dusknoir</h5>
+            <p class="card-text">Dusknoir is a Ghost Pokémon which evolves from Dusclops.The antenna on Dusknoir's head
+              allows it to receive transmissions from the spirit world, which tell it to bring people there. It is
+              unknown if Dusknoir has a will of its own, or if it is forced to follow the bidding of the transmissions
+              it receives. Dusknoir is capable of using its belly mouth to swallow its target whole. It also uses this
+              ability to take spirits into its body and carry them home or as it travels to unknown places. Dusknoir
+              only consumes spectral essence, leaving only the empty remains of living beings untouched. It is
+              vulnerable to Ghost and Dark moves. Dusknoir's strongest moveset is Hex & Psychic.</p>
+            <a href="https://github.com/appledora" class="btn btn-outline-danger btn-sm">Contributed by - Appledora</a>
+          </div>
+        </div>
+
+      </div>
+        
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img alt="Unown" class="card-img-top" src="https://cdn2.bulbagarden.net/upload/c/c9/702Dedenne.png">
+          <div class="card-body">
+            <h5 class="card-title">Dedenne</h5>
+            <p class="card-text">Dedenne is a dual-type Electric/Fairy Pokémon introduced in Generation VI. It is not
+              known to evolve into or from any other Pokémon.
+              Dedenne is a bipedal, orange, mouse-like Pokémon with a round body. It has round black ears with pale
+              yellow interiors, black eyes, a tiny nose, and a prominent upper incisor with a slight point. On each
+              cheek is a circular, dark orange marking with two black whiskers. The upper whiskers have branches and
+              resemble antennae, while the lower whiskers are simple. There is a thick black stripe down its back and it
+              has a pale yellow belly. It has stubby limbs with three digits on each paw and a long, thin black tail
+              with a tuft of fur on the tip.
+            </p>
+            <a class="btn btn-outline-danger btn-sm" href="https://github.com/NurIkhwanAnnafis">Contributed by - Ikhwan
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
   </section>
   <!-- Footer Section -->
@@ -5008,14 +5478,14 @@
     <a href="#header" class="back-to-top"><i class="fas fa-angle-up fa-4x backToTop"></i></a>
   </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
   <script>
     $('.navbar-nav>li>a').on('click', function () {
       $('.navbar-collapse').collapse('hide');
@@ -5023,6 +5493,7 @@
   </script>
   <script src="index.js">
   </script>
+  <script src="https://unpkg.com/lunr/lunr.js"></script>
 
 </body>
 
