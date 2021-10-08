@@ -11,9 +11,11 @@
   <link rel="stylesheet" href="index.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <title>Poké-Dex</title>
+
 </head>
 
-<body>
+<body >
+  
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <a class="navbar-brand navTitle" href="index.html">
@@ -73,9 +75,31 @@
       <button class="view-button" id="compact-view"><img src="icons/grid-large.svg"> Compact</button>
     </div>
   </div>
+  <a href="#gallery-title" id="#upArrow" style="position: relative; display: var(--arrow-display);">
+    <img src="./icons/up_arrow.png" style="z-index: 10; position:fixed;top: auto; bottom: 10px; right: 10px; background-color: white; border-radius: 100px;">
+  </a>
   <section id="gallery">
     <div class="container">
       <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img alt="Detective Pikachu" class="card-img-top" src="./images/Detective_Pikachu.png">
+            <br><br><br>
+            <div class="card-body">
+              <h5 class="card-title">Detective Pikachu</h5>
+              <p class="card-text">
+                Detective Pikachu was once an ordinary Pikachu belonging to Harry Goodman, 
+                a detective who works at Ryme City Detective Agency. While on a case, Harry and Pikachu 
+                met with a car accident where Harry goes missing and Pikachu gains amnesia while also 
+                mysteriously gaining the ability to act and speak like a human. Two months after the accident, 
+                he meets Tim Goodman sometime after Tim arrives in Ryme City. Together with Tim and the Ryme City 
+                Detective Agency, Pikachu solves puzzles and mysteries.
+              </p>
+              <a href="https://github.com/m3gh4l4" class="btn btn-outline-danger btn-sm">Contributed by -
+                m3gh4l4</a>
+            </div>
+          </div>
+        </div>
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img alt="Bayleef" class="card-img-top" src="./images/bayleef.png">
