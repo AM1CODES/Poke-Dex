@@ -40,6 +40,7 @@ Not everyone is aware of every tool present in the world no matter how easy or c
     <img class="card-img-top" src="[Link to Pokémon image]" alt="" />
     <div class="card-body">
       <h5 class="card-title">[Name of your favourite Pokémon]</h5>
+      <h5 class="card-subtitle">#[ID of your favourite Pokémon]</h5>
       <p class="card-text">[Small Description about your Pokémon]</p>
       <a
         href="[Add the link to your GitHub Profile]"
