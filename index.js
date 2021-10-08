@@ -67,3 +67,15 @@ document.querySelector('#sort-name').addEventListener('click', () => {
   document.querySelector('#sort-name').classList.add('active')
   document.querySelector('#sort-number').classList.remove('active')
 })
+const fixBrokenImages = () => {
+    const fallbackURL = 'images/fallback_image.png'
+    const img = document.getElementsByTagName('img');
+    for (let i = 0; i < img.length; i++) {
+        let t = img[i];
+        if (t.naturalWidth === 0) {
+            t.src = fallbackURL;
+        }
+    }
+};
+
+window.onload = fixBrokenImages;
