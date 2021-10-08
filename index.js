@@ -33,3 +33,20 @@ document.querySelector('#normal-view').addEventListener('mousedown', () => {
 document.querySelector('#compact-view').addEventListener('mousedown', () => {
   setNormalView(false);
 });
+
+
+const sortCards = byName => {
+  if (byName) {
+
+  } else {
+
+  }
+}
+
+document.querySelector('#sort-number').addEventListener('click', () => {
+  sortCards(false);
+})
+
+document.querySelector('#sort-name').addEventListener('click', () => {
+  sortCards(true);
+})

@@ -54,6 +54,16 @@
     <div class="view-div">
       <button class="view-button" id="normal-view"><img src="icons/grid-small.png"> Normal</button>
       <button class="view-button" id="compact-view"><img src="icons/grid-large.png"> Compact</button>
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Sort
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" id="sort-id" href="#">#</a>
+          <a class="dropdown-item" id="sort-name" href="#">Name</a>
+        </div>
+      </div>
     </div>
   </div>
   <section id="gallery">
@@ -62,8 +72,7 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Abra" class="card-img-top"
-              src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png">
+            <img alt="Abra" class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png">
             <div class="card-body">
               <h5 class="card-title">Abra</h5>
               <p class="card-text">Abra uses psychic powers while it sleeps. Its dreams affect the powers that the
@@ -78,6 +87,7 @@
             <img alt="Arceus" class="card-img-top" src="./images/arceus.png">
             <div class="card-body">
               <h5 class="card-title">Arceus</h5>
+              <h6 class="card-subtitle">#493</h6>
               <p class="card-text">It is described in mythology as the Pokémon that shaped the universe with its 1,000
                 arms.
                 It is told in mythology that this Pokémon was born before the universe even existed.
@@ -88,7 +98,8 @@
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png" alt="Mankey" />
+            <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png"
+              alt="Mankey" />
             <div class="card-body">
               <h5 class="card-title">Mankey</h5>
               <p class="card-text">Mankey is a simian Pokémon, similar to a New World monkey. It is bipedal and has
@@ -103,7 +114,8 @@
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/057.png" alt="Primeape">
+            <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/057.png"
+              alt="Primeape">
             <div class="card-body">
               <h5 class="card-title">Primeape</h5>
               <p class="card-text">Primeape is a Fighting-type Pokémon introduced in Generation I. It evolves from
@@ -116,8 +128,8 @@
         <div class="col-lg-4 mb-4">
           <!-- Code by Shrimad Bhagwat -->
           <div class="card">
-            <img class="card-img-top"
-              src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png" alt="Mewtwo" />
+            <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png"
+              alt="Mewtwo" />
             <div class="card-body">
               <h5 class="card-title">Mewtwo</h5>
               <p class="card-text">Mewtwo is a Psychic-type Legendary Pokémon introduced in Generation I.</p>
@@ -142,7 +154,8 @@
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/142.png" alt="Aerodactyl">
+            <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/142.png"
+              alt="Aerodactyl">
             <div class="card-body">
               <h5 class="card-title">Aerodactyl</h5>
               <p class="card-text">Aerodactyl is a dual-type Rock/Flying Fossil Pokémon introduced in Generation I. It
@@ -155,7 +168,8 @@
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Haunter" class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png">
+            <img alt="Haunter" class="card-img-top"
+              src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png">
             <div class="card-body">
               <h5 class="card-title">Haunter</h5>
               <p class="card-text">Haunter is a dual ghost/poison type dangerous Pokémon. If one beckons you while
@@ -220,7 +234,8 @@
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Celebi" class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/251.png">
+            <img alt="Celebi" class="card-img-top"
+              src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/251.png">
             <div class="card-body">
               <h5 class="card-title">Celebi</h5>
               <p class="card-text">"Celebi is a mythical psychic and grass pokemon with no further
@@ -322,7 +337,8 @@
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Kingler" class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png">
+            <img alt="Kingler" class="card-img-top"
+              src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png">
             <div class="card-body">
               <h5 class="card-title">Kingler</h5>
               <p class="card-text">Kingler is a crustacean Pokémon resembling a crab. Its strong shell covers the
@@ -407,7 +423,8 @@
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img alt="Krabby" class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png">
+            <img alt="Krabby" class="card-img-top"
+              src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png">
             <div class="card-body">
               <h5 class="card-title">Krabby</h5>
               <p class="card-text">Krabby is a crustacean Pokémon with a strong outer shell protecting its
@@ -4293,10 +4310,12 @@
 
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/176.png" alt="Togetic">
+            <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/176.png"
+              alt="Togetic">
             <div class="card-body">
               <h5 class="card-title">Togetic</h5>
-              <p class="card-text">They say that it will appear before kindhearted, caring people and shower them with happiness.</p>
+              <p class="card-text">They say that it will appear before kindhearted, caring people and shower them with
+                happiness.</p>
               <a href="https://github.com/HARDY8118" class="btn btn-outline-danger btn-sm">
                 Contributed by - HARDY8118
               </a>
