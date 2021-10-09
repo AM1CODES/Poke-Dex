@@ -34,6 +34,39 @@ document.querySelector("#compact-view").addEventListener("mousedown", () => {
   setNormalView(false);
 });
 
+const sortCards = byName => {
+  const galleryRow = document.querySelector('.row');
+  const cards = [...galleryRow.querySelectorAll(".col-lg-4")];
+  galleryRow.innerHTML = "";
+  if (byName) {
+    cards.sort((c1, c2) => {
+      return c1.querySelector(".card-title").textContent < c2.querySelector(".card-title").textContent ? -1 : 1;
+    })
+    console.log(cards)
+  } else {
+    cards.sort((c1, c2) => {
+      return parseInt(c1.querySelector(".card-subtitle").textContent.substr(1)) - parseInt(c2.querySelector(".card-subtitle").textContent.substr(1));
+    })
+    console.log(cards)
+  }
+
+  cards.forEach(c => {
+    galleryRow.appendChild(c);
+  })
+}
+
+document.querySelector('#sort-number').addEventListener('click', () => {
+  sortCards(false);
+  document.querySelector('#sort-number').classList.add('active')
+  document.querySelector('#sort-name').classList.remove('active')
+})
+
+document.querySelector('#sort-name').addEventListener('click', () => {
+  sortCards(true);
+  document.querySelector('#sort-name').classList.add('active')
+  document.querySelector('#sort-number').classList.remove('active')
+})
+
 // START POKEMON SEARCH
 const pokemons = [];
 
