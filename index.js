@@ -136,3 +136,20 @@ function modeSwitch() {
 
   root.classList.toggle("lightMode");
 }
+
+
+$(window).scroll(function() {
+  var top_of_element = $("#gallery").offset().top;
+  var bottom_of_element = $("#gallery").offset().top + $("#gallery").outerHeight();
+  var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+  var top_of_screen = $(window).scrollTop();
+  
+  var r = document.querySelector(':root');
+  if ((bottom_of_screen > top_of_element+300) && (top_of_screen < bottom_of_element)){
+      r.style.setProperty('--arrow-display', 'block')
+    } else {
+      r.style.setProperty('--arrow-display', 'none')
+
+  }
+});
+

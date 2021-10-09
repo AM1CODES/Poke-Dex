@@ -1,6 +1,7 @@
 :root {
   --bg-color: black;
   --font-color: white;
+  --arrow-display : 'none';
 }
 .lightMode {
   --bg-color: white;
