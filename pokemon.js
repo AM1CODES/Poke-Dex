@@ -20,4 +20,15 @@ window.pokemon = [
 		improvedByName: '',
 		improvedByUrl: '',
 	},
+
+	{
+		pokemonName:'Flareon',
+		pokemonDescription:'Flareon is a shy Pokémon, as seen in Eevee and Friends. It is very emotionally sensible and when it is nervous, it releases large amounts of heat through its fur. Flareon can be very nervous when meeting new people.It has a sweet and warm-hearted personality. Usually Flareon does not like being the center of attention.Flareon is also an altruistic and loyal being, as it would give its life just for its trainer. Although Flareon has a warm-hearted and submissive personality, if it gets angry for an important reason, it can be real hot-head and explosive',
+		pokemonImage: './images/Flareon.jpg',
+		contributedByName:'FaizaAbdullah-code',
+		contributedByUrl: 'https://github.com/FaizaAbdullah-code/',
+		improvedByName:'',
+		improvedByUrl:'',
+	},
+
 ]
