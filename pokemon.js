@@ -20,4 +20,15 @@ window.pokemon = [
 		improvedByName: '',
 		improvedByUrl: '',
 	},
+		{
+		pokemonName: 'Arceus',
+		pokemonDescription: "Arceus is known as \"The Original One\", as it is said that it created Sinnoh and Ransei, and possibly the entire Pokémon universe, along with the lake guardians and creation trio.It is the trio master of both the lake guardians and the creation trio.",
+		pokemonImage: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/493.png",
+		contributedByName: "Xx-RAJ-xX",
+		contributedByUrl: "https://github.com/Xx-RAJ-xX",
+		// these are only needed if you have improved a card
+		improvedByName: "",
+		improvedByUrl: "",
+	},
+
 ]
