@@ -91,7 +91,19 @@
     </a>
     <section id="gallery">
         <div class="container">
-            <div class="row">
+            <div id="pokemon-row" class="row">
+                <template id="cardTemplate">
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <img alt="alt" class="card-img-top" src="">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                                <a href="" target="_blank" class="btn btn-outline-danger btn-sm"></a>
+                            </div>
+                        </div>
+                    </div>
+                </template>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
                         <img class="card-img-top" src="./images/Zeraora.png" alt="Zeraora" />
@@ -117,9 +129,12 @@
                             <h5 class="card-title">Farfetch'd</h5>
                             <h5 class="card-subtitle">#083</h5>
                             <p class="card-text">
-                                Farfetch'd is a wild duck Pokémon that is a Normal/Flying type. The plant stalk it holds is its weapon.
-                                The stalk is used like a sword to cut all sorts of things. If it eats the stick it carries as emergency rations,
-                                it runs off in search of a new stick. This Pokémon has been known to fight others over sticks.
+                                Farfetch'd is a wild duck Pokémon that is a Normal/Flying type. The plant stalk it holds
+                                is its weapon.
+                                The stalk is used like a sword to cut all sorts of things. If it eats the stick it
+                                carries as emergency rations,
+                                it runs off in search of a new stick. This Pokémon has been known to fight others over
+                                sticks.
                             </p>
                             <a href="https://github.com/ajaj895" class="btn btn-outline-danger btn-sm">
                                 Contributed by - ajaj895
@@ -168,7 +183,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 mb-4">
                     <div class="card">
                         <img alt="Bayleef" class="card-img-top" src="./images/bayleef.png">
@@ -562,8 +577,8 @@
                                 bradmwong</a>
                         </div>
                     </div>
-                </div>    
-                
+                </div>
+
                 <div class="col-lg-4 mb-4">
                     <div class="card">
                         <img alt="Eelektross" class="card-img-top"
@@ -571,10 +586,11 @@
                         <div class="card-body">
                             <h5 class="card-title">Eelektross</h5>
                             <h6 class="card-subtitle">#604</h6>
-                            <p class="card-text">Eelektross is an Electric type Pokémon. 
-                                While not invincible, this electric eel is an unusual footnote that usually has to get taken out by brute force alone.
+                            <p class="card-text">Eelektross is an Electric type Pokémon.
+                                While not invincible, this electric eel is an unusual footnote that usually has to get
+                                taken out by brute force alone.
                             </p><a class="btn btn-outline-danger btn-sm" href="https://github.com/kkkkkabir">Contributed
-                                by - 
+                                by -
                                 Kabir Jain</a>
                         </div>
                     </div>
@@ -4416,19 +4432,20 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="https://cdn2.bulbagarden.net/upload/thumb/6/69/524Roggenrola.png/375px-524Roggenrola.png" alt="" />
+                        <img class="card-img-top"
+                            src="https://cdn2.bulbagarden.net/upload/thumb/6/69/524Roggenrola.png/375px-524Roggenrola.png"
+                            alt="" />
                         <div class="card-body">
                             <h5 class="card-title">Roggenrola</h5>
                             <h5 class="card-subtitle">#524</h5>
-                            <p class="card-text">Roggenrola is born deep underground and was discovered about 100 years ago in an earthquake fissure in a layer of exposed rock.
-                                                 Inside of Roggenrola lies an energy core, making its body somewhat warm to the touch.</p>
-                            <a
-                               href="https://github.com/Crippius"
-                               class="btn btn-outline-danger btn-sm"
-                            >Contributed by - Crippius</a
-                          >
-                      </div>
-                   </div>
+                            <p class="card-text">Roggenrola is born deep underground and was discovered about 100 years
+                                ago in an earthquake fissure in a layer of exposed rock.
+                                Inside of Roggenrola lies an energy core, making its body somewhat warm to the touch.
+                            </p>
+                            <a href="https://github.com/Crippius" class="btn btn-outline-danger btn-sm">Contributed by -
+                                Crippius</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
@@ -5169,13 +5186,17 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/410.png" alt="Glaceon">
+                        <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/410.png"
+                            alt="Glaceon">
                         <div class="card-body">
                             <h5 class="card-title">Shieldon</h5>
                             <h6 class="card-subtitle">#410</h6>
-                            <p class="card-text">Shieldon is a Rock & Steel Pokémon. It is vulnerable to Fighting, Ground and Water moves. Shieldon's strongest moveset is Iron Tail & Heavy Slam and it has a Max CP of 890. Shieldon evolves into Bastiodon.</p>
-                            <a href="https://github.com/realsidg/" class="btn btn-outline-danger btn-sm">Contributed by -
-                Ansh-Rathod</a>
+                            <p class="card-text">Shieldon is a Rock & Steel Pokémon. It is vulnerable to Fighting,
+                                Ground and Water moves. Shieldon's strongest moveset is Iron Tail & Heavy Slam and it
+                                has a Max CP of 890. Shieldon evolves into Bastiodon.</p>
+                            <a href="https://github.com/realsidg/" class="btn btn-outline-danger btn-sm">Contributed by
+                                -
+                                Ansh-Rathod</a>
                         </div>
                     </div>
                 </div>
@@ -6104,7 +6125,7 @@
                                 The Pokémon uses its two antennae to pick up scents as it searches.</p>
                             <a href="https://github.com/dedesaepulloh" class="btn btn-outline-danger btn-sm">Contributed
                                 by - Dede Saepulloh</a>
-                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -6141,7 +6162,7 @@
                         </div>
                     </div>
                 </div>
-                    
+
                 <div class="col-lg-4 mb-4">
                     <div class="card">
                         <img class="card-img-top"
@@ -6151,12 +6172,11 @@
                             <h5 class="card-title">Tyrunt</h5>
                             <h5 class="card-subtitle">#460</h5>
                             <p class="card-text">What can be bettter than a dinosaur pokemon....A dinosaur with
-                                        dragon powers of course! Tyrunt rocks...and also comes from a rock...well a
-                                        fossil.</p>
-                            <a href="https://github.com/MazontheMoon" 
-				    class="btn btn-outline-danger btn-sm">Contributed
+                                dragon powers of course! Tyrunt rocks...and also comes from a rock...well a
+                                fossil.</p>
+                            <a href="https://github.com/MazontheMoon" class="btn btn-outline-danger btn-sm">Contributed
                                 by - MazontheMoon</a>
-			    <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
+                            <a style="margin-top: 20px" class="btn btn-outline-danger btn-sm"
                                 href="https://github.com/swarnimstrange">Improved by -
                                 Swarnim Strange</a>
                         </div>
@@ -6199,17 +6219,22 @@
                     </div>
                 </div>
 
-         <div class="col-lg-4 mb-4">
-            <div class="card">
-                <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/393.png" alt="Piplup" />
-                <div class="card-body">
-                        <h5 class="card-title">Piplup</h5>
-                        <h5 class="card-subtitle">#393</h5>
-                        <p class="card-text">Piplup is a water-type, best friend with Ash's Pikachu and Ash's Torterra. Piplup was deeply emotional and did not want to part ways with its best friend Pikachu due to which it angrily runs away and cries not to come back but Pikachu reassures him that they will be back soon, making the two emotionally cry together.</p>
-                        <a href="https://github.com/sajjkavinda" class="btn btn-outline-danger btn-sm">Contributed by - Sajana Kavinda</a>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/393.png"
+                            alt="Piplup" />
+                        <div class="card-body">
+                            <h5 class="card-title">Piplup</h5>
+                            <h5 class="card-subtitle">#393</h5>
+                            <p class="card-text">Piplup is a water-type, best friend with Ash's Pikachu and Ash's
+                                Torterra. Piplup was deeply emotional and did not want to part ways with its best friend
+                                Pikachu due to which it angrily runs away and cries not to come back but Pikachu
+                                reassures him that they will be back soon, making the two emotionally cry together.</p>
+                            <a href="https://github.com/sajjkavinda" class="btn btn-outline-danger btn-sm">Contributed
+                                by - Sajana Kavinda</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-         </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
                         <img class="card-img-top"
@@ -6244,33 +6269,37 @@
                         </div>
                     </div>
                 </div>
-		<div class="col-lg-4 mb-4">
+                <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img alt="Calyrex" class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/898.png">
+                        <img alt="Calyrex" class="card-img-top"
+                            src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/898.png">
                         <div class="card-body">
                             <h5 class="card-title">Calyrex</h5>
                             <h6 class="card-subtitle">#898</h6>
                             <p class="card-text">
-				Calyrex is known in legend as a king that ruled over Galar in ancient times.
-				It has the power to cause hearts to mend and plants to spring forth.
-			    </p>
-			    <a class="btn btn-outline-danger btn-sm"
-                                href="https://github.com/rajdeepdev10">Contributed by Rajdeep Dev</a>
+                                Calyrex is known in legend as a king that ruled over Galar in ancient times.
+                                It has the power to cause hearts to mend and plants to spring forth.
+                            </p>
+                            <a class="btn btn-outline-danger btn-sm" href="https://github.com/rajdeepdev10">Contributed
+                                by Rajdeep Dev</a>
                         </div>
                     </div>
                 </div>
-              </div>
+            </div>
 
             <div class="col-lg-4 mb-4">
-            <div class="card">
-                <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/895.png" alt="Regidrago" />
-                <div class="card-body">
+                <div class="card">
+                    <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/895.png"
+                        alt="Regidrago" />
+                    <div class="card-body">
                         <h5 class="card-title">Regidrago</h5>
                         <h5 class="card-subtitle">#895</h5>
-                        <p class="card-text">An academic theory proposes that Regidrago’s arms were once the head of an ancient dragon Pokémon. The theory remains unproven.</p>
-                        <a href="https://github.com/ryansutrisno" class="btn btn-outline-danger btn-sm">Contributed by - Ryan Sutrisno</a>
+                        <p class="card-text">An academic theory proposes that Regidrago’s arms were once the head of an
+                            ancient dragon Pokémon. The theory remains unproven.</p>
+                        <a href="https://github.com/ryansutrisno" class="btn btn-outline-danger btn-sm">Contributed by -
+                            Ryan Sutrisno</a>
+                    </div>
                 </div>
-            </div>
             </div>
 
     </section>
@@ -6293,6 +6322,7 @@
             $('.navbar-collapse').collapse('hide');
         });
     </script>
+    <script type='text/javascript' src="pokemon.js"></script>
     <script src="index.js">
     </script>
     <script src="https://unpkg.com/lunr/lunr.js"></script>
