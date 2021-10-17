@@ -1,3 +1,5 @@
+// DONT USE ANYMORE, USE POKEMON.JSON
+// DELETE THIS FILE AFTER A FEW DAYS
 window.pokemon = [
 	{
 		pokemonName: 'Gible',
@@ -17,6 +19,17 @@ window.pokemon = [
 			'https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png',
 		contributedByName: 'felipprodrigues',
 		contributedByUrl: '',
+		improvedByName: '',
+		improvedByUrl: '',
+	},
+	{
+		pokemonName: 'Eevee',
+		pokemonDescription:
+			'It has the ability to alter the composition of its body to suit its surrounding environment.',
+		pokemonImage:
+			'https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png',
+		contributedByName: 'Monochrome Taisa',
+		contributedByUrl: 'https://github.com/idm1303',
 		improvedByName: '',
 		improvedByUrl: '',
 	},
