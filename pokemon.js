@@ -20,4 +20,15 @@ window.pokemon = [
 		improvedByName: '',
 		improvedByUrl: '',
 	},
+	{
+		pokemonName: 'Eevee',
+		pokemonDescription:
+			'It has the ability to alter the composition of its body to suit its surrounding environment.',
+		pokemonImage:
+			'https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png',
+		contributedByName: 'Monochrome Taisa',
+		contributedByUrl: 'https://github.com/idm1303',
+		improvedByName: '',
+		improvedByUrl: '',
+	}
 ]
