@@ -46,41 +46,45 @@ const fixBrokenImages = () => {
 }
 
 $(document).ready(function () {
-	const allPokemon = window.pokemon
-	const template = $('#cardTemplate').html()
+	$.getJSON('pokemon.json', function (allPokemon) {
+		const template = $('#cardTemplate').html()
+		allPokemon.forEach((pokemon) => {
+			const card = $(template).clone()
+			card
+				.find('img')
+				.attr('src', pokemon.pokemonImage)
+				.attr('alt', pokemon.pokemonName)
 
-	allPokemon.forEach((pokemon) => {
-		const card = $(template).clone()
-		card
-			.find('img')
-			.attr('src', pokemon.pokemonImage)
-			.attr('alt', pokemon.pokemonName)
-
-		card.find('.card-title').text(pokemon.pokemonName)
-		card.find('.card-text').text(pokemon.pokemonDescription)
-		card.find('a').text(`Contributed by - ${pokemon.contributedByName}`)
-		let button = card.find('a').clone()
-		if (pokemon.contributedByUrl) {
-			card.find('a').attr('href', pokemon.contributedByUrl)
-		} else {
-			card.find('a').replaceWith(function () {
-				return $('<p />', { html: $(this).html() })
-			})
-		}
-		if (pokemon.improvedByName) {
-			button
-				.attr('style', 'margin-top: 20px')
-				.text(`Improved by - ${pokemon.improvedByName}`)
-			if (pokemon.improvedByUrl) {
-				console.log('here')
-				button.attr('href', pokemon.contributedByUrl)
+			card.find('.card-title').text(pokemon.pokemonName)
+			card.find('.card-text').text(pokemon.pokemonDescription)
+			card.find('a').text(`Contributed by - ${pokemon.contributedByName}`)
+			let button = card.find('a').clone()
+			if (pokemon.contributedByUrl) {
+				card.find('a').attr('href', pokemon.contributedByUrl)
 			} else {
-				button = `<p>Improved by - ${pokemon.improvedByName}</p>`
+				card.find('a').replaceWith(function () {
+					return $('<p />', { html: $(this).html() })
+				})
 			}
-			card.find('.card-body').append(button)
-		}
+			if (pokemon.improvedByName) {
+				button
+					.attr('style', 'margin-top: 20px')
+					.text(`Improved by - ${pokemon.improvedByName}`)
+				if (pokemon.improvedByUrl) {
+					console.log('here')
+					button.attr('href', pokemon.contributedByUrl)
+				} else {
+					button = `<p>Improved by - ${pokemon.improvedByName}</p>`
+				}
+				card.find('.card-body').append(button)
+			}
 
-		card.appendTo('#pokemon-row')
+			$('#pokemon-row').prepend(card)
+		})
+	}).fail(function () {
+		console.log(
+			'You should try running this within a server rather than through the browser'
+		)
 	})
 })
 
