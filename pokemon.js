@@ -1,3 +1,5 @@
+// DONT USE ANYMORE, USE POKEMON.JSON
+// DELETE THIS FILE AFTER A FEW DAYS
 window.pokemon = [
 	{
 		pokemonName: 'Gible',
@@ -30,5 +32,5 @@ window.pokemon = [
 		contributedByUrl: 'https://github.com/idm1303',
 		improvedByName: '',
 		improvedByUrl: '',
-	}
+	},
 ]

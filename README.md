@@ -24,7 +24,11 @@ Follow these steps to make your very first pull request.
 
 # But what if I don't know how to add cards? :(
 
-Not everyone is aware of every tool present in the world no matter how easy or complex it is. It's also not necessary to know each and every tool out there. Use the code sample below to add your own card because everyone loves Pokémon and everyone should get a chance to add their favourite Pokémon!
+Not everyone is aware of every tool present in the world no matter how easy or complex it is. It's also not necessary to know each and every tool out there. So there are two ways to add a pokemon. **You only need to do one** of these methods otherwise the pokemon will appear twice.
+
+## via html
+
+Use the code sample below to add your own card because everyone loves Pokémon and everyone should get a chance to add their favourite Pokémon! Just paste it within the the the div with an id of `pokemon-row`
 
 ```html
 <div class="col-lg-4 mb-4">
@@ -45,19 +49,21 @@ Not everyone is aware of every tool present in the world no matter how easy or c
 
 Copy this code and paste it in the index.html file to make your changes. Test it on your own system and then create a pull request.
 
-Or an even easier way is to just add an object to the `pokemon.js` file with
+## via javascript / json
 
-```js
-	{
-		pokemonName: [Name of your favourite Pokémon],
-		pokemonDescription: [Small Description about your Pokémon],
-		pokemonImage: [Link to Pokémon image],
-		contributedByName: [Add your Github Username],
-		contributedByUrl: [Add a link to your Github profile],
-		// these are only needed if you have improved a card
-		improvedByName: [Add your Github Username],
-		improvedByUrl: [Add a link to your Github profile],
-	},
+Or an even easier way is to just add an object to the `pokemon.json` file with
+
+```json
+{
+	"pokemonName": [Name of your favourite Pokémon],
+	"pokemonDescription": [Small Description about your Pokémon],
+	"pokemonImage": [Link to Pokémon image],
+	"contributedByName": [Add your Github Username],
+	"contributedByUrl": [Add a link to your Github profile],
+	// these are only needed if you have improved a card
+	"improvedByName": [Add your Github Username],
+	"improvedByUrl": [Add a link to your Github profile],
+},
 ```
 
 If all of the pokemon get added to this file, then we can extend this project to include functionality like search and filtering.

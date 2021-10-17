@@ -61,7 +61,7 @@
     <div class="gallery-div" id="">
         <h1 class="gallery-head" id="gallery1">Pokémon gallery</h1>
 
-        <div class="input-group search-bar">
+        <!-- <div class="input-group search-bar">
             <div class="form-outline">
                 <input type="search" id="search-bar" class="form-control" />
                 <label class="form-label" for="search-bar">Search</label>
@@ -69,11 +69,11 @@
             <button type="button" class="btn btn-primary search-button" id="search-button">
                 <i class="fas fa-search"></i>
             </button>
-        </div>
+        </div> -->
         <div class="view-div">
             <button class="view-button" id="normal-view"><img src="icons/grid-small.png"> Normal</button>
             <button class="view-button" id="compact-view"><img src="icons/grid-large.png"> Compact</button>
-            <div class="dropdown">
+            <!-- <div class="dropdown">
                 <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Sort
@@ -82,7 +82,7 @@
                     <a class="dropdown-item" id="sort-number" href="javascript:void()">#</a>
                     <a class="dropdown-item" id="sort-name" href="javascript:void()">Name</a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <a href="#gallery-title" id="#upArrow" style="position: relative; display: var(--arrow-display);">
@@ -92,18 +92,6 @@
     <section id="gallery">
         <div class="container">
             <div id="pokemon-row" class="row">
-                <template id="cardTemplate">
-                    <div class="col-lg-4 mb-4">
-                        <div class="card">
-                            <img alt="alt" class="card-img-top" src="">
-                            <div class="card-body">
-                                <h5 class="card-title"></h5>
-                                <p class="card-text"></p>
-                                <a href="" target="_blank" class="btn btn-outline-danger btn-sm"></a>
-                            </div>
-                        </div>
-                    </div>
-                </template>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
                         <img class="card-img-top" src="./images/Zeraora.png" alt="Zeraora" />
@@ -6014,12 +6002,10 @@
                         <img class="card-img-top" src="images/tentacool.png" alt="Tentacool image" />
                         <div class="card-body">
                             <h5 class="card-title">Tentacool</h5>
-                            <p class="card-text">Tentacool is not a particularly strong swimmer. It drifts across the surface of shallow seas as it searches for prey.</p>
-                            <a
-                                href="https://github.com/jojoee"
-                                class="btn btn-outline-danger btn-sm"
-                                >Contributed by - jojoee</a
-                            >
+                            <p class="card-text">Tentacool is not a particularly strong swimmer. It drifts across the
+                                surface of shallow seas as it searches for prey.</p>
+                            <a href="https://github.com/jojoee" class="btn btn-outline-danger btn-sm">Contributed by -
+                                jojoee</a>
                         </div>
                     </div>
                 </div>
@@ -6323,7 +6309,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Hitmonchan</h5>
                         <h5 class="card-subtitle">#107</h5>
-                        <p class="card-text">Its punches slice the air. They are launched at such high speed, even a slight graze could cause a burn.</p>
+                        <p class="card-text">Its punches slice the air. They are launched at such high speed, even a
+                            slight graze could cause a burn.</p>
                         <a href="https://github.com/affan880" class="btn btn-outline-danger btn-sm">Contributed by -
                             Syed Affan</a>
                     </div>
@@ -6335,13 +6322,12 @@
                     <img class="card-img-top" src="images/Flygon.png" alt="" />
                     <div class="card-body">
                         <h5 class="card-title">Flygon</h5>
-                        <p class="card-text">Incredibly as it might seem, this Pokémon is the second evolution of Trapinch, a loggerhead Ground-type ant. 
-                            He also acquires the Dragon type and is a huge fan of deserts and sandstorms. Its first appearance was in Gen 3. </p>
-                        <a
-                            href="https://github.com/snorlara"
-                            class="btn btn-outline-danger btn-sm"
-                            >Contributed by - snorlara</a
-                        >
+                        <p class="card-text">Incredibly as it might seem, this Pokémon is the second evolution of
+                            Trapinch, a loggerhead Ground-type ant.
+                            He also acquires the Dragon type and is a huge fan of deserts and sandstorms. Its first
+                            appearance was in Gen 3. </p>
+                        <a href="https://github.com/snorlara" class="btn btn-outline-danger btn-sm">Contributed by -
+                            snorlara</a>
                     </div>
                 </div>
             </div>
@@ -6351,7 +6337,10 @@
                     <img class="card-img-top" src="images/Lucario.jfif" alt="" />
                     <div class="card-body">
                         <h5 class="card-title">Lucario</h5>
-                        <p class="card-text">According to the <a href="https://www.pokemon.com/br/pokedex/lucario">Pokemon site</a>, Lucario "controls waves known as auras, which are powerful enough to pulverize huge rocks" and "uses these waves to take down its prey". This is my favorite to play Pokemon Unite!</p>
+                        <p class="card-text">According to the <a
+                                href="https://www.pokemon.com/br/pokedex/lucario">Pokemon site</a>, Lucario "controls
+                            waves known as auras, which are powerful enough to pulverize huge rocks" and "uses these
+                            waves to take down its prey". This is my favorite to play Pokemon Unite!</p>
                         <a href="https://github.com/Giovannacm" class="btn btn-outline-danger btn-sm">
                             Contributed by - Giovannacm
                         </a>
@@ -6365,9 +6354,24 @@
         <h1></h1>
         <a href="#header" class="back-to-top"><i class="fas fa-angle-up fa-4x backToTop"></i></a>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-        </script>
+
+    <!-- This is the template for pokemon to be added via a json file -->
+    <template id="cardTemplate">
+        <div class="col-lg-4 mb-4">
+            <div class="card">
+                <img alt="alt" class="card-img-top" src="">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                    <a href="" target="_blank" class="btn btn-outline-danger btn-sm"></a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
         </script>
@@ -6379,7 +6383,7 @@
             $('.navbar-collapse').collapse('hide');
         });
     </script>
-    <script type='text/javascript' src="pokemon.js"></script>
+
     <script src="index.js">
     </script>
     <script src="https://unpkg.com/lunr/lunr.js"></script>
