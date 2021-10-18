@@ -63,6 +63,7 @@ button {
 .btn-sm {
   width: 100%;
   font-size: 15px;
+  white-space: normal;
 }
 .display-3 {
   font-size: 8rem;
