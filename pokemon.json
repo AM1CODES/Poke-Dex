@@ -25,5 +25,14 @@
 		"contributedByUrl": "https://github.com/idm1303",
 		"improvedByName": "",
 		"improvedByUrl": ""
+	},
+	{
+		"pokemonName": "Rattata",
+		"pokemonDescription": "Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area.",
+		"pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
+		"contributedByName": "Aagam Shah",
+		"contributedByUrl": "https://github.com/neutrinoguy",
+		"improvedByName": "",
+		"improvedByUrl": ""
 	}
 ]
