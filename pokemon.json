@@ -25,5 +25,15 @@
 		"contributedByUrl": "https://github.com/idm1303",
 		"improvedByName": "",
 		"improvedByUrl": ""
+	},
+	{
+		"pokemonName": "Charizard",
+		"pokemonDescription": "It spits fire that is hot enough to melt bou.",
+		"pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+		"contributedByName": "Sumith Kumar",
+		"contributedByUrl": "https://github.com/Sks2000Sks",
+		"improvedByName": "",
+		"improvedByUrl": ""
 	}
+	
 ]
