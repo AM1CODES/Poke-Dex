@@ -1,7 +1,7 @@
 :root {
   --bg-color: black;
   --font-color: white;
-  --arrow-display : 'none';
+  --arrow-display : none;
 }
 .lightMode {
   --bg-color: white;
@@ -207,4 +207,79 @@ button {
   .display-3 {
     font-size: 6rem;
   }
+}
+
+.badge {
+  color: #000;
+  border-radius: 16px;
+  padding: 8px;
+  margin: 8px 0 8px 8px;
+}
+
+.grass {
+  background-color: #8CD751;
+}
+
+.bug {
+  background-color: #BCCA21;
+}
+
+.electric {
+  background-color: #FDE53C;
+}
+
+.dark {
+  background-color: #8C6855;
+}
+
+.fairy {
+  background-color: #FAADFF;
+}
+
+.fighting {
+  background-color: #A85644;
+}
+
+.fire {
+  background-color: #FA5543;
+}
+
+.flying {
+  background-color: #79A4FF;
+}
+
+.ghots {
+  background-color: #7975D6;
+}
+
+.ground {
+  background-color: #EDCC56;
+}
+
+.ice {
+  background-color: #96F1FF;
+}
+
+.normal {
+  background-color: #BABAAC;
+}
+
+.poison {
+  background-color: #AB5DA3;
+}
+
+.psychic {
+  background-color: #F662B2;
+}
+
+.rock {
+  background-color: #CDBD72;
+}
+
+.steel {
+  background-color: #C3C1D8;
+}
+
+.water {
+  background-color: #55ACFF;
 }
