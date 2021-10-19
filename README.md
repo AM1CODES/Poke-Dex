@@ -16,6 +16,7 @@ There's no doubt that most of our childhood was spent watching Pokémon and play
 There is always something to contribute to a project whether you are a novice or a veteran. In this project, you can add your favourite Pokémon as a card to the website! Or maybe you didn't like the line that you are reading right now and want to change that. Sure! Why not?
 
 # How can I contribute?
+
 Kindly refer to [CONTRIBUTING.md](https://github.com/AM1CODES/Poke-Dex/blob/master/CONTRIBUTING.md) file to learn how to contribute!
 
 And that's it!
@@ -23,26 +24,71 @@ Follow these steps to make your very first pull request.
 
 # But what if I don't know how to add cards? :(
 
-Not everyone is aware of every tool present in the world no matter how easy or complex it is. It's also not necessary to know each and every tool out there. Use the code sample below to add your own card because everyone loves Pokémon and everyone should get a chance to add their favourite Pokémon!
+Not everyone is aware of every tool present in the world no matter how easy or complex it is. It's also not necessary to know each and every tool out there. So there are two ways to add a pokemon. **You only need to do one** of these methods otherwise the pokemon will appear twice.
+
+## via html
+
+Use the code sample below to add your own card because everyone loves Pokémon and everyone should get a chance to add their favourite Pokémon! Just paste it within the the the div with an id of `pokemon-row`
 
 ```html
 <div class="col-lg-4 mb-4">
-  <div class="card">
-    <img class="card-img-top" src="[Link to Pokémon image]" alt="" />
-    <div class="card-body">
-      <h5 class="card-title">[Name of your favourite Pokémon]</h5>
-      <p class="card-text">[Small Description about your Pokémon]</p>
-      <a
-        href="[Add the link to your GitHub Profile]"
-        class="btn btn-outline-danger btn-sm"
-        >Contributed by - [Add your GitHub Username/profile name]</a
-      >
-    </div>
-  </div>
+	<div class="card">
+		<img class="card-img-top" src="[Link to Pokémon image]" alt="" />
+		<div class="card-body">
+			<h5 class="card-title">[Name of your favourite Pokémon]</h5>
+			<p class="card-text">[Small Description about your Pokémon]</p>
+			<a
+				href="[Add the link to your GitHub Profile]"
+				class="btn btn-outline-danger btn-sm"
+				>Contributed by - [Add your GitHub Username/profile name]</a
+			>
+		</div>
+	</div>
 </div>
 ```
 
+Also now you can use a new css class to add a badge to you favorite pokemon, this bagde is made for show the pokemon type. Follow the example
+
+```html
+ <div class="col-lg-4 mb-4">
+	<div class="card">
+		<div class="header">
+			<div class="badge grass">Grass</div>
+		</div>
+		<img class="card-img-top" src="[Link to Pokémon image]" alt=""/>
+		<div class="card-body">
+			<h5 class="card-title">[Name of your favourite Pokémon]</h5>
+			<p class="card-text">[Small Description about your Pokémon]</p>
+			<a class="btn btn-outline-danger btn-sm"
+				href="[Add the link to your GitHub Profile]">Contributed by - [Add your GitHub Username/profile name]</a>
+		</div>
+	</div>
+</div>
+```
+
+Currently the available badges are: grass ,bug ,electric ,dark ,fairy ,fighting ,fire ,flying ,ghots ,ground ,ice ,normal ,poison ,psychic ,rock ,steel ,water. 
+Feel free to add more, just create a class with the type name and chose de color.
+
 Copy this code and paste it in the index.html file to make your changes. Test it on your own system and then create a pull request.
+
+## via javascript / json
+
+Or an even easier way is to just add an object to the `pokemon.json` file with
+
+```json
+{
+	"pokemonName": [Name of your favourite Pokémon],
+	"pokemonDescription": [Small Description about your Pokémon],
+	"pokemonImage": [Link to Pokémon image],
+	"contributedByName": [Add your Github Username],
+	"contributedByUrl": [Add a link to your Github profile],
+	// these are only needed if you have improved a card
+	"improvedByName": [Add your Github Username],
+	"improvedByUrl": [Add a link to your Github profile],
+},
+```
+
+If all of the pokemon get added to this file, then we can extend this project to include functionality like search and filtering.
 
 # Congratulations!
 
