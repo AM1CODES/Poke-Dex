@@ -34,5 +34,14 @@
 		"contributedByUrl": "https://github.com/neutrinoguy",
 		"improvedByName": "",
 		"improvedByUrl": ""
+	},
+	{
+		"pokemonName": "Vulpix",
+		"pokemonDescription": "While young, it has six gorgeous tails. When it grows, several new tails are sprouted.",
+		"pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png",
+		"contributedByName": "Depimomo",
+		"contributedByUrl": "https://github.com/depimomo",
+		"improvedByName": "",
+		"improvedByUrl": ""
 	}
 ]
