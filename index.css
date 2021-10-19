@@ -59,6 +59,11 @@ button {
 .card-img-top {
   padding: 2rem;
 }
+.card-text{
+  font-size: medium;
+  line-height:25px;
+  font-weight: 400;
+}
 
 .btn-sm {
   width: 100%;
