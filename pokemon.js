@@ -33,4 +33,15 @@ window.pokemon = [
 		improvedByName: '',
 		improvedByUrl: '',
 	},
+	{
+		pokemonName: 'Mudkip',
+		pokemonDescription:
+			'The fin on Mudkip’s head acts as highly sensitive radar. Using this fin to sense movements of water and air, this Pokémon can determine what is taking place around it without using its eyes.',
+		pokemonImage:
+			'https://assets.pokemon.com/assets/cms2/img/pokedex/full/258.png',
+		contributedByName: 'OREO1210',
+		contributedByUrl: 'https://github.com/OREO1210',
+		improvedByName: '',
+		improvedByUrl: '',
+	}
 ]
