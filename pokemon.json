@@ -44,5 +44,15 @@
 		"contributedByUrl": "https://github.com/Karthik1717",
 		"improvedByName": "",
 		"improvedByUrl": ""
+	},
+	
+	{
+		"pokemonName": "Pidgeot",
+		"pokemonDescription": "Pidgeot is an avian Pokémon with large wings, sharp talons, and a short, hooked beak. Its glossy plumage is mostly brown with cream-colored underparts and flight feathers. Its head has Evolution of Pidgeotto.",
+		"pokemonImage": "https://img.pokemondb.net/artwork/pidgeot.jpg",
+		"contributedByName":"Piyush Tanti",
+		"contributedByUrl": "https://github.com/piyush999-o",
+		"improvedByName": "",
+		"improvedByUrl": ""
 	}
 ]
