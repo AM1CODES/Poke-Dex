@@ -44,5 +44,14 @@
 		"contributedByUrl": "https://github.com/Karthik1717",
 		"improvedByName": "",
 		"improvedByUrl": ""
+	},
+	{
+		"pokemonName": "Falinks",
+		"pokemonDescription": "Falinks is a group of small, bipedal Pokémon. A single Falinks is a formation of six individuals, similar to Exeggcute. It consists of five troopers and a leader, known as "the brass". Falinks usually march in a single file line headed by the brass, giving their formation the appearance of a caterpillar. However, Falinks occasionally break their formation to attack. They are genderless and have no visible mouths.",
+		"pokemonImage": "https://cdn2.bulbagarden.net/upload/b/bb/870Falinks.png",
+		"contributedByName": "Igor Rozani",
+		"contributedByUrl": "https://github.com/igorrozani",
+		"improvedByName": "",
+		"improvedByUrl": ""
 	}
 ]
