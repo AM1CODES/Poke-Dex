@@ -1,5 +1,15 @@
 [
 	{
+		"pokemonName": "Swoobat",
+		"pokemonDescription": "Swoobat is a blue, bat-like Pokémon. It has fused, pointed ears with
+				striated, lighter colored insides and a pink, heart-shaped snout with a single nostril.",
+		"pokemonImage": "https://cdn2.bulbagarden.net/upload/9/9d/528Swoobat.png",
+		"contributedByName": "ykayacan",
+		"contributedByUrl": "https://github.com/ykayacan",
+		"improvedByName": "Prashoon123",
+		"improvedByUrl": "https://github.com/Prashoon123"
+	},
+	{
 		"pokemonName": "Eiscue",
 		"pokemonDescription": "Eiscue is a small penguin-like Pokémon with a large ice cube on its
 				head.",
