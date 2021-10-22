@@ -8,10 +8,11 @@
 		"improvedByName": "",
 		"improvedByUrl": ""
 	},
+  
   {
-	"pokemonName": "Mega Charizard X",
-	"pokemonDescription": "The overwhelming power that fills its entire body causes it to turn black and creates intense blue flames.",
-	"pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006_f2.png",
+	"pokemonName": "Charmeleon",
+	"pokemonDescription": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+	"pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
 	"contributedByName": "Lakshi26",
 	"contributedByUrl": "https://github.com/Lakshi26/Poke-Dex",
 	// these are only needed if you have improved a card
