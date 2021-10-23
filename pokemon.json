@@ -44,5 +44,16 @@
 		"contributedByUrl": "https://github.com/Karthik1717",
 		"improvedByName": "",
 		"improvedByUrl": ""
-	}
+	},
+	{
+	"pokemonName": "Hunter",
+	"pokemonDescription":"A GHOST-type attack. Has a one-in-three chance of leaving the target with paralysis.A technique that badly poisons the target. The amount of damage from the poison increases every turn",
+
+	"pokemonImage": "https://pokebox.alaqasar.com/medias/img/pokemon/lg/93-lg.png",
+	"contributedByName": "Vaibhav",
+	"contributedByUrl": "https://github.com/VaibhavM01",
+	"improvedByName": "",
+		"improvedByUrl": ""
+}
+
 ]
