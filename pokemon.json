@@ -44,5 +44,14 @@
 		"contributedByUrl": "https://github.com/Karthik1717",
 		"improvedByName": "",
 		"improvedByUrl": ""
+	},
+	{
+		"pokemonName": "Arceus",
+		"pokemonDescription": "According to the legends of Sinnoh, this Pokémon emerged from an egg and shaped all there is in this world.",
+		"pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/493.png",
+		"contributedByName": "Matheus Afonso",
+		"contributedByUrl": "https://github.com/matheusafonsouza",
+		"improvedByName": "",
+		"improvedByUrl": ""
 	}
 ]
