@@ -44,5 +44,15 @@
 		"contributedByUrl": "https://github.com/Karthik1717",
 		"improvedByName": "",
 		"improvedByUrl": ""
+	},
+
+	{
+		"pokemonName": "Krookodile",
+		"pokemonDescription": "Krookodile is a Ground/Dark type Pokémon introduced in Generation 5 . It is known as the Intimidation Pokémon. This Pokémon is known as the Bully of the Sands. Krookodile’s mighty jaws can bite through heavy plates of iron with almost no effort at all. Fun Fact: Ash's Krookodile has not lost a single match in the Unova region in the anime.",
+		"pokemonImage": "./images/krookodile.png",
+		"contributedByName": "Shreayan Chaudhary",
+		"contributedByUrl": "https://github.com/shreayan98c",
+		"improvedByName": "Vignesh Nandakumar",
+		"improvedByUrl": "https://github.com/many-fac3d-g0d"
 	}
 ]
