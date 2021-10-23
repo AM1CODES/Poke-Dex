@@ -1,48 +1,57 @@
-[
-	{
-		"pokemonName": "Gible",
-		"pokemonDescription": "Gible is a small, blue, bipedal dragon-like Pokémon. It lacks a neck but has a large mouth, filled with sharp teeth. It has two horns on its head striped blue in the middle, and a large dorsal fin. Gible loves to bite anything, and that can be a pain for its Trainer if the Trainer gets bitten themselves. This habit of biting anything is probably instinctive, and it is very hard to train them to control their urges.",
-		"pokemonImage": "./images/gible.png",
-		"contributedByName": "ashvathnarayanan",
-		"contributedByUrl": "https://github.com/ashvathnarayanan",
-		"improvedByName": "",
-		"improvedByUrl": ""
-	},
-	{
-		"pokemonName": "Abra",
-		"pokemonDescription": "Abra uses psychic powers while it sleeps. Its dreams affect the powers that the Pokemon wields.",
-		"pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png",
-		"contributedByName": "felipprodrigues",
-		"contributedByUrl": "",
-		"improvedByName": "",
-		"improvedByUrl": ""
-	},
-	{
-		"pokemonName": "Eevee",
-		"pokemonDescription": "It has the ability to alter the composition of its body to suit its surrounding environment.",
-		"pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
-		"contributedByName": "Monochrome Taisa",
-		"contributedByUrl": "https://github.com/idm1303",
-		"improvedByName": "",
-		"improvedByUrl": ""
-	},
-	{
-		"pokemonName": "Rattata",
-		"pokemonDescription": "Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area.",
-		"pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
-		"contributedByName": "Aagam Shah",
-		"contributedByUrl": "https://github.com/neutrinoguy",
-		"improvedByName": "",
-		"improvedByUrl": ""
-	},
+[{
+        "pokemonName": "Gible",
+        "pokemonDescription": "Gible is a small, blue, bipedal dragon-like Pokémon. It lacks a neck but has a large mouth, filled with sharp teeth. It has two horns on its head striped blue in the middle, and a large dorsal fin. Gible loves to bite anything, and that can be a pain for its Trainer if the Trainer gets bitten themselves. This habit of biting anything is probably instinctive, and it is very hard to train them to control their urges.",
+        "pokemonImage": "./images/gible.png",
+        "contributedByName": "ashvathnarayanan",
+        "contributedByUrl": "https://github.com/ashvathnarayanan",
+        "improvedByName": "",
+        "improvedByUrl": ""
+    },
+    {
+        "pokemonName": "Abra",
+        "pokemonDescription": "Abra uses psychic powers while it sleeps. Its dreams affect the powers that the Pokemon wields.",
+        "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png",
+        "contributedByName": "felipprodrigues",
+        "contributedByUrl": "",
+        "improvedByName": "",
+        "improvedByUrl": ""
+    },
+    {
+        "pokemonName": "Eevee",
+        "pokemonDescription": "It has the ability to alter the composition of its body to suit its surrounding environment.",
+        "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
+        "contributedByName": "Monochrome Taisa",
+        "contributedByUrl": "https://github.com/idm1303",
+        "improvedByName": "",
+        "improvedByUrl": ""
+    },
+    {
+        "pokemonName": "Rattata",
+        "pokemonDescription": "Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area.",
+        "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
+        "contributedByName": "Aagam Shah",
+        "contributedByUrl": "https://github.com/neutrinoguy",
+        "improvedByName": "",
+        "improvedByUrl": ""
+    },
 
-	{
-		"pokemonName": "Gastradon",
-		"pokemonDescription": "Gastrodon is a sea slug-like Pokémon. Much like its pre-evolved form, it has a slug-like body with a round head and a mantle covering the top half of its body.",
-		"pokemonImage": "https://cdn2.bulbagarden.net/upload/thumb/1/18/423Gastrodon.png/250px-423Gastrodon.png",
-		"contributedByName": "Karthik Kamath",
-		"contributedByUrl": "https://github.com/Karthik1717",
-		"improvedByName": "",
-		"improvedByUrl": ""
-	}
+    {
+        "pokemonName": "Gastradon",
+        "pokemonDescription": "Gastrodon is a sea slug-like Pokémon. Much like its pre-evolved form, it has a slug-like body with a round head and a mantle covering the top half of its body.",
+        "pokemonImage": "https://cdn2.bulbagarden.net/upload/thumb/1/18/423Gastrodon.png/250px-423Gastrodon.png",
+        "contributedByName": "Karthik Kamath",
+        "contributedByUrl": "https://github.com/Karthik1717",
+        "improvedByName": "",
+        "improvedByUrl": ""
+    },
+
+    {
+        "pokemonName": "Venusaur ",
+        "pokemonDescription": "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+        "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+        "contributedByName": "Karthik Kamath",
+        "contributedByUrl": "https://github.com/anhtudo97",
+        "improvedByName": "",
+        "improvedByUrl": ""
+    }
 ]
