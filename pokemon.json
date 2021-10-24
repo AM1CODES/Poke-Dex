@@ -44,5 +44,14 @@
 		"contributedByUrl": "https://github.com/Karthik1717",
 		"improvedByName": "",
 		"improvedByUrl": ""
+	},
+	{
+		"pokemonName": "Grovyle",
+		"pokemonDescription": "The leaves growing out of Grovyle’s body are convenient for camouflaging it from enemies in the forest. This Pokémon is a master at climbing trees in jungles.",
+		"pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/253.png",
+		"contributedByName": "Ariel Roque",
+		"contributedByUrl": "https://github.com/arielroque",
+		"improvedByName": "",
+		"improvedByUrl": ""
 	}
 ]
