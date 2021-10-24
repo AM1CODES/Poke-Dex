@@ -10,6 +10,7 @@ There's no doubt that most of our childhood was spent watching Pokémon and play
 2. index.css - Contains the styling given to the home page.
 3. about.html - Contains some information about me.
 4. about.css - Contains the styling given to the about page.
+5. pokemon.json - Contains a list of the pokemon which gets rendered (ideally start using this rather than index.html)
 
 # What can I contribute?
 
