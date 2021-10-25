@@ -45,6 +45,15 @@
 		"improvedByUrl": ""
 	},
 	{
+		"pokemonName": "Grovyle",
+		"pokemonDescription": "The leaves growing out of Grovyle’s body are convenient for camouflaging it from enemies in the forest. This Pokémon is a master at climbing trees in jungles.",
+		"pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/253.png",
+		"contributedByName": "Ariel Roque",
+		"contributedByUrl": "https://github.com/arielroque",
+    "improvedByName": "",
+		"improvedByUrl": ""
+	},
+  {
 		"pokemonName": "Magby",
 		"pokemonDescription": "Magby is a fire type baby pokemon introduced in Pokemon gen 2. It has a red body except its stomach which is a yellow color and is in shape of a flame.",
 		"pokemonImage": "https://static.wikia.nocookie.net/pokemon/images/c/cb/240Magby.png",
