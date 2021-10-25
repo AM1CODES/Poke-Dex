@@ -45,6 +45,15 @@
 		"improvedByUrl": ""
 	},
 	{
+		"pokemonName": "Snorlax",
+		"pokemonDescription": "Snorlax is a huge, bipedal, dark blue-green Pokémon with a cream-colored face, belly, and feet. Its body is composed of mostly its belly, as its limbs are comparatively small. Its head is large with small, pointed ears and two pointed teeth protruding from its lower jaw. It has round feet, which both have three claws and a circular brown paw pad, and short arms with five claws on each hand. Snorlax's bulk makes it the heaviest Normal type.",
+		"pokemonImage": "http://img4.wikia.nocookie.net/__cb20130621040305/sonicpokemon/images/9/94/Snorlax_AG_anime.png",
+		"contributedByName": "Alberto Rojas",
+		"contributedByUrl": "https://github.com/shaka0241",
+        "improvedByName": "",
+		"improvedByUrl": ""
+	},
+  {
 		"pokemonName": "Grovyle",
 		"pokemonDescription": "The leaves growing out of Grovyle’s body are convenient for camouflaging it from enemies in the forest. This Pokémon is a master at climbing trees in jungles.",
 		"pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/253.png",
