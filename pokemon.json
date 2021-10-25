@@ -35,7 +35,6 @@
 		"improvedByName": "",
 		"improvedByUrl": ""
 	},
-
 	{
 		"pokemonName": "Gastradon",
 		"pokemonDescription": "Gastrodon is a sea slug-like Pokémon. Much like its pre-evolved form, it has a slug-like body with a round head and a mantle covering the top half of its body.",
@@ -51,6 +50,15 @@
 		"pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/253.png",
 		"contributedByName": "Ariel Roque",
 		"contributedByUrl": "https://github.com/arielroque",
+    "improvedByName": "",
+		"improvedByUrl": ""
+	},
+  {
+		"pokemonName": "Magby",
+		"pokemonDescription": "Magby is a fire type baby pokemon introduced in Pokemon gen 2. It has a red body except its stomach which is a yellow color and is in shape of a flame.",
+		"pokemonImage": "https://static.wikia.nocookie.net/pokemon/images/c/cb/240Magby.png",
+		"contributedByName": "Jackson Isaac",
+		"contributedByUrl": "https://github.com/JacksonIsaac/",
 		"improvedByName": "",
 		"improvedByUrl": ""
 	}
