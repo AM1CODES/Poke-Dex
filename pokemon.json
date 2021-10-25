@@ -70,5 +70,15 @@
 		"contributedByUrl": "https://github.com/JacksonIsaac/",
 		"improvedByName": "",
 		"improvedByUrl": ""
+	},
+	{
+		"pokemonName": "Mew",
+		"pokemonDescription": "Psychic mythical Pokemon with pink mammalian features. It is said to have the DNA of any Pokemon which lets it learn any attack." ,
+		"pokemonImage": "https://cdn2.bulbagarden.net/upload/thumb/b/b1/151Mew.png/900px-151Mew.png",
+		"contributedByName": "Noodulz",
+		"contributedByUrl": "https://github.com/Noodulz/",
+		// these are only needed if you have improved a card
+		"improvedByName": "",
+		"improvedByUrl": "",
 	}
 ]
