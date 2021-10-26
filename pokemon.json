@@ -51,24 +51,33 @@
 		"pokemonImage": "http://img4.wikia.nocookie.net/__cb20130621040305/sonicpokemon/images/9/94/Snorlax_AG_anime.png",
 		"contributedByName": "Alberto Rojas",
 		"contributedByUrl": "https://github.com/shaka0241",
-        "improvedByName": "",
+		"improvedByName": "",
 		"improvedByUrl": ""
 	},
-  {
+	{
 		"pokemonName": "Grovyle",
 		"pokemonDescription": "The leaves growing out of Grovyle’s body are convenient for camouflaging it from enemies in the forest. This Pokémon is a master at climbing trees in jungles.",
 		"pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/253.png",
 		"contributedByName": "Ariel Roque",
 		"contributedByUrl": "https://github.com/arielroque",
-    "improvedByName": "",
+		"improvedByName": "",
 		"improvedByUrl": ""
 	},
-  {
+	{
 		"pokemonName": "Magby",
 		"pokemonDescription": "Magby is a fire type baby pokemon introduced in Pokemon gen 2. It has a red body except its stomach which is a yellow color and is in shape of a flame.",
 		"pokemonImage": "https://static.wikia.nocookie.net/pokemon/images/c/cb/240Magby.png",
 		"contributedByName": "Jackson Isaac",
 		"contributedByUrl": "https://github.com/JacksonIsaac/",
+		"improvedByName": "",
+		"improvedByUrl": ""
+	},
+	{
+		"pokemonName": "Ditto",
+		"pokemonDescription": "Ditto is a Normal type Pokémon introduced in Generation 1. It is known as the Transform Pokémon.Capable of copying an enemy’s genetic code to instantly transform itself into a duplicate of the enemy.",
+		"pokemonImage": "https://www.pngitem.com/pimgs/m/77-770915_ditto-pokemon-character-vector-art-pokemon-ditto-dream.png",
+		"contributedByName": "Lakshya Shrivastava",
+		"contributedByUrl": "https://github.com/Lakshya3119",
 		"improvedByName": "",
 		"improvedByUrl": ""
 	}

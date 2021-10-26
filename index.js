@@ -43,6 +43,13 @@ const fixBrokenImages = () => {
 			t.src = fallbackURL;
 		}
 	}
+
+	//audio
+	let playSound = () => {
+		let sound = document.getElementsByTagName('audio')[0];
+		sound.play();
+	};
+	setTimeout(() => playSound(), 3000);
 };
 
 $(document).ready(function () {
