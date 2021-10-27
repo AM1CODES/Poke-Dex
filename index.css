@@ -1,291 +1,314 @@
 :root {
-  --bg-color: black;
-  --font-color: white;
-  --arrow-display : none;
+	--bg-color: black;
+	--font-color: white;
+	--arrow-display: none;
 }
 .lightMode {
-  --bg-color: white;
-  --font-color: black;
+	--bg-color: white;
+	--font-color: black;
 }
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 body {
-  color: var(--font-color);
-  background-color: var(--bg-color);
-  font-family: "Righteous", cursive;
+	color: var(--font-color);
+	background-color: var(--bg-color);
+	font-family: 'Righteous', cursive;
 }
 button {
-  color: var(--font-color);
+	color: var(--font-color);
 }
 #header {
-  background: url("https://www.wallpaperup.com/uploads/wallpapers/2015/10/27/825565/a8f967ede1e1e41abc91787415e3b9ee.jpg");
+	background: url('https://www.wallpaperup.com/uploads/wallpapers/2015/10/27/825565/a8f967ede1e1e41abc91787415e3b9ee.jpg');
 
-  background-position: center;
-  background-size: cover;
+	background-position: center;
+	background-size: cover;
 
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: calc(100vh - 4.45rem);
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: calc(100vh - 4.45rem);
 }
 
 /* scale-animation-by-sudo-nick16 */
 .card {
-  transition: transform 0.2s;
+	transition: transform 0.2s;
 }
 .card:hover {
-  transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .backToTop {
-  margin-left: 49%;
+	margin-left: 49%;
 
-  color: var(--font-color);
-  padding: 0.6%;
-  border-radius: 50%;
-  margin-bottom: 4%;
+	color: var(--font-color);
+	padding: 0.6%;
+	border-radius: 50%;
+	margin-bottom: 4%;
 }
 .card {
-  background-color: var(--bg-color);
-  height: 100%;
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.25);
-  -moz-box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.25);
-  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.25);
+	background-color: var(--bg-color);
+	height: 100%;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.25);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.25);
+	box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.25);
 }
 .card-body.hidden {
-  display: none;
+	display: none;
 }
 .card-img-top {
-  padding: 2rem;
+	padding: 2rem;
 }
-.card-text{
-  font-size: medium;
-  line-height:25px;
-  font-weight: 400;
+.card-text {
+	font-size: medium;
+	line-height: 25px;
+	font-weight: 400;
 }
 
 .btn-sm {
-  width: 100%;
-  font-size: 15px;
-  white-space: normal;
+	width: 100%;
+	font-size: 15px;
+	white-space: normal;
 }
 .display-3 {
-  font-size: 8rem;
+	font-size: 8rem;
 }
 .fas fa-chevron-down fa-6x gallery-icon {
-  padding-top: 100px;
-  color: var(--font-color);
+	padding-top: 100px;
+	color: var(--font-color);
 }
 
 .gallery-head {
-  font-size: 3rem;
-  text-align: center;
-  margin-top: 8%;
-  margin-bottom: 80px;
-  text-transform: uppercase;
+	font-size: 3rem;
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: 80px;
+	text-transform: uppercase;
 }
 .gallery-icon {
-  color: var(--font-color);
-  text-align: center;
+	color: var(--font-color);
+	text-align: center;
 }
 .itemNav {
-  padding: 15px;
-  cursor: pointer;
+	padding: 15px;
+	cursor: pointer;
 }
 .jumbotron {
-  border-radius: 0;
+	border-radius: 0;
 }
 .info {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 .lead {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 .search-bar {
-  justify-content: center;
+	justify-content: center;
 }
 .search-button {
-  max-height: 38px;
-  margin-left: 10px;
+	max-height: 38px;
+	margin-left: 10px;
 }
 
 .navbar {
-  background-color: black;
+	background-color: black;
 }
 .navbar ~ * {
-  position: relative;
-  top: 4.45rem;
+	position: relative;
+	top: 4.45rem;
 }
 .navTitle {
-  color: var(--font-color);
-  padding-left: 50px;
-  size: 50px;
+	color: var(--font-color);
+	padding-left: 50px;
+	size: 50px;
 }
 .view-div {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
 }
 .view-button {
-  width: 130px;
-  height: 50px;
-  margin: 0 10px;
-  border: 1px solid #dddddd;
-  border-radius: 3px;
-  background: var(--bg-color);
+	width: 130px;
+	height: 50px;
+	margin: 0 10px;
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+	background: var(--bg-color);
 
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
 .view-button > img {
-  width: 24px;
-  height: 24px;
+	width: 24px;
+	height: 24px;
 }
 .view-button:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 .view-button.selected {
-  outline: 1px solid black;
+	outline: 1px solid black;
 }
 @media (max-width: 900px) {
-  #header {
-    width: 100%;
-  }
-  .info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    margin-top: -200px;
-  }
-  #icon1 {
-    margin-top: -6%;
-  }
-  #gallery1 {
-    font-size: 1.5rem;
-    margin-top: 15%;
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-  }
-  /* #normal-view {
+	#header {
+		width: 100%;
+	}
+	.info {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+		text-align: center;
+		margin-top: -200px;
+	}
+	#icon1 {
+		margin-top: -6%;
+	}
+	#gallery1 {
+		font-size: 1.5rem;
+		margin-top: 15%;
+		display: flex;
+		justify-content: center;
+		text-transform: uppercase;
+	}
+	/* #normal-view {
     margin-left: 50%;
   } */
-  .view-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
+	.view-div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 600px) {
-  .display-3 {
-    font-size: 4rem;
-  }
-  .gallery-head {
-    font-size: 2rem;
-  }
-  .navTitle {
-    padding-left: 3px;
-  }
+	.display-3 {
+		font-size: 4rem;
+	}
+	.gallery-head {
+		font-size: 2rem;
+	}
+	.navTitle {
+		padding-left: 3px;
+	}
 }
 
 @media only screen and (min-width: 992px) {
-  #header {
-    height: calc(100vh - 4.45rem - 15px);
-  }
-  .navbar ~ * {
-    top: calc(4.45rem + 15px);
-  }
+	#header {
+		height: calc(100vh - 4.45rem - 15px);
+	}
+	.navbar ~ * {
+		top: calc(4.45rem + 15px);
+	}
 }
 
 /* Styles for if the screen is taller than it is wide (assumed mobile view) */
 @media screen and (max-aspect-ratio: 8/7) {
-  .display-3 {
-    font-size: 6rem;
-  }
+	.display-3 {
+		font-size: 6rem;
+	}
 }
 
 .badge {
-  color: #000;
-  border-radius: 16px;
-  padding: 8px;
-  margin: 8px 0 8px 8px;
+	border-radius: 16px;
+	padding: 8px;
+	margin: 8px 0 8px 8px;
+	color: white;
+	border: 1px solid white;
 }
 
 .grass {
-  background-color: #8CD751;
+	background-color: #8cd751;
+	border-color: #8cd751;
 }
 
 .bug {
-  background-color: #BCCA21;
+	background-color: #bcca21;
+	border-color: #bcca21;
 }
 
 .electric {
-  background-color: #FDE53C;
+	background-color: #fde53c;
+	border-color: #fde53c;
 }
 
 .dark {
-  background-color: #8C6855;
+	background-color: #8c6855;
+	border-color: #8c6855;
 }
 
 .fairy {
-  background-color: #FAADFF;
+	background-color: #faadff;
+	border-color: #faadff;
 }
 
 .fighting {
-  background-color: #A85644;
+	background-color: #a85644;
+	border-color: #a85644;
 }
 
 .fire {
-  background-color: #FA5543;
+	background-color: #fa5543;
+	border-color: #fa5543;
 }
 
 .flying {
-  background-color: #79A4FF;
+	background-color: #79a4ff;
+	border-color: #79a4ff;
 }
 
-.ghots {
-  background-color: #7975D6;
+.ghost {
+	background-color: #7975d6;
+	border-color: #7975d6;
 }
 
 .ground {
-  background-color: #EDCC56;
+	background-color: #edcc56;
+	border-color: #edcc56;
 }
 
 .ice {
-  background-color: #96F1FF;
+	background-color: #96f1ff;
+	border-color: #96f1ff;
 }
 
 .normal {
-  background-color: #BABAAC;
+	background-color: #babaac;
+	border-color: #babaac;
 }
 
 .poison {
-  background-color: #AB5DA3;
+	background-color: #ab5da3;
+	border-color: #ab5da3;
 }
 
 .psychic {
-  background-color: #F662B2;
+	background-color: #f662b2;
+	border-color: #f662b2;
 }
 
 .rock {
-  background-color: #CDBD72;
+	background-color: #cdbd72;
+	border-color: #cdbd72;
 }
 
 .steel {
-  background-color: #C3C1D8;
+	background-color: #c3c1d8;
+	border-color: #c3c1d8;
 }
 
 .water {
-  background-color: #55ACFF;
+	background-color: #55acff;
+	border-color: #55acff;
+}
+
+.dragon {
+	background-color: #6f35fc;
+	border-color: #6f35fc;
 }
