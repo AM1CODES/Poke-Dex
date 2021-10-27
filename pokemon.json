@@ -3,7 +3,6 @@
 		"pokemonName": "Gible",
 		"pokemonDescription": "Gible is a small, blue, bipedal dragon-like Pokémon. It lacks a neck but has a large mouth, filled with sharp teeth. It has two horns on its head striped blue in the middle, and a large dorsal fin. Gible loves to bite anything, and that can be a pain for its Trainer if the Trainer gets bitten themselves. This habit of biting anything is probably instinctive, and it is very hard to train them to control their urges.",
 		"pokemonImage": "./images/gible.png",
-		"pokemonTypes": ["Ground", "Dragon"],
 		"contributedByName": "ashvathnarayanan",
 		"contributedByUrl": "https://github.com/ashvathnarayanan",
 		"improvedByName": "",
