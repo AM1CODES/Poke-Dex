@@ -1,7 +1,7 @@
 :root {
   --bg-color: black;
   --font-color: white;
-  --arrow-display : none;
+  --arrow-display: none;
 }
 .lightMode {
   --bg-color: white;
@@ -59,9 +59,9 @@ button {
 .card-img-top {
   padding: 2rem;
 }
-.card-text{
+.card-text {
   font-size: medium;
-  line-height:25px;
+  line-height: 25px;
   font-weight: 400;
 }
 
@@ -223,69 +223,69 @@ button {
 }
 
 .grass {
-  background-color: #8CD751;
+  background-color: #8cd751;
 }
 
 .bug {
-  background-color: #BCCA21;
+  background-color: #bcca21;
 }
 
 .electric {
-  background-color: #FDE53C;
+  background-color: #fde53c;
 }
 
 .dark {
-  background-color: #8C6855;
+  background-color: #8c6855;
 }
 
 .fairy {
-  background-color: #FAADFF;
+  background-color: #faadff;
 }
 
 .fighting {
-  background-color: #A85644;
+  background-color: #a85644;
 }
 
 .fire {
-  background-color: #FA5543;
+  background-color: #fa5543;
 }
 
 .flying {
-  background-color: #79A4FF;
+  background-color: #79a4ff;
 }
 
 .ghots {
-  background-color: #7975D6;
+  background-color: #7975d6;
 }
 
 .ground {
-  background-color: #EDCC56;
+  background-color: #edcc56;
 }
 
 .ice {
-  background-color: #96F1FF;
+  background-color: #96f1ff;
 }
 
 .normal {
-  background-color: #BABAAC;
+  background-color: #babaac;
 }
 
 .poison {
-  background-color: #AB5DA3;
+  background-color: #ab5da3;
 }
 
 .psychic {
-  background-color: #F662B2;
+  background-color: #f662b2;
 }
 
 .rock {
-  background-color: #CDBD72;
+  background-color: #cdbd72;
 }
 
 .steel {
-  background-color: #C3C1D8;
+  background-color: #c3c1d8;
 }
 
 .water {
-  background-color: #55ACFF;
+  background-color: #55acff;
 }
