@@ -79,5 +79,12 @@
     "contributedByUrl": "https://github.com/Lakshya3119",
     "improvedByName": "",
     "improvedByUrl": ""
-  }
+  },
+  {
+	"pokemonName": "Clefairy",
+	"pokemonDescription": "A pink fairy type Pokémon, whose cuteness could kill",
+	"pokemonImage": "https://img.pokemondb.net/artwork/clefairy.jpg",
+	"contributedByName": "Joy Taylor",
+	"contributedByUrl":"https://github.com/Joytaylor"
+},
 ]
