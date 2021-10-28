@@ -1,7 +1,7 @@
 :root {
   --bg-color: black;
   --font-color: white;
-  --arrow-display : 'none';
+  --arrow-display: none;
 }
 .lightMode {
   --bg-color: white;
@@ -59,10 +59,16 @@ button {
 .card-img-top {
   padding: 2rem;
 }
+.card-text {
+  font-size: medium;
+  line-height: 25px;
+  font-weight: 400;
+}
 
 .btn-sm {
   width: 100%;
   font-size: 15px;
+  white-space: normal;
 }
 .display-3 {
   font-size: 8rem;
@@ -207,4 +213,79 @@ button {
   .display-3 {
     font-size: 6rem;
   }
+}
+
+.badge {
+  color: #000;
+  border-radius: 16px;
+  padding: 8px;
+  margin: 8px 0 8px 8px;
+}
+
+.grass {
+  background-color: #8cd751;
+}
+
+.bug {
+  background-color: #bcca21;
+}
+
+.electric {
+  background-color: #fde53c;
+}
+
+.dark {
+  background-color: #8c6855;
+}
+
+.fairy {
+  background-color: #faadff;
+}
+
+.fighting {
+  background-color: #a85644;
+}
+
+.fire {
+  background-color: #fa5543;
+}
+
+.flying {
+  background-color: #79a4ff;
+}
+
+.ghots {
+  background-color: #7975d6;
+}
+
+.ground {
+  background-color: #edcc56;
+}
+
+.ice {
+  background-color: #96f1ff;
+}
+
+.normal {
+  background-color: #babaac;
+}
+
+.poison {
+  background-color: #ab5da3;
+}
+
+.psychic {
+  background-color: #f662b2;
+}
+
+.rock {
+  background-color: #cdbd72;
+}
+
+.steel {
+  background-color: #c3c1d8;
+}
+
+.water {
+  background-color: #55acff;
 }
