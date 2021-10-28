@@ -2,17 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="favicon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="icons/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
-      rel="stylesheet"
     />
     <link
       rel="stylesheet"
@@ -20,13 +16,18 @@
       integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+    />
     <link rel="stylesheet" href="about.css" />
     <title>About</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <a class="navbar-brand navTitle" href="index.html"
-        ><i class="fas fa-desktop mr-2"></i>Poké-Dex</a
+      <a class="navbar-brand navTitle" href="index.html">
+        <i class="fas fa-desktop mr-2"></i>
+        Poké-Dex</a
       >
       <button
         class="navbar-toggler"
@@ -45,30 +46,45 @@
             <a class="nav-link" href="index.html#header">Home</a>
           </li>
           <li class="nav-item itemNav">
-            <a class="nav-link" href="index.html#gallery-title">Pokémons</a>
+            <a class="nav-link" href="index.html#gallery-title">Pokémon</a>
           </li>
           <li class="nav-item itemNav">
             <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item itemNav">
+            <p class="nav-link" id="toggle">🌞</p>
           </li>
         </ul>
       </div>
     </nav>
     <div class="container">
       <h1 class="about-title">
-        <b>This Project Is Developed by Aayush Mishra</b>
+        <b>This project is developed by Aayush Mishra</b>
       </h1>
       <div id="para">
         <p>
-          Hey! I am a Second Year Engineering Student studying at Vellore
-          Institute of Technology, Bhopal. I am currently working as a Freelace
-          AI content writer and my Field of Interest is Data Science. I am
-          also into Web development but for the time being only the Frontend. I
-          created this project as a starter Repository for Hacktoberfest2020 for
-          the first-time participants who can learn how to make their first pull
-          request through this project.
+          Hey! I'm a second year Engineering student at Vellore Institute of
+          Technology, Bhopal.
         </p>
-        <p>Fun-Fact: I am also a Freelace Filmmaker and Editor!</p>
+        <p>
+          I'm currently working as a Freelance AI content writer and my main
+          field of interest is Data Science.
+        </p>
+        <p>
+          I'm interested in Web Development as well, focusing on Frontend
+          technologies for the time being.
+        </p>
+        <p>
+          I created this project as a starter repository for Hacktoberfest 2020
+          in order to help first-time participants in learning how to make their
+          first pull request.
+        </p>
+        <p>Fun fact - I'm also a freelance filmmaker and editor!</p>
       </div>
+      <div class="container"></div>
+
+      <br />
+
       <div class="row">
         <div class="col-lg-4 mb-4">
           <div class="card text-white bg-dark">
@@ -76,7 +92,7 @@
               <h5 class="card-title">
                 <i class="fab fa-linkedin"></i> LinkedIn
               </h5>
-              <p class="card-text">Let's Connect!</p>
+              <p class="card-text">Let's connect!</p>
               <a
                 href="https://www.linkedin.com/in/aayush-mishra-22a8a4b/"
                 class="btn btn-outline-light btn-sm"
@@ -88,12 +104,12 @@
         <div class="col-lg-4 mb-4">
           <div class="card text-white">
             <div id="two" class="card-body">
-              <h5 class="card-title"><i class="fab fa-github"></i> Github</h5>
-              <p class="card-text">Check out my Github Profile!</p>
+              <h5 class="card-title"><i class="fab fa-github"></i> GitHub</h5>
+              <p class="card-text">Check out my GitHub profile!</p>
               <a
                 href="https://github.com/AM1CODES"
                 class="btn btn-outline-light btn-sm"
-                >Github</a
+                >GitHub</a
               >
             </div>
           </div>
@@ -104,7 +120,7 @@
               <h5 class="card-title">
                 <i class="fab fa-instagram"></i> Instagram
               </h5>
-              <p class="card-text">Check out my Edits!</p>
+              <p class="card-text">Check out my edits!</p>
               <a
                 href="https://www.instagram.com/thatshutterboi/"
                 class="btn btn-outline-light btn-sm"
@@ -114,10 +130,6 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <div id="buttons" class="text-center">
-      <a id="end1" href="index.html" class="btn btn-dark">Home</a>
     </div>
 
     <script
@@ -136,9 +148,10 @@
       crossorigin="anonymous"
     ></script>
     <script>
-        $('.navbar-nav>li>a').on('click', function(){
-        $('.navbar-collapse').collapse('hide');
-    });
+      $(".navbar-nav>li>a").on("click", function () {
+        $(".navbar-collapse").collapse("hide");
+      });
     </script>
+    <script src="about.js"></script>
   </body>
 </html>

@@ -1,81 +1,195 @@
+:root {
+  --bg-color: black;
+  --font-color: white;
+  --arrow-display: none;
+}
+.lightMode {
+  --bg-color: white;
+  --font-color: black;
+}
 html {
   scroll-behavior: smooth;
 }
+body {
+  color: var(--font-color);
+  background-color: var(--bg-color);
+  font-family: "Righteous", cursive;
+}
+button {
+  color: var(--font-color);
+}
 #header {
-  background: url('https://www.wallpaperup.com/uploads/wallpapers/2015/10/27/825565/a8f967ede1e1e41abc91787415e3b9ee.jpg');
+  background: url("https://www.wallpaperup.com/uploads/wallpapers/2015/10/27/825565/a8f967ede1e1e41abc91787415e3b9ee.jpg");
+
   background-position: center;
   background-size: cover;
-  height: 100vh;
-  padding: 20%;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 4.45rem);
+}
+
+/* scale-animation-by-sudo-nick16 */
+.card {
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.backToTop {
+  margin-left: 49%;
+
+  color: var(--font-color);
+  padding: 0.6%;
+  border-radius: 50%;
+  margin-bottom: 4%;
+}
+.card {
+  background-color: var(--bg-color);
+  height: 100%;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.25);
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.25);
+}
+.card-body.hidden {
+  display: none;
 }
 .card-img-top {
   padding: 2rem;
 }
-body {
-  font-family: 'Righteous', cursive;
-  color: black;
-}
-h2
-{
-  position: relative;
-  bottom: 200px;
+.card-text {
+  font-size: medium;
+  line-height: 25px;
+  font-weight: 400;
 }
 
-
-.navbar {
-  background-color: black;
-  color: white;
-}
-
-.navTitle {
-  color: #ffffff;
-  padding-left: 50px;
-  size: 50px;
-}
-.card {
-  height: 100%;
-}
-.fas fa-chevron-down fa-6x gallery-icon{
-  padding-top: 100px;
-}
-
-.itemNav {
-  padding: 15px;
-}
-.gallery-head {
-  font-size: 3rem;
-  text-align: center;
-  padding-bottom: 5%;
-  margin-top: 10%;
-  text-transform: uppercase;
-}
-.lead {
-  margin-top: 50px;
-  font-size: 1.5rem;
+.btn-sm {
+  width: 100%;
+  font-size: 15px;
+  white-space: normal;
 }
 .display-3 {
   font-size: 8rem;
 }
+.fas fa-chevron-down fa-6x gallery-icon {
+  padding-top: 100px;
+  color: var(--font-color);
+}
+
+.gallery-head {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
 .gallery-icon {
-  color: #000000;
+  color: var(--font-color);
   text-align: center;
 }
-.backToTop {
-  margin-left: 49%;
+.itemNav {
+  padding: 15px;
+  cursor: pointer;
+}
+.jumbotron {
+  border-radius: 0;
+}
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.lead {
+  font-size: 1.5rem;
+}
+.search-bar {
+  justify-content: center;
+}
+.search-button {
+  max-height: 38px;
+  margin-left: 10px;
+}
 
-  color: #000000;
-  padding: 0.6%;
-  border-radius: 50%;
-  margin-bottom: 4%;
+.navbar {
+  background-color: black;
+}
+.navbar ~ * {
+  position: relative;
+  top: 4.45rem;
+}
+.navTitle {
+  color: var(--font-color);
+  padding-left: 50px;
+  size: 50px;
+}
+.view-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.view-button {
+  width: 130px;
+  height: 50px;
+  margin: 0 10px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  background: var(--bg-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.view-button > img {
+  width: 24px;
+  height: 24px;
+}
+.view-button:hover {
+  cursor: pointer;
+}
+.view-button.selected {
+  outline: 1px solid black;
+}
+@media (max-width: 900px) {
+  #header {
+    width: 100%;
+  }
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: -200px;
+  }
+  #icon1 {
+    margin-top: -6%;
+  }
+  #gallery1 {
+    font-size: 1.5rem;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  /* #normal-view {
+    margin-left: 50%;
+  } */
+  .view-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .display-3 {
     font-size: 4rem;
-  }
-  .lead {
-    font-size: 1.6rem;
-    padding-top: 1500px;
   }
   .gallery-head {
     font-size: 2rem;
@@ -83,4 +197,95 @@ h2
   .navTitle {
     padding-left: 3px;
   }
+}
+
+@media only screen and (min-width: 992px) {
+  #header {
+    height: calc(100vh - 4.45rem - 15px);
+  }
+  .navbar ~ * {
+    top: calc(4.45rem + 15px);
+  }
+}
+
+/* Styles for if the screen is taller than it is wide (assumed mobile view) */
+@media screen and (max-aspect-ratio: 8/7) {
+  .display-3 {
+    font-size: 6rem;
+  }
+}
+
+.badge {
+  color: #000;
+  border-radius: 16px;
+  padding: 8px;
+  margin: 8px 0 8px 8px;
+}
+
+.grass {
+  background-color: #8cd751;
+}
+
+.bug {
+  background-color: #bcca21;
+}
+
+.electric {
+  background-color: #fde53c;
+}
+
+.dark {
+  background-color: #8c6855;
+}
+
+.fairy {
+  background-color: #faadff;
+}
+
+.fighting {
+  background-color: #a85644;
+}
+
+.fire {
+  background-color: #fa5543;
+}
+
+.flying {
+  background-color: #79a4ff;
+}
+
+.ghots {
+  background-color: #7975d6;
+}
+
+.ground {
+  background-color: #edcc56;
+}
+
+.ice {
+  background-color: #96f1ff;
+}
+
+.normal {
+  background-color: #babaac;
+}
+
+.poison {
+  background-color: #ab5da3;
+}
+
+.psychic {
+  background-color: #f662b2;
+}
+
+.rock {
+  background-color: #cdbd72;
+}
+
+.steel {
+  background-color: #c3c1d8;
+}
+
+.water {
+  background-color: #55acff;
 }
