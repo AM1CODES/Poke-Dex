@@ -2,9 +2,8 @@ name: Prettier
 
 on:
   pull_request:
-  push: 
-    branches: 
-      - master
+    branches: [master]
+    types: [opened, synchronize, closed]
 
 jobs:
   prettier:
