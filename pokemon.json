@@ -79,5 +79,14 @@
     "contributedByUrl": "https://github.com/Lakshya3119",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Mew",
+    "pokemonDescription": "Mew is a Psychic type Pokémon introduced in Generation 1. Mew is said to have the DNA of every single Pokémon contained within its body, allowing Mew to learn and use any attack.",
+    "pokemonImage": "https://cdn2.bulbagarden.net/upload/b/b1/151Mew.png",
+    "contributedByName": "Will Kemp",
+    "contributedByUrl": "https://github.com/wkemp",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
