@@ -44,5 +44,14 @@
 		"contributedByUrl": "https://github.com/Karthik1717",
 		"improvedByName": "",
 		"improvedByUrl": ""
+	},
+	{
+		"pokemonName": "Porygon",
+		"pokemonDescription": "Porygon is capable of reverting itself entirely back to program data and entering cyberspace. This Pokémon is copy protected so it cannot be duplicated by copying.",
+		"pokemonImage": "https://images.gameinfo.io/pokemon/256/p137f330.webp",
+		"contributedByName": "Alberto Rojas",
+		"contributedByUrl": "https://github.com/shaka0241",
+		"improvedByName": "",
+		"improvedByUrl": ""
 	}
 ]
