@@ -88,5 +88,14 @@
     "contributedByUrl": "https://github.com/wkemp",
     "improvedByName": "",
     "improvedByUrl": ""
-  }
+  },
+  {
+    "pokemonName": "Umbreon",
+    "pokemonDescription": "Umbreon is a Pokémon which has a sleek, black body with four slender legs and crimson eyes. It has two pairs of pointed teeth (one in the upper jaw and one in the lower jaw) which are visible when its mouth is open. It has long, pointed ears and a bushy tail, each with a yellow band around them. Its forehead and legs have yellow rings on them.",
+    "pokemonImage": "https://cdn2.bulbagarden.net/upload/thumb/3/3d/197Umbreon.png/500px-197Umbreon.png",
+    "contributedByName": "Daniel Parra",
+    "contributedByUrl": "https://github.com/danialepaco",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
 ]
