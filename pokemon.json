@@ -88,5 +88,14 @@
     "contributedByUrl": "https://github.com/wkemp",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Manaphy",
+    "pokemonDescription": "Manaphy is a Water type Pokémon introduced in Generation 4. It is known as the Seafaring Pokémon.Manaphy uses the Hydration Ability, which heals any of the five major Status Conditions while it is raining.",
+    "pokemonImage": "https://www.pngkey.com/maxpic/u2w7r5a9i1q8r5q8/",
+    "contributedByName": "Lakshya Shrivastava",
+    "contributedByUrl": "https://github.com/Lakshya3119",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
