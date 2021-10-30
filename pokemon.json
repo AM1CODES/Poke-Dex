@@ -88,5 +88,14 @@
     "contributedByUrl": "https://github.com/wkemp",
     "improvedByName": "",
     "improvedByUrl": ""
-  }
+  },
+  {
+	"pokemonName": "Charizard",
+	"pokemonDescription":"Charizard are a proud race of warriors who constantly search for new and stronger opponents to battle.",
+	"pokemonImage":"./images/Pokémon_Charizard.png",
+	"contributedByName":"ALI11-2000",
+	"contributedByUrl":"https://github.com/ALI11-2000",
+	"improvedByName":"" ,
+	"improvedByUrl":"",
+}
 ]
