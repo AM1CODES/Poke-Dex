@@ -88,5 +88,14 @@
     "contributedByUrl": "https://github.com/wkemp",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Rayquaza",
+    "pokemonDescription": "Rayquaza is a long green serpentine Pokémon with yellow eyes. It has pink lining on the mouth. It has yellow, linked, circular markings on its entire body. In Mega form, it has a Delta-shaped jaw on its mouth and an elongated serpent body. As Mega Rayquaza, it is more aggressive and powerful.",
+    "pokemonImage": "https://static.wikia.nocookie.net/pokemon/images/e/e4/384Rayquaza.png/revision/latest/scale-to-width-down/498?cb=20210820005232",
+    "contributedByName": "Moises Ñañez",
+    "contributedByUrl": "https://github.com/moisesnandres",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
