@@ -18,6 +18,16 @@
     "improvedByUrl": ""
   },
   {
+    "pokemonName": "Whismur",
+    "pokemonDescription": "Whismur can be easily startled by the sound of its own crying, that it will continue to cry until finally falling asleep from exhaustion.",
+    "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/293Whismur.png",
+    "contributedByName": "Ajaj895",
+    "contributedByUrl": "https://github.com/ajaj895",
+    // these are only needed if you have improved a card
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
     "pokemonName": "Eevee",
     "pokemonDescription": "It has the ability to alter the composition of its body to suit its surrounding environment.",
     "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
