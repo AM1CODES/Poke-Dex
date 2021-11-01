@@ -79,5 +79,32 @@
     "contributedByUrl": "https://github.com/Lakshya3119",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Mew",
+    "pokemonDescription": "Mew is a Psychic type Pokémon introduced in Generation 1. Mew is said to have the DNA of every single Pokémon contained within its body, allowing Mew to learn and use any attack.",
+    "pokemonImage": "https://cdn2.bulbagarden.net/upload/b/b1/151Mew.png",
+    "contributedByName": "Will Kemp",
+    "contributedByUrl": "https://github.com/wkemp",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Rayquaza",
+    "pokemonDescription": "Rayquaza is a long green serpentine Pokémon with yellow eyes. It has pink lining on the mouth. It has yellow, linked, circular markings on its entire body. In Mega form, it has a Delta-shaped jaw on its mouth and an elongated serpent body. As Mega Rayquaza, it is more aggressive and powerful.",
+    "pokemonImage": "https://static.wikia.nocookie.net/pokemon/images/e/e4/384Rayquaza.png/revision/latest/scale-to-width-down/498?cb=20210820005232",
+    "contributedByName": "Moises Ñañez",
+    "contributedByUrl": "https://github.com/moisesnandres",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Cyndaquil",
+    "pokemonDescription": "Cyndaquil is a small quadrupedal Pokémon that resembles an echidna. They are covered with a flame-resistant fur that is dark blue in color on its back to its head and light yellow on its underside. There are also four red spots of fur on the back that flames can be projected from. A shiny Cyndaquil has brown fur on its back instead of dark blue.",
+    "pokemonImage": "https://legends.pokemon.com/assets/pokemon/pokemon_cyndaquil.png",
+    "contributedByName": "Chris Szczechowicz",
+    "contributedByUrl": "https://github.com/christophszcz",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
