@@ -97,5 +97,14 @@
     "contributedByUrl": "https://github.com/moisesnandres",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Cyndaquil",
+    "pokemonDescription": "Cyndaquil is a small quadrupedal Pokémon that resembles an echidna. They are covered with a flame-resistant fur that is dark blue in color on its back to its head and light yellow on its underside. There are also four red spots of fur on the back that flames can be projected from. A shiny Cyndaquil has brown fur on its back instead of dark blue.",
+    "pokemonImage": "https://legends.pokemon.com/assets/pokemon/pokemon_cyndaquil.png",
+    "contributedByName": "Chris Szczechowicz",
+    "contributedByUrl": "https://github.com/christophszcz",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
