@@ -1,0 +1,119 @@
+[
+  {
+    "pokemonName": "Gible",
+    "pokemonDescription": "Gible is a small, blue, bipedal dragon-like Pokémon. It lacks a neck but has a large mouth, filled with sharp teeth. It has two horns on its head striped blue in the middle, and a large dorsal fin. Gible loves to bite anything, and that can be a pain for its Trainer if the Trainer gets bitten themselves. This habit of biting anything is probably instinctive, and it is very hard to train them to control their urges.",
+    "pokemonImage": "./images/gible.png",
+    "contributedByName": "ashvathnarayanan",
+    "contributedByUrl": "https://github.com/ashvathnarayanan",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Abra",
+    "pokemonDescription": "Abra uses psychic powers while it sleeps. Its dreams affect the powers that the Pokemon wields.",
+    "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png",
+    "contributedByName": "felipprodrigues",
+    "contributedByUrl": "",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Whismur",
+    "pokemonDescription": "Whismur can be easily startled by the sound of its own crying, that it will continue to cry until finally falling asleep from exhaustion.",
+    "pokemonImage": "./images/293Whismur.png",
+    "contributedByName": "Ajaj895",
+    "contributedByUrl": "https://github.com/ajaj895",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Eevee",
+    "pokemonDescription": "It has the ability to alter the composition of its body to suit its surrounding environment.",
+    "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
+    "contributedByName": "Monochrome Taisa",
+    "contributedByUrl": "https://github.com/idm1303",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Rattata",
+    "pokemonDescription": "Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area.",
+    "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
+    "contributedByName": "Aagam Shah",
+    "contributedByUrl": "https://github.com/neutrinoguy",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Gastradon",
+    "pokemonDescription": "Gastrodon is a sea slug-like Pokémon. Much like its pre-evolved form, it has a slug-like body with a round head and a mantle covering the top half of its body.",
+    "pokemonImage": "https://cdn2.bulbagarden.net/upload/thumb/1/18/423Gastrodon.png/250px-423Gastrodon.png",
+    "contributedByName": "Karthik Kamath",
+    "contributedByUrl": "https://github.com/Karthik1717",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Snorlax",
+    "pokemonDescription": "Snorlax is a huge, bipedal, dark blue-green Pokémon with a cream-colored face, belly, and feet. Its body is composed of mostly its belly, as its limbs are comparatively small. Its head is large with small, pointed ears and two pointed teeth protruding from its lower jaw. It has round feet, which both have three claws and a circular brown paw pad, and short arms with five claws on each hand. Snorlax's bulk makes it the heaviest Normal type.",
+    "pokemonImage": "http://img4.wikia.nocookie.net/__cb20130621040305/sonicpokemon/images/9/94/Snorlax_AG_anime.png",
+    "contributedByName": "Alberto Rojas",
+    "contributedByUrl": "https://github.com/shaka0241",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Grovyle",
+    "pokemonDescription": "The leaves growing out of Grovyle’s body are convenient for camouflaging it from enemies in the forest. This Pokémon is a master at climbing trees in jungles.",
+    "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/253.png",
+    "contributedByName": "Ariel Roque",
+    "contributedByUrl": "https://github.com/arielroque",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Magby",
+    "pokemonDescription": "Magby is a fire type baby pokemon introduced in Pokemon gen 2. It has a red body except its stomach which is a yellow color and is in shape of a flame.",
+    "pokemonImage": "https://static.wikia.nocookie.net/pokemon/images/c/cb/240Magby.png",
+    "contributedByName": "Jackson Isaac",
+    "contributedByUrl": "https://github.com/JacksonIsaac/",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Ditto",
+    "pokemonDescription": "Ditto is a Normal type Pokémon introduced in Generation 1. It is known as the Transform Pokémon.Capable of copying an enemy’s genetic code to instantly transform itself into a duplicate of the enemy.",
+    "pokemonImage": "https://www.pngitem.com/pimgs/m/77-770915_ditto-pokemon-character-vector-art-pokemon-ditto-dream.png",
+    "contributedByName": "Lakshya Shrivastava",
+    "contributedByUrl": "https://github.com/Lakshya3119",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Mew",
+    "pokemonDescription": "Mew is a Psychic type Pokémon introduced in Generation 1. Mew is said to have the DNA of every single Pokémon contained within its body, allowing Mew to learn and use any attack.",
+    "pokemonImage": "https://cdn2.bulbagarden.net/upload/b/b1/151Mew.png",
+    "contributedByName": "Will Kemp",
+    "contributedByUrl": "https://github.com/wkemp",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Rayquaza",
+    "pokemonDescription": "Rayquaza is a long green serpentine Pokémon with yellow eyes. It has pink lining on the mouth. It has yellow, linked, circular markings on its entire body. In Mega form, it has a Delta-shaped jaw on its mouth and an elongated serpent body. As Mega Rayquaza, it is more aggressive and powerful.",
+    "pokemonImage": "https://static.wikia.nocookie.net/pokemon/images/e/e4/384Rayquaza.png/revision/latest/scale-to-width-down/498?cb=20210820005232",
+    "contributedByName": "Moises Ñañez",
+    "contributedByUrl": "https://github.com/moisesnandres",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Cyndaquil",
+    "pokemonDescription": "Cyndaquil is a small quadrupedal Pokémon that resembles an echidna. They are covered with a flame-resistant fur that is dark blue in color on its back to its head and light yellow on its underside. There are also four red spots of fur on the back that flames can be projected from. A shiny Cyndaquil has brown fur on its back instead of dark blue.",
+    "pokemonImage": "https://legends.pokemon.com/assets/pokemon/pokemon_cyndaquil.png",
+    "contributedByName": "Chris Szczechowicz",
+    "contributedByUrl": "https://github.com/christophszcz",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  }
+]
