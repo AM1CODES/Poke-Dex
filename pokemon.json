@@ -56,7 +56,7 @@
   {
     "pokemonName": "Snorlax",
     "pokemonDescription": "Snorlax is a huge, bipedal, dark blue-green Pokémon with a cream-colored face, belly, and feet. Its body is composed of mostly its belly, as its limbs are comparatively small. Its head is large with small, pointed ears and two pointed teeth protruding from its lower jaw. It has round feet, which both have three claws and a circular brown paw pad, and short arms with five claws on each hand. Snorlax's bulk makes it the heaviest Normal type.",
-    "pokemonImage": "http://img4.wikia.nocookie.net/__cb20130621040305/sonicpokemon/images/9/94/Snorlax_AG_anime.png",
+    "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png",
     "contributedByName": "Alberto Rojas",
     "contributedByUrl": "https://github.com/shaka0241",
     "improvedByName": "",
@@ -83,7 +83,7 @@
   {
     "pokemonName": "Ditto",
     "pokemonDescription": "Ditto is a Normal type Pokémon introduced in Generation 1. It is known as the Transform Pokémon.Capable of copying an enemy’s genetic code to instantly transform itself into a duplicate of the enemy.",
-    "pokemonImage": "https://www.pngitem.com/pimgs/m/77-770915_ditto-pokemon-character-vector-art-pokemon-ditto-dream.png",
+    "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png",
     "contributedByName": "Lakshya Shrivastava",
     "contributedByUrl": "https://github.com/Lakshya3119",
     "improvedByName": "",
@@ -101,7 +101,7 @@
   {
     "pokemonName": "Rayquaza",
     "pokemonDescription": "Rayquaza is a long green serpentine Pokémon with yellow eyes. It has pink lining on the mouth. It has yellow, linked, circular markings on its entire body. In Mega form, it has a Delta-shaped jaw on its mouth and an elongated serpent body. As Mega Rayquaza, it is more aggressive and powerful.",
-    "pokemonImage": "https://static.wikia.nocookie.net/pokemon/images/e/e4/384Rayquaza.png/revision/latest/scale-to-width-down/498?cb=20210820005232",
+    "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/384.png",
     "contributedByName": "Moises Ñañez",
     "contributedByUrl": "https://github.com/moisesnandres",
     "improvedByName": "",
