@@ -115,5 +115,14 @@
     "contributedByUrl": "https://github.com/christophszcz",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Mega Charizard X",
+    "pokemonDescription": "Mega Charizard X has larger brow and claws, and its eyes are now red. The finger disappears from the wing membrane, and the lower edges are divided into large, rounded points. Mega Charizard X breathes blue flames out the sides of its mouth, and the flame on its tail now burns blue. It is said that its new power turns it black and creates more intense flames.",
+    "pokemonImage": "./images/Mega Charizard X.png",
+    "contributedByName": "Mayuresh Agashe",
+    "contributedByUrl": "https://github.com/mayureshagashe2105",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
