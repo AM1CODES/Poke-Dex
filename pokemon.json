@@ -124,5 +124,14 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Ninetales",
+    "pokemonDescription": "Ninetales is a quadrupedal canine Pokémon covered in thick, luxurious golden-white fur. It has a small mane of thicker fur around its neck and a long, fluffy crest atop its head. It has slender legs with three-toed paws and nine, long tails with pale orange tips. It has red eyes, pointed ears, and a triangular black nose.",
+    "pokemonImage": "./images/ninetales.png",
+    "contributedByName": "Chris Vo",
+    "contributedByUrl": "https://github.com/ChrisVo",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
