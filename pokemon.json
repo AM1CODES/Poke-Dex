@@ -125,4 +125,13 @@
     "improvedByName": "",
     "improvedByUrl": ""
   }
+  {
+    "pokemonName": "Chikorita",
+    "pokemonDescription": "In battle, Chikorita waves its leaf around to keep the foe at bay. However, a sweet fragrance also wafts from the leaf, becalming the battling Pokémon and creating a cozy, friendly atmosphere all around.",
+    "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/152.png",
+    "contributedByName": "Nishant Thottarath",
+    "contributedByUrl": "https://github.com/Ordinary-droid",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  }
 ]
