@@ -124,5 +124,14 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": ["Shiny Charizard"],
+    "pokemonDescription": [
+      "A large fire type pokemon. The shiny version of this pokemon is black and red."
+    ],
+    "pokemonImage": ["./images/pokemon_shiny_charizard.jpg"],
+    "contributedByName": ["tbacon781"],
+    "contributedByUrl": ["https://github.com/tbacon781"]
   }
 ]
