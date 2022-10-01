@@ -125,4 +125,13 @@
     "improvedByName": "",
     "improvedByUrl": ""
   }
+  {
+	"pokemonName": "Greninja",
+    "pokemonDescription": "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
+    "pokemonImage": "https://archives.bulbagarden.net/media/upload/thumb/6/67/658Greninja.png/375px-658Greninja.png",
+    "contributedByName": "Ishan Pandhare",
+    "contributedByUrl": "https://github.com/Ishanned",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  }
 ]
