@@ -124,5 +124,14 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Castform",
+    "pokemonDescription": "Although its form changes with the weather, that is apparently the result of a chemical reaction and not the result of its own free will.",
+    "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/351.png",
+    "contributedByName": "Matthew Toadvine",
+    "contributedByUrl": "https://github.com/toadwx",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
