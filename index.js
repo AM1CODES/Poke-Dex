@@ -1,3 +1,5 @@
+let playingMusic = false;
+
 const setNormalView = (isNormalView) => {
   if (isNormalView) {
     document.querySelector("#normal-view").classList.add("selected");
@@ -34,6 +36,35 @@ document.querySelector("#compact-view").addEventListener("mousedown", () => {
   setNormalView(false);
 });
 
+const playSound = async () => {
+  const sound = document.getElementsByTagName("audio")[0];
+  await sound.play();
+  playingMusic = true;
+};
+
+const pauseSound = async () => {
+  const sound = document.getElementsByTagName("audio")[0];
+  await sound.pause();
+  playingMusic = false;
+};
+
+const handleSoundEvent = async () => {
+  const icon = document.getElementById('sound-icon');
+  if (playingMusic) {
+    await pauseSound();
+    icon.classList.remove('fa-volume-up');
+    icon.classList.add('fa-volume-off');
+  } else {
+    await playSound();
+    icon.classList.remove('fa-volume-off');
+    icon.classList.add('fa-volume-up');
+  }
+}
+
+document.getElementById('toggle-sound').addEventListener('click', async () => {
+  await handleSoundEvent();
+});
+
 const fixBrokenImages = () => {
   const fallbackURL = "images/fallback_image.png";
   const img = document.getElementsByTagName("img");
@@ -43,13 +74,6 @@ const fixBrokenImages = () => {
       t.src = fallbackURL;
     }
   }
-
-  //audio
-  let playSound = () => {
-    let sound = document.getElementsByTagName("audio")[0];
-    sound.play();
-  };
-  setTimeout(() => playSound(), 3000);
 };
 
 $(document).ready(function () {
@@ -93,6 +117,8 @@ $(document).ready(function () {
       "You should try running this within a server rather than through the browser"
     );
   });
+
+  setTimeout(async () => await handleSoundEvent(), 3000);
 });
 
 window.onload = fixBrokenImages;
