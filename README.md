@@ -69,8 +69,8 @@ Also now you can use a new css class to add a badge to you favorite pokemon, thi
 </div>
 ```
 
-Currently the available badges are: grass ,bug ,electric ,dark ,fairy ,fighting ,fire ,flying ,ghots ,ground ,ice ,normal ,poison ,psychic ,rock ,steel ,water.
-Feel free to add more, just create a class with the type name and chose de color.
+Currently the available badges are: grass, bug, electric, dark, fairy, fighting, fire, flying, ghots, ground, ice, normal,poison, psychic, rock, steel, water.
+Feel free to add more, just create a class with the type name and choose the color.
 
 Copy this code and paste it in the index.html file to make your changes. Test it on your own system and then create a pull request.
 
