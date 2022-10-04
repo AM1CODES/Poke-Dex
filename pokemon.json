@@ -124,5 +124,14 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Mewtwo",
+    "pokemonDescription": "Mewtwois a genetic pokemon and Psycstrike is Mewtwo's signature move and strongest STAB move, functioning as a stronger equivalent of Psyshock. Focus Blast provides necessary Fighting-type coverage to hit Dark-types like Tyranitar, Dark Arceus and Darkrai while hitting Steel-types like Dialga. ",
+    "pokemonImage": "./images/mewto.png",
+    "contributedByName": "Earl Millen",
+    "contributedByUrl": "https://github.com/akwe-afriitech",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
