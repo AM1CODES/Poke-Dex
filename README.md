@@ -13,7 +13,10 @@ There's no doubt that most of our childhood was spent watching Pokémon and play
 
 # What can I contribute?
 
-There is always something to contribute to a project whether you are a novice or a veteran. In this project, you can add your favourite Pokémon as a card to the website! Or maybe you didn't like the line that you are reading right now and want to change that. Sure! Why not?
+There is always something to contribute to a project whether you are a novice or a veteran.
+In this project, you can add your favourite Pokémon as a card to the website!
+Or maybe you didn't like the line that you are reading right now and want to change that.
+Sure! Why not?
 
 # How can I contribute?
 
@@ -24,11 +27,15 @@ Follow these steps to make your very first pull request.
 
 # But what if I don't know how to add cards? :(
 
-Not everyone is aware of every tool present in the world no matter how easy or complex it is. It's also not necessary to know each and every tool out there. So there are two ways to add a pokemon. **You only need to do one** of these methods otherwise the pokemon will appear twice.
+Not everyone is aware of every tool present in the world, no matter how easy or complex it is. 
+It's also not necessary to know each and every tool out there.
+So there are two ways to add a Pokémon.
+**You only need to do one** of these methods otherwise the Pokémon will appear twice.
 
 ## via html
 
-Use the code sample below to add your own card because everyone loves Pokémon and everyone should get a chance to add their favourite Pokémon! Just paste it within the the the div with an id of `pokemon-row`
+Use the code sample below to add your own card because everyone loves Pokémon and everyone should get a chance to add their favourite Pokémon!
+Just paste it within the the the div with an id of `pokemon-row`:
 
 ```html
 <div class="col-lg-4 mb-4">
@@ -36,7 +43,7 @@ Use the code sample below to add your own card because everyone loves Pokémon a
     <img class="card-img-top" src="[Link to Pokémon image]" alt="" />
     <div class="card-body">
       <h5 class="card-title">[Name of your favourite Pokémon]</h5>
-      <p class="card-text">[Small Description about your Pokémon]</p>
+      <p class="card-text">[Short Description of your Pokémon]</p>
       <a
         href="[Add the link to your GitHub Profile]"
         class="btn btn-outline-danger btn-sm"
@@ -47,7 +54,8 @@ Use the code sample below to add your own card because everyone loves Pokémon a
 </div>
 ```
 
-Also now you can use a new css class to add a badge to you favorite pokemon, this bagde is made for show the pokemon type. Follow the example
+Also now you can use a new css class to add a badge to you favorite Pokémon, this badge shows the Pokémon type.
+Follow the example:
 
 ```html
 <div class="col-lg-4 mb-4">
@@ -58,7 +66,7 @@ Also now you can use a new css class to add a badge to you favorite pokemon, thi
     <img class="card-img-top" src="[Link to Pokémon image]" alt="" />
     <div class="card-body">
       <h5 class="card-title">[Name of your favourite Pokémon]</h5>
-      <p class="card-text">[Small Description about your Pokémon]</p>
+      <p class="card-text">[Short Description of your Pokémon]</p>
       <a
         class="btn btn-outline-danger btn-sm"
         href="[Add the link to your GitHub Profile]"
@@ -69,29 +77,48 @@ Also now you can use a new css class to add a badge to you favorite pokemon, thi
 </div>
 ```
 
-Currently the available badges are: grass ,bug ,electric ,dark ,fairy ,fighting ,fire ,flying ,ghots ,ground ,ice ,normal ,poison ,psychic ,rock ,steel ,water.
-Feel free to add more, just create a class with the type name and chose de color.
+Currently the available badges are:
+* grass,
+* bug,
+* electric,
+* dark,
+* fairy,
+* fighting,
+* fire,
+* flying,
+* ghots,
+* ground,
+* ice,
+* normal,
+* poison,
+* psychic,
+* rock,
+* steel,
+* water.
 
-Copy this code and paste it in the index.html file to make your changes. Test it on your own system and then create a pull request.
+Feel free to add more, just create a class with the type name and choose the color.
+
+Copy this code and paste it in the index.html file to make your changes.
+Test it on your own system and then create a pull request.
 
 ## via javascript / json
 
-Or an even easier way is to just add an object to the `pokemon.json` file with
+Or an even easier way is to just add an object to the `pokemon.json` file with:
 
 ```json
 {
 	"pokemonName": [Name of your favourite Pokémon],
-	"pokemonDescription": [Small Description about your Pokémon],
+	"pokemonDescription": [Short Description of your Pokémon],
 	"pokemonImage": [Link to Pokémon image],
 	"contributedByName": [Add your Github Username],
 	"contributedByUrl": [Add a link to your Github profile],
-	// these are only needed if you have improved a card
+	// these are only needed if you have improved a card:
 	"improvedByName": [Add your Github Username],
 	"improvedByUrl": [Add a link to your Github profile],
 },
 ```
 
-If all of the pokemon get added to this file, then we can extend this project to include functionality like search and filtering.
+If all of the Pokémon get added to this file, then we can extend this project to include functionality like search and filtering.
 
 # Congratulations!
 
