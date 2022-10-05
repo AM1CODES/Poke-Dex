@@ -1,0 +1,77 @@
+:root {
+    --bg-color: black;
+    --font-color: white;
+  }
+  .lightMode {
+    --bg-color: white;
+    --font-color: black;
+  }
+  nav {
+    color: white;
+    background-color: black;
+  }
+  
+  #para {
+    text-align: center;
+    color: var(--font-color);
+  }
+  body {
+    background-color: var(--bg-color);
+    font-family: "Righteous", cursive;
+  }
+  h1 {
+    color: var(--font-color);
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 40px;
+  }
+  
+  #one {
+    background-color: rgb(40, 103, 178);
+  }
+  #two {
+    background-color: rgb(33, 31, 31);
+  }
+  #three {
+    background-color: rgb(225, 48, 108);
+  }
+  #buttons {
+    margin-bottom: 10px;
+  }
+  .navTitle {
+    color: #ffffff;
+    padding-left: 50px;
+    size: 50px;
+  }
+  
+  .itemNav {
+    padding: 15px;
+    cursor: pointer;
+  }
+  .about-title {
+    padding-top: 6%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .display-3 {
+      font-size: 4rem;
+    }
+    .lead {
+      font-size: 1.6rem;
+    }
+    .gallery-head {
+      font-size: 2rem;
+    }
+    .navTitle {
+      padding-left: 3px;
+    }
+  }
+  
+
+.type-chart-main{
+    padding: 150px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
