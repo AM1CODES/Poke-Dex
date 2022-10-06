@@ -18,6 +18,7 @@
   body {
     background-color: var(--bg-color);
     font-family: "Righteous", cursive;
+    color: white
   }
   h1 {
     color: var(--font-color);
@@ -26,15 +27,6 @@
     margin-bottom: 40px;
   }
   
-  #one {
-    background-color: rgb(40, 103, 178);
-  }
-  #two {
-    background-color: rgb(33, 31, 31);
-  }
-  #three {
-    background-color: rgb(225, 48, 108);
-  }
   #buttons {
     margin-bottom: 10px;
   }
@@ -69,9 +61,149 @@
   
 
 .type-chart-main{
-    padding: 150px 100px 0px;
+    padding: 20px 100px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+body {
+  color: var(--font-color);
+  background-color: var(--bg-color);
+  font-family: "Righteous", cursive;
+}
+button {
+  color: var(--font-color);
+}
+#header {
+  background: url("https://www.wallpaperup.com/uploads/wallpapers/2015/10/27/825565/a8f967ede1e1e41abc91787415e3b9ee.jpg");
+
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 4.45rem);
+}
+
+
+.itemNav {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.lead {
+  font-size: 1.2rem;
+}
+
+
+.navbar {
+  background-color: black;
+}
+.navbar ~ * {
+  position: relative;
+  top: 4.45rem;
+}
+.navTitle {
+  color: var(--font-color);
+  padding-left: 50px;
+  size: 50px;
+}
+.view-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.view-button {
+  width: 130px;
+  height: 50px;
+  margin: 0 10px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  background: var(--bg-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.view-button > img {
+  width: 24px;
+  height: 24px;
+}
+.view-button:hover {
+  cursor: pointer;
+}
+.view-button.selected {
+  outline: 1px solid black;
+}
+@media (max-width: 900px) {
+  #header {
+    width: 100%;
+  }
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: -200px;
+  }
+  #icon1 {
+    margin-top: -6%;
+  }
+  #gallery1 {
+    font-size: 1.5rem;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  /* #normal-view {
+    margin-left: 50%;
+  } */
+  .view-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .display-3 {
+    font-size: 4rem;
+  }
+  .gallery-head {
+    font-size: 2rem;
+  }
+  .navTitle {
+    padding-left: 3px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #header {
+    height: calc(100vh - 4.45rem - 15px);
+  }
+  .navbar ~ * {
+    top: calc(4.45rem + 15px);
+  }
+}
+
+/* Styles for if the screen is taller than it is wide (assumed mobile view) */
+@media screen and (max-aspect-ratio: 8/7) {
+  .display-3 {
+    font-size: 6rem;
+  }
 }
