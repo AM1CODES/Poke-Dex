@@ -133,5 +133,14 @@
     "contributedByUrl": "https://github.com/DarkShadowKonoha",
     "improvedByName": "",
     "improvedByUrl": ""
-  }
+  },
+  {
+    "pokemonName": "Aurorus",
+    "pokemonDescription": "Aurorus was restored from a fossil. It’s said that when this Pokémon howls, auroras appear in the night sky.",
+    "pokemonImage": "./images/aurorus.png",
+    "contributedByName": "Girish Jha",
+    "contributedByUrl": "https://github.com/DarkShadowKonoha",
+    "improvedByName": "",
+    "improvedByUrl": "",
+  },
 ]
