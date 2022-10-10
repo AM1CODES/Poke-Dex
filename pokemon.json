@@ -124,5 +124,14 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Cubone",
+    "pokemonDescription": "Cubone is a small, bipedal, dinosaur-like reptilian Pokémon with a light brown hide that covers most of its body, except for its cream-colored belly. Two small claws, one on each hand, serve as its thumbs, and one large nail on each foot make up its toes. It has two small spikes on its back and a short tail.",
+    "pokemonImage": "https://archives.bulbagarden.net/media/upload/2/2a/104Cubone.png",
+    "contributedByName": "Danilo",
+    "contributedByUrl": "https://github.com/Danilo-Mannucci",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
