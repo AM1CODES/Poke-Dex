@@ -9,6 +9,15 @@
     "improvedByUrl": ""
   },
   {
+    "pokemonName": "Unown",
+    "pokemonDescription": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+    "pokemonImage": "./images/unown.png",
+    "contributedByName": "Arbtrage",
+    "contributedByUrl": "https://github.com/Arbtrage",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
     "pokemonName": "Abra",
     "pokemonDescription": "Abra uses psychic powers while it sleeps. Its dreams affect the powers that the Pokemon wields.",
     "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png",
