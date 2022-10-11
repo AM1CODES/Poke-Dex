@@ -18,6 +18,15 @@
     "improvedByUrl": ""
   },
   {
+    "pokemonName": "Togedemaru",
+    "pokemonDescription": "With the long hairs on its back, Togedemaru takes in electricity from other electric Pokémon. It stores what it absorbs in an electric sac.",
+    "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/777.png",
+    "contributedByName": "CarissaLi",
+    "contributedByUrl": "",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  },
+  {
     "pokemonName": "Whismur",
     "pokemonDescription": "Whismur can be easily startled by the sound of its own crying, that it will continue to cry until finally falling asleep from exhaustion.",
     "pokemonImage": "./images/293Whismur.png",
