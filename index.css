@@ -36,6 +36,7 @@ button {
 }
 .card:hover {
   transform: scale(1.05);
+  border: 0.05rem solid #dc3545;
 }
 
 .backToTop {
@@ -52,19 +53,83 @@ button {
   -webkit-box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.25);
   -moz-box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.25);
   box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.25);
+  border: 0.2rem solid #86111c;
+  /* display: grid; */
+  /* grid-template-rows: 3fr 3fr 1fr; */
 }
-.card-body.hidden {
+.card .header{
+  position: absolute;
+}
+.card-img-top{
+  height: 45%;
+  width: auto;
+  padding: 2rem;
+  padding-bottom: 0.5rem;
+}
+.card-body{
+  height: 60%;
+  padding-right: 1rem;
+}
+.hidden {
   display: none;
 }
-.card-img-top {
-  padding: 2rem;
+.card-title{
+  font-family: 'Righteous', cursive;
+  position: relative;
+  margin-left: 1rem;
+}
+.card-title::before{
+  content: '';
+  position: absolute;
+  left: -1rem;
+  top: -0.2rem;
+  height: 120%;
+  width: 0.4rem;
+  background: #dc3545;
+}
+.card .card-subtitle{
+  display: none;
+}
+/*.card:hover .card-title{
+  margin-left: 1rem;
+}
+.card:hover .card-title::before{
+  position: absolute;
+  animation: reveal 1s linear ease-in-out;
+}*/
+.CompactMode{
+  height: 100%;
+  padding: 1rem;
+}
+@keyframes reveal{
+  0%{
+
+  }
 }
 .card-text {
   font-size: medium;
   line-height: 25px;
   font-weight: 400;
+  max-height: 70%;
+  overflow-y: auto;
+  font-family: 'Bad Script', cursive;
+  padding-right: 0.8rem;
+}
+.card-text::-webkit-scrollbar {
+  width: 0.5rem;
 }
 
+/* Track */
+.card-text::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 0.5rem;
+}
+ 
+/* Handle */
+.card-text::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 0.5rem;
+}
 .btn-sm {
   width: 100%;
   font-size: 15px;
@@ -138,7 +203,6 @@ button {
   border: 1px solid #dddddd;
   border-radius: 3px;
   background: var(--bg-color);
-
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -151,7 +215,7 @@ button {
   cursor: pointer;
 }
 .view-button.selected {
-  outline: 1px solid black;
+  background: grey;
 }
 @media (max-width: 900px) {
   #header {

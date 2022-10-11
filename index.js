@@ -17,6 +17,13 @@ const setNormalView = (isNormalView) => {
     document.querySelectorAll(".card-body").forEach((cardBody) => {
       cardBody.classList.add("hidden");
     });
+    document.querySelectorAll(".header").forEach((header) => {
+      header.classList.add("hidden");
+    });
+
+    document.querySelectorAll(".card-img-top").forEach((cardImgTop) => {
+      cardImgTop.classList.add("CompactMode");
+    });
 
     document.querySelectorAll(".row>div").forEach((ele) => {
       ele.classList.replace("col-lg-4", "col-lg-2");
