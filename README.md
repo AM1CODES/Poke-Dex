@@ -28,7 +28,7 @@ Not everyone is aware of every tool present in the world no matter how easy or c
 
 ## via html
 
-Use the code sample below to add your own card because everyone loves Pokémon and everyone should get a chance to add their favourite Pokémon! Just paste it within the the the div with an id of `pokemon-row`
+Use the code sample below to add your own card because everyone loves Pokémon and everyone should get a chance to add their favourite Pokémon! Just paste it within the div with an id of `pokemon-row`
 
 ```html
 <div class="col-lg-4 mb-4">
