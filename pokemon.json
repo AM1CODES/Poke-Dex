@@ -124,5 +124,14 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Gastly",
+    "pokemonDescription": "Gastly is a small, purple, ghost-like Pokémon with a large, white mouth. It has two small, black eyes with white pupils and two pointed teeth in its upper jaw. It has no nose and two small horns on its head. Gastly has a long, thin tail with a white tip. It has two small arms with three fingers on each hand and two small legs with three toes on each foot.",
+    "pokemonImage": "./images/gastly.png",
+    "contributedByName": "GustavoHiguera",
+    "contributedByUrl":"https://github.com/GustavoHiguera",
+    "improvedByName":"",
+    "improvedByUrl":""
   }
 ]
