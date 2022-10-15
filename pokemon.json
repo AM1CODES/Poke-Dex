@@ -124,5 +124,14 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Zubat",
+    "pokemonDescription": "Zubat resembles a blue bat. It has a short, round body, purple wings, and slim legs missing feet. Zubat has no eyes, so it uses sound waves (echolocation) to navigate, like a real bat does. Strangely, it can use the move Mean Look, despite not having any eyes.",
+    "pokemonImage": "https://static.wikia.nocookie.net/pokemon/images/d/da/041Zubat.png/revision/latest?cb=20140328194041",
+    "contributedByName": "Miguel Alejandro Oceguera",
+    "contributedByUrl": "https://github.com/MiguelOcegueraM",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
