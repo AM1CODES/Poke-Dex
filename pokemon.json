@@ -124,5 +124,14 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Gengar",
+    "pokemonDescription": "Gengar is a dark purple, bipedal Pokémon with a roundish body. It has red eyes, a wide mouth that is usually curled into a sinister grin, and pointed ears. Gengar has the ability to hide perfectly in the shadow of any object, granting it exceptional stealth.",
+    "pokemonImage": "./images/gengar.png",
+    "contributedByName": "Diego Gentner",
+    "contributedByUrl": "https://github.com/dagp-ucol",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
