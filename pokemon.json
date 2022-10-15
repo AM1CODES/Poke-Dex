@@ -124,5 +124,14 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Ninetales",
+    "pokemonDescription": "They say that it can live up to a thousand years and that each of the tails has supernatural powers.",
+    "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png",
+    "contributedByName": "Miguel Quiroz",
+    "contributedByUrl": "https://github.com/MiguelGQuiroz",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
