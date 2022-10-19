@@ -124,5 +124,14 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Amoonguss",
+    "pokemonDescription": "Amoonguss is a Grass/Poison Pokémon known as the Mushroom Pokemon. It is the evolution of Foongus",
+    "pokemonImage": "https://img.pokemondb.net/artwork/large/amoonguss.jpg",
+    "contributedByName": "Ismael Penalva",
+    "contributedByUrl": "https://github.com/i-penr",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
