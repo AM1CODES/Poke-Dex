@@ -124,5 +124,15 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+	"pokemonName": "Pidgey",
+	"pokemonDescription": "Pidgey is a dual-type Normal/Flying Pokémon It evolves into Pidgeotto starting at level 18, which evolves into Pidgeot starting at level 36. By flapping its wings rapidly, it can whip up dust clouds and create whirlwinds to protect itself and flush out potential prey",
+	"pokemonImage": "https://archives.bulbagarden.net/media/upload/thumb/5/55/016Pidgey.png/600px-016Pidgey.png",
+	"contributedByName": "S-YUVARAJ",
+	"contributedByUrl": "https://github.com/S-YUVARAJ",
+	// these are only needed if you have improved a card
+	"improvedByName": "",
+	"improvedByUrl": "",
   }
 ]
