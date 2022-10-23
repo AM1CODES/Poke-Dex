@@ -131,7 +131,6 @@
 	"pokemonImage": "https://archives.bulbagarden.net/media/upload/thumb/5/55/016Pidgey.png/600px-016Pidgey.png",
 	"contributedByName": "S-YUVARAJ",
 	"contributedByUrl": "https://github.com/S-YUVARAJ",
-	// these are only needed if you have improved a card
 	"improvedByName": "",
 	"improvedByUrl": "",
   }
