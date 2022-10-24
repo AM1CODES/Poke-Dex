@@ -117,6 +117,14 @@
     "improvedByUrl": ""
   },
   {
+	"pokemonName": "Sawk",
+	"pokemonDescription": "Sawk is a fighting type pokemon introduced in generataion 5,they seclude themselves and trin in mountains until they have the strongest karaate chop"
+	"pokemonImage": "https://bulbapedia.bulbagarden.net/wiki/File:539Sawk.png",
+	"contributedByName": "saksham08jain",
+	"contributedByUrl": "https://github.com/saksham08jain/",
+
+},
+  {
     "pokemonName": "Mega Charizard X",
     "pokemonDescription": "Mega Charizard X has larger brow and claws, and its eyes are now red. The finger disappears from the wing membrane, and the lower edges are divided into large, rounded points. Mega Charizard X breathes blue flames out the sides of its mouth, and the flame on its tail now burns blue. It is said that its new power turns it black and creates more intense flames.",
     "pokemonImage": "./images/Mega Charizard X.png",
