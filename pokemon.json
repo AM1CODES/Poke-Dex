@@ -124,5 +124,14 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Greninja",
+    "pokemonDescription": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+    "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/658.png",
+    "contributedByName": "Sannidhya915",
+    "contributedByUrl": "https://github.com/Sannidhya915",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
