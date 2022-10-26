@@ -1,9 +1,7 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs
+﻿####### IDE specific files/folders #######
+.vs
 .idea
+.vscode
 
 ####### macOS Generated files #######
-**/.DS_Store
+.DS_Store
