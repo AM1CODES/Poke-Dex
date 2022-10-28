@@ -124,5 +124,14 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Vespiquen",
+    "pokemonDescription": "Vespiquen is a bee-like Pokémon with a typical insect-like, three-part body. i.e. divided into an abdomen, thorax, and head. It has a yellow- and black-striped abdomen, which flares out from a thin, waist-like protrusion under its thorax in a manner that resembles an elegant ballgown.",
+    "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/416.png",
+    "contributedByName": "MaYiLagann",
+    "contributedByUrl": "https://github.com/MaYiLagann",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
