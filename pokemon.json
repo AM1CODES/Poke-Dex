@@ -124,5 +124,14 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Shinx",
+    "pokemonDescription": "Shinx is a quadrupedal, feline Pokémon resembling a lion cub or lynx kitten. Its front half is light blue, while the rear is black. It also has a very cool yellow shiny and has decent movesets in the games like Wild Charge and Crunch.",
+    "pokemonImage": "./images/Shinx.png",
+    "contributedByName": "SubhadeepZilong",
+    "contributedByUrl": "https://github.com/SubhadeepZilong",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
