@@ -124,5 +124,14 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Squirtle",
+    "pokemonDescription": "Squirtle is a small reptilian Pokémon that resembles a light-blue turtle. While it typically walks on its two short legs, it has been shown to run on all fours in Super Smash Bros. Brawl. It has large, purplish or reddish eyes and a slightly hooked upper lip. Each of its hands and feet have three pointed digits. The end of its long tail curls inward. Its body is encased by a tough shell that forms and hardens after birth. This shell is brown on the top, pale yellow on the bottom, and has a thick white ridge between the two halves.",
+    "pokemonImage": "./images/squirtle.png",
+    "contributedByName": "Osman Rodrigues",
+    "contributedByUrl": "https://github.com/OsmanRodrigues",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
