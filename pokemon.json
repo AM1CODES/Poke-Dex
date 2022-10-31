@@ -124,5 +124,14 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Geodude",
+    "pokemonDescription": "Geodude is a brownish-gray boulder Pokémon. It has bulging, rocky eyebrows, trapezoidal, brown eyes, and a wide mouth. Its arms are muscular with five-fingered hands.",
+    "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png",
+    "contributedByName": "Kevin Lindholm",
+    "contributedByUrl": "https://github.com/KevinLindh",
+    "improvedByName": "",
+    "improvedByUrl": ""
   }
 ]
