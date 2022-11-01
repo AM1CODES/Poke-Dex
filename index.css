@@ -38,6 +38,26 @@ button {
   transform: scale(1.05);
 }
 
+/* Description Hover Effect */
+  .card-body {
+    font-size: 1.2rem;
+    position: absolute;
+    height: 0;
+    top: 0;
+    opacity: 0;
+    padding: 10% 10%;
+    background-color: black;
+    overflow-y: scroll;
+    transition: 0.6s ease;
+  }
+  
+  .card:hover .card-body {
+    opacity: 1;
+    height: 100%;
+  }
+  
+/* Description Hover Effect end here */
+
 .backToTop {
   margin-left: 49%;
 
@@ -254,7 +274,7 @@ button {
   background-color: #79a4ff;
 }
 
-.ghots {
+.ghost {
   background-color: #7975d6;
 }
 
