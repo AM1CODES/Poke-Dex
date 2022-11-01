@@ -1,0 +1,317 @@
+:root {
+    --bg-color: black;
+    --font-color: white;
+  }
+  .lightMode {
+    --bg-color: white;
+    --font-color: black;
+  }
+  nav {
+    color: white;
+    background-color: black;
+  }
+  
+  #para {
+    text-align: center;
+    color: var(--font-color);
+  }
+  body {
+    background-color: var(--bg-color);
+    font-family: "Righteous", cursive;
+    color: white
+  }
+  h1 {
+    color: var(--font-color);
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 40px;
+  }
+  
+  #buttons {
+    margin-bottom: 10px;
+  }
+  .navTitle {
+    color: #ffffff;
+    padding-left: 50px;
+    size: 50px;
+  }
+  
+  .itemNav {
+    padding: 15px;
+    cursor: pointer;
+  }
+  .about-title {
+    padding-top: 6%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .display-3 {
+      font-size: 4rem;
+    }
+    .lead {
+      font-size: 1.6rem;
+    }
+    .gallery-head {
+      font-size: 2rem;
+    }
+    .navTitle {
+      padding-left: 3px;
+    }
+  }
+  
+
+.type-chart-main{
+    padding: 10px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+  color: var(--font-color);
+  background-color: var(--bg-color);
+  font-family: "Righteous", cursive;
+}
+button {
+  color: var(--font-color);
+}
+#header {
+  background: url("https://www.wallpaperup.com/uploads/wallpapers/2015/10/27/825565/a8f967ede1e1e41abc91787415e3b9ee.jpg");
+
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 4.45rem);
+}
+
+
+.itemNav {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.lead {
+  font-size: 1.2rem;
+}
+
+
+.navbar {
+  background-color: black;
+}
+.navbar ~ * {
+  position: relative;
+  top: 4.45rem;
+}
+.navTitle {
+  color: var(--font-color);
+  padding-left: 50px;
+  size: 50px;
+}
+.view-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.view-button {
+  width: 130px;
+  height: 50px;
+  margin: 0 10px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  background: var(--bg-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.view-button > img {
+  width: 24px;
+  height: 24px;
+}
+.view-button:hover {
+  cursor: pointer;
+}
+.view-button.selected {
+  outline: 1px solid black;
+}
+@media (max-width: 900px) {
+  #header {
+    width: 100%;
+  }
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: -200px;
+  }
+  #icon1 {
+    margin-top: -6%;
+  }
+  #gallery1 {
+    font-size: 1.5rem;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  /* #normal-view {
+    margin-left: 50%;
+  } */
+  .view-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .display-3 {
+    font-size: 4rem;
+  }
+  .gallery-head {
+    font-size: 2rem;
+  }
+  .navTitle {
+    padding-left: 3px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #header {
+    height: calc(100vh - 4.45rem - 15px);
+  }
+  .navbar ~ * {
+    top: calc(4.45rem + 15px);
+  }
+}
+
+/* Styles for if the screen is taller than it is wide (assumed mobile view) */
+@media screen and (max-aspect-ratio: 8/7) {
+  .display-3 {
+    font-size: 6rem;
+  }
+}
+
+.type-chart {
+  /* border: 1px white solid; */
+  margin: 20px;
+}
+
+table {
+  table-layout: fixed ;
+  width: 100% ;
+}
+
+td {
+  padding: 2px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 12px;
+  width: 5.56%;
+}
+
+.normal {
+  background-color: rgb(180, 177, 172);
+}
+
+.fighting {
+  background-color: rgb(255, 12, 12);
+}
+
+.flying {
+  background-color: rgb(78, 163, 243);
+}
+
+.poison {
+  background-color: rgb(179, 18, 237);
+}
+
+.ground {
+  background-color: rgb(255, 217, 105);
+}
+
+.rock {
+  background-color: rgb(101, 96, 6);
+}
+
+.bug {
+  background-color: rgb(100, 160, 59);
+}
+
+.ghost{
+  background-color: rgb(119, 15, 115);
+}
+
+.steel{
+  background-color: rgb(84, 151, 182);
+}
+
+.fire {
+  background-color: #ff7040;
+}
+
+.water {
+  background-color: rgb(74, 198, 243);
+}
+
+.grass {
+  background-color: rgb(78, 208, 71);
+}
+
+.electric {
+  background-color: rgb(226, 220, 51);
+}
+
+.psychic {
+  background-color: rgb(236, 25, 215);
+}
+
+.ice {
+  background-color: rgb(22, 215, 225);
+}
+
+.dragon {
+  background-color: rgb(63, 76, 174);
+}
+
+.dark {
+  background-color: rgb(61, 58, 0);
+}
+
+.fairy {
+  background-color: rgb(240, 133, 201);
+}
+
+.one-times-effective {
+  background-color: white;
+  color: black;
+}
+
+.two-times-effective {
+  background-color: rgb(9, 200, 9);
+}
+
+.half-times-effective {
+  background-color: rgb(221, 14, 14);
+}
+
+.zero-times-effective {
+  background-color: rgb(48, 40, 40);
+  color: white;
+}

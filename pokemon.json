@@ -1,5 +1,14 @@
 [
   {
+	"pokemonName": "Altaria",
+	"pokemonDescription": "Altaria is a Dragon/Flying type Pokémon introduced in Generation 3. It is known as the Humming Pokémon.",
+	"pokemonImage": "https://img.pokemondb.net/artwork/large/altaria.jpg",
+	"contributedByName": "yash-seth",
+	"contributedByUrl": "https://github.com/yash-seth",
+	"improvedByName": "",
+	"improvedByUrl": "",
+  },
+  {
     "pokemonName": "Gible",
     "pokemonDescription": "Gible is a small, blue, bipedal dragon-like Pokémon. It lacks a neck but has a large mouth, filled with sharp teeth. It has two horns on its head striped blue in the middle, and a large dorsal fin. Gible loves to bite anything, and that can be a pain for its Trainer if the Trainer gets bitten themselves. This habit of biting anything is probably instinctive, and it is very hard to train them to control their urges.",
     "pokemonImage": "./images/gible.png",
