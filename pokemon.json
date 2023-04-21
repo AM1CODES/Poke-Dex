@@ -125,4 +125,14 @@
     "improvedByName": "",
     "improvedByUrl": ""
   }
+  ,
+  {
+    "pokemonName": "Druddigon",
+    "pokemonDescription": "Druddigon is a Dragon Pokémon. It is known for its unique appearance, with a bright red color and many spines all over its body.Druddigon has powerful abilities, including impressive physical strength, speed, and endurance. It is also known for its ability to scale steep walls with its sharp claws.One of Druddigon's unique abilities is the Rough Skin ability, which deals damage to any Pokémon that attack it with a physical attack. In addition, it has the Sheer Force ability, which increases the power of its attacks and makes them more effective ",
+    "pokemonImage": "./images/Druddigon.png",
+    "contributedByName": "Caio Martins",
+    "contributedByUrl": "https://github.com/CaioMartinss",
+    "improvedByName": "",
+    "improvedByUrl": ""
+  }
 ]
