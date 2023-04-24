@@ -124,5 +124,13 @@
     "contributedByUrl": "https://github.com/mayureshagashe2105",
     "improvedByName": "",
     "improvedByUrl": ""
+  },
+  {
+    "pokemonName": "Spoink",
+    "pokemonDescription": "Meet Spoink, the bouncy pudgy pig pal of the Pokéverse",
+    "pokemonImage": "https://archives.bulbagarden.net/media/upload/4/43/HOME325.png?download",
+    "contributedByName": "disabledandfab",
+    "contributedByUrl": "https://github.com/disabledandfab"
+
   }
 ]
