@@ -10,6 +10,7 @@
   },
   {
     "pokemonName": "Abra",
+    "pokemonType": ["Psychic"],
     "pokemonDescription": "Abra uses psychic powers while it sleeps. Its dreams affect the powers that the Pokemon wields.",
     "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png",
     "contributedByName": "felipprodrigues",
@@ -28,6 +29,7 @@
   },
   {
     "pokemonName": "Eevee",
+    "pokemonType": ["Normal"],
     "pokemonDescription": "It has the ability to alter the composition of its body to suit its surrounding environment.",
     "pokemonImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
     "contributedByName": "Monochrome Taisa",
