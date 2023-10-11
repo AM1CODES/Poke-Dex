@@ -55,13 +55,13 @@ const fixBrokenImages = () => {
 $(document).ready(function () {
   $.getJSON("pokemon.json", function (allPokemon) {
     const template = $("#cardTemplate").html();
+    const badgeTemplate = $("#badgeTemplate").html();
     allPokemon.forEach((pokemon) => {
       const card = $(template).clone();
       card
         .find("img")
         .attr("src", pokemon.pokemonImage)
         .attr("alt", pokemon.pokemonName);
-
       card.find(".card-title").text(pokemon.pokemonName);
       card.find(".card-text").text(pokemon.pokemonDescription);
       card.find("a").text(`Contributed by - ${pokemon.contributedByName}`);
@@ -78,12 +78,26 @@ $(document).ready(function () {
           .attr("style", "margin-top: 20px")
           .text(`Improved by - ${pokemon.improvedByName}`);
         if (pokemon.improvedByUrl) {
-          console.log("here");
           button.attr("href", pokemon.contributedByUrl);
         } else {
           button = `<p>Improved by - ${pokemon.improvedByName}</p>`;
         }
         card.find(".card-body").append(button);
+      }
+
+      if(pokemon.pokemonType) {
+        let types = Array.isArray(pokemon.pokemonType)
+          ? pokemon.pokemonType
+          : [pokemon.pokemonType];
+        
+        card.find(".card-header").append(
+          types.map((type) => {
+            return $(badgeTemplate)
+              .clone()
+              .addClass(type.toLowerCase())
+              .text(type);
+          })
+        );
       }
 
       $("#pokemon-row").prepend(card);
